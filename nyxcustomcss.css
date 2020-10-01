@@ -7,7 +7,7 @@
 }
 #app-mount code {
   border: 1px solid #141414;
-  background-color: #24292e;
+  background-color: rgba(36, 41, 46,.5);
   font-size: 100%;
 }
 #app-mount pre {
@@ -31,7 +31,7 @@
   height: calc(100% - 25px);
   overflow: hidden;
   color: #959da5;
-  background: rgba(29, 33, 37,0.3);
+  background: rgba(29, 33, 37,0.5);
   font-size: 11px;
 }
 #app-mount pre code {
