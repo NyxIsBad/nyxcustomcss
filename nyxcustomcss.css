@@ -38,7 +38,7 @@
   position: relative;
   box-sizing: border-box;
   padding: 25px 0.25em 0.15em 34px !important;
-  background: transparent !important;
+  background: rgba(29, 33, 37,0.7) !important;
   border: 1px solid #141414;
   font-size: 11px;
   line-height: 1.5;
