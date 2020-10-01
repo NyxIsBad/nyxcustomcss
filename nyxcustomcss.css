@@ -1,3 +1,6 @@
+/*---------- FANCY CODE ----------*/
+/*Updated 05/09/2020*/
+/*Thank you gibbu*/
 #app-mount code,
 #app-mount pre {
   font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -9,7 +12,7 @@
 }
 #app-mount pre {
   margin: 10px 0;
-  background: rgba(0,0,0,.5);
+  background: rgba(0,0,0,.1);
   position: relative;
   overflow: hidden;
   margin-bottom: 5px;
@@ -28,7 +31,7 @@
   height: calc(100% - 25px);
   overflow: hidden;
   color: #959da5;
-  background: #1d2125;
+  background: rgba(29, 33, 37,0.3);
   font-size: 11px;
 }
 #app-mount pre code {
