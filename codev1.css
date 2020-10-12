@@ -381,6 +381,10 @@
 .channelTabs-tabContainer {
   background: transparent !important;
 }
+/*---------- MemberCount Fix ----------*/
+#MemberCount{
+  background: transparent !important;
+}
 /*---------- Deleting Nitro ----------*/
 /*Updated 05/09/2020 thanks BD Server*/
 /* Hide Nitro Gift button */
@@ -391,7 +395,7 @@
 .content-3YMskv > .channel-2QD9_O.container-2Pjhx-.clickable-1JJAn8:nth-of-type(2) {
   display: none !important;
 }
-/*---------- Nyx's Testing Range ----------*/
+/*---------- Fixes ----------*/
 /*Updated 05/09/2020*/
 /*.form-2fGMdU {
   border-top: 1px solid var(--main-color);
