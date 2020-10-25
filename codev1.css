@@ -102,12 +102,8 @@
 .channelTabs-favUnreadBadge {
   color: white !important;
 }
-.channelTabs-noMention,
-.channelTabs-noUnread {
-  background-color: var(--background-primary);
-}
 .channelTabs-noFavNotice {
-  color: var(--text-color);
+  color: var(--text-color) !important;
   font: var(--main-font) !important;
 }
 /*---------- Top Bar ----------*/
