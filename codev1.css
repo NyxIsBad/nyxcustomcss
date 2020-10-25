@@ -1,5 +1,3 @@
-/*---------- Channel Tabs Fix ----------*/
-/*Updated 11/09/2020 thanks BD Server*/
 
 /*---------- MemberCount Fix ----------*/
 #MemberCount{
@@ -84,39 +82,32 @@
   background: transparent !important; 
   color: var(--hover-color) !important;
 }
+
 /*New Content*//*
 .channelTabs-unread:not(.channelTabs-selected),
 .channelTabs-mention:not(.channelTabs-selected) {
-	color: var(--interactive-hover);
+  color: var(--interactive-hover);
 }
 .channelTabs-unread:not(.channelTabs-selected):hover,
 .channelTabs-mention:not(.channelTabs-selected):hover {
-	color: var(--interactive-active);
+  color: var(--interactive-active);
 }*/
 .channelTabs-mentionBadge {
-  background-color: black !important;
-  border: 1px solid var(--main-color) !important;
-}
-.channelTabs-unreadBadge {
   background-color: var(--main-color) !important;
 }
-.channelTabs-mentionBadge,
 .channelTabs-unreadBadge {
-  font: var(--main-font) !important;
-}
-.channelTabs-tabMentionBadge ~ .channelTabs-tabUnreadBadge {
-	right: 40px;
+  background-color: black !important;
 }
 .channelTabs-favMentionBadge,
 .channelTabs-favUnreadBadge {
-	vertical-align: bottom;
+  color: white !important;
 }
 .channelTabs-noMention,
 .channelTabs-noUnread {
-	background-color: var(--background-primary);
+  background-color: var(--background-primary);
 }
 .channelTabs-noFavNotice {
-	color: var(--text-color);
+  color: var(--text-color);
   font: var(--main-font) !important;
 }
 /*---------- Top Bar ----------*/
