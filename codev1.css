@@ -1,3 +1,382 @@
+/*---------- Channel Tabs Fix ----------*/
+/*Updated 11/09/2020 thanks BD Server*/
+
+/*---------- MemberCount Fix ----------*/
+#MemberCount{
+  background: transparent !important;
+} /*This doesn't work on import css. Please copy paste this into your theme file/customcss.*/
+/*---------- Deleting Nitro ----------*/
+/*Updated 05/09/2020 thanks BD Server*/
+/* Hide Nitro Gift button */
+.buttons-3JBrkn > .buttonWrapper-1ZmCpA.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN.noFocus-2C7BQj {
+  display: none !important;
+}
+/* Hide Home Nitro button */
+.content-3YMskv > .channel-2QD9_O.container-2Pjhx-.clickable-1JJAn8:nth-of-type(2) {
+  display: none !important;
+}
+/*---------- Fixes ----------*/
+/*Updated 05/09/2020*/
+/*.form-2fGMdU {
+  border-top: 1px solid var(--main-color);
+}*//*
+.channelTextArea-rNsIhG {
+  margin-bottom: 30px !important;
+  margin-top: -18px !important;
+}*//*Really scuffed gap remover, I am aware this causes some problem when scrolling*/
+.button-1ZiXG9:hover,
+.peopleListItem-2nzedh.active-rhSpJJ, .peopleListItem-2nzedh:hover{
+  background:rgba(0,0,0,.2);
+}/*Fixes buttons not being themed*/
+/*---------- Channel Tabs ----------*/
+/*Updated 25/10/2020*/
+.channelTabs-tab{
+  background: rgba(0,0,0,.2) !important;
+  border-radius: 0px !important;
+}
+.channelTabs-tabContainer {
+  background: transparent !important;
+}
+.channelTabs-tab:hover{
+  background: rgba(0,0,0,.3) !important;
+}
+.channelTabs-selected:hover,
+.channelTabs-fav:hover{
+  background: rgba(0,0,0,.5) !important;
+}
+.channelTabs-selected,
+.channelTabs-fav,
+.channelTabs-favContainer{
+  background: rgba(0,0,0,.4) !important;
+}
+.channelTabs-tabIcon,
+.channelTabs-favIcon {
+  border-radius: 4px !important;
+}
+.channelTabs-fav{
+  border-radius: 0px !important;
+  /*border-left: 2px solid var(--main-color);
+  border-right: 2px solid var(--main-color);*/
+}
+.channelTabs-tabName,
+.channelTabs-tabIcon ~ .channelTabs-tabName,
+.channelTabs-favIcon ~ .channelTabs-favName {
+  font: var(--main-font ) !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  color: var(--text-color) !important;
+}
+.channelTabs-newTab:hover {
+  background:var(--hover-color) !important; 
+  color: white !important;
+}
+.channelTabs-newTab {
+  background:var(--main-color) !important; 
+  color: white !important;
+}
+.channelTabs-closeTab,
+.channelTabs-selected .channelTabs-closeTab {
+  background:transparent !important; 
+  color: white !important;
+}
+.channelTabs-closeTab:hover,
+.channelTabs-selected .channelTabs-closeTab:hover {
+  background: transparent !important; 
+  color: var(--hover-color) !important;
+}
+/*New Content*//*
+.channelTabs-unread:not(.channelTabs-selected),
+.channelTabs-mention:not(.channelTabs-selected) {
+	color: var(--interactive-hover);
+}
+.channelTabs-unread:not(.channelTabs-selected):hover,
+.channelTabs-mention:not(.channelTabs-selected):hover {
+	color: var(--interactive-active);
+}*/
+.channelTabs-mentionBadge {
+	background-color: black !important;
+  border: 1px solid var(--main-color) !important;
+}
+.channelTabs-unreadBadge {
+	background-color: var(--main-color) !important;
+}
+.channelTabs-mentionBadge,
+.channelTabs-unreadBadge {
+  font: var(--main-font) !important;
+}
+.channelTabs-tabMentionBadge ~ .channelTabs-tabUnreadBadge {
+	right: 40px;
+}
+.channelTabs-favMentionBadge,
+.channelTabs-favUnreadBadge {
+	vertical-align: bottom;
+}
+.channelTabs-noMention,
+.channelTabs-noUnread {
+	background-color: var(--background-primary);
+}
+.channelTabs-noFavNotice {
+	color: var(--text-color);
+  font: var(--main-font) !important;
+}
+/*---------- Top Bar ----------*/
+/*Updated 04/09/2020, a lot of code taken and then modified from gibbu & Tropical's Slate theme with permission*/
+/*Delete a lot of stuff in dms*/
+.container-1r6BKw .children-19S4PO .nicknames-1XK4Zt {
+  display:none !important;
+}
+.container-1r6BKw .children-19S4PO .status-1XNdyw {
+  display:none !important;
+}
+.akaBadge-1M-1Gw{
+  display:none !important;
+}
+/*Spacing*/
+.container-1r6BKw .children-19S4PO {
+  flex: none;
+  min-width: 230px;
+}
+.container-1r6BKw .children-19S4PO .iconWrapper-2OrFZ1 {
+  margin: 0 10px 0 0;
+}
+.container-1r6BKw .children-19S4PO .iconWrapper-2OrFZ1 .icon-22AiRD {
+  width: 20px;
+}
+/*Channel Name*/
+.container-1r6BKw .children-19S4PO .iconWrapper-2OrFZ1 .channelName-qsg_a_ {
+  margin: 0;
+}
+.container-1r6BKw .children-19S4PO h3 {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  user-select: none;
+  line-height: normal;
+  flex: 1;
+}/*Defines two layers*/
+.divider-3FBTu8{
+  display:none;
+}/*Deletes the divider*/
+.container-1r6BKw .children-19S4PO h3:before {
+  display: block;
+  content: "Channel Name";
+  font-size: 11px;
+}/*Some stolen code*/
+.container-1r6BKw .children-19S4PO .topic-TCb_qw {
+  display: none;
+}/*Deletes descriptions*/
+.container-1r6BKw .search-36MZv- {
+  margin-top: 4px;
+  margin-left: -18px;
+}
+.container-1r6BKw .toolbar-1t6TWx {
+  /*margin-left:10%;*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);/*This centers it, but completely screws up search bar*/
+  border-right: 1px solid #6f727d;
+  border-left: 1px solid #6f727d;
+}/*This is not centered because idk im too lazy just change the margin until you like it
+if you figure out some way to center this without breaking shit please tell me. This also doesn't
+autoresize*/
+/*moved search bar to center btw after input from user 379052485819498507, comments above are redundant*/
+.container-1r6BKw .toolbar-1t6TWx .iconWrapper-2OrFZ1 {
+  margin: 0px 10px;
+}/*Adds spacing between items on the toolbar*/
+.container-1r6BKw .searchBar-3dMhjb {
+  padding: 0 !important;
+  overflow: visible;
+  background: transparent;
+}/*Make this normal looking*/
+.container-1r6BKw .DraftEditor-root {
+  padding: 0 10px 0 28px;
+  margin-top: 3px;
+}/*Offset*/
+/*---------- USERNAMES/SPACING ----------*/
+/*Updated 05/09/2020*/
+.username-1A8OIy{
+  font-size: 15px !important;
+}/*Smaller usernames*/
+.username-1A8OIy:hover{
+  color: var(--hover-color)!important;
+}
+.contents-2mQqc9 > img ~ .header-23xsNx > span.username-1A8OIy:hover::after
+{
+  color: var(--hover-color);
+  text-shadow: 0px 0px 10px var(--hover-color);
+}
+.cozyMessage-3V1Y8y {
+  margin-bottom: -4px;
+}
+/*---------- DateViewer ----------*/
+/*Updated 31/08/2020 or something*/
+#dv-mount{ /*Make the DateViewer plugin background transparent*/
+  background: rgba(0,0,0,0);
+  font: var(--main-font);
+}/*
+.dv-time,.dv-weekday,#dv-main .dv-date,.layer-v9HyYc { 
+  color: var(--text-color) !important;
+} */ /*Changes DV Text Colors; if you think this is aids, comment it*/
+/*---------- Gradients ----------*/
+/*Updated 25/08/2020, Huge thanks to leafy and leo*/
+.childWrapper-anI2G9, .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
+.modeSelected-1zApJ_ .content-3at_AU,
+.container-1r6BKw .topPill-30KHOu .item-PXvHYJ.selected-3s45Ha.themed-OHr7kt,
+.standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha,
+.item-26Dhrx[style*="background-color"],
+.selected-mKYnfr.option-n0icdO,
+.chat-3bRxxu .divider-3gKybi.dividerRed-MKoLlr:before,
+.newMessagesBar-mujexs:before,
+.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU:after,
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc,
+.theme-dark .memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover,
+.unread-1xRYoj:active, .unread-1xRYoj:hover, 
+.appMount-3lHmkl .lookFilled-1Gx00P.colorGreen-29iAKY, .appMount-3lHmkl .lookFilled-1Gx00P.colorBrand-3pXr91, .appMount-3lHmkl .lookFilled-1Gx00P.colorPrimary-3b3xI6, /* buttons for days */
+.standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha:after, .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ[style*="color: rgb(255, 255, 255)"]:after /* selected things */
+{
+  background-image: linear-gradient(var(--gradient-rotation), var(--gradient-color),var(--main-color)) !important;
+  background-color: var(--main-color);
+} 
+.members-1998pB .membersGroup-v9BXpm,
+.sidebar-2K8pFh .containerDefault-3GGEv_ .wrapper-CU3qI5 .name-IbjUBS,
+.headerText-2F0828, .discoverHeader-1TWTqG
+{
+  background-image: linear-gradient(var(--gradient-rotation), var(--gradient-color),var(--main-color)) !important;
+  -webkit-background-clip: text;
+  color:transparent;
+}
+.members-1998pB .membersGroup-v9BXpm:before,
+.name-IbjUBS:before,
+.privateChannelsHeaderContainer-3NB1K1:before,
+.discoverHeader-1TWTqG:before
+{
+  background: linear-gradient(to left, var(--gradient-color)50%,transparent) !important;
+}
+.members-1998pB .membersGroup-v9BXpm:after,
+.name-IbjUBS:after,
+.privateChannelsHeaderContainer-3NB1K1:after,
+.discoverHeader-1TWTqG:after
+{
+  background: linear-gradient(to right, var(--gradient-color)50%,transparent) !important;
+}
+.privateChannels-1nO12o .channel-2QD9_O.selected-aXhQR6 .layout-2DM8Md:after,
+.popout-103y-5 .tag-2gHSR7,
+.tab-2Ixsn0.selected-16te-P:after,
+.layer-v9HyYc .themedPopout-1TrfdI .header-ykumBX,
+.appMount-3lHmkl .lookFilled-1Gx00P.colorGreen-29iAKY,
+.appMount-3lHmkl .lookFilled-1Gx00P.colorBrand-3pXr91,
+.appMount-3lHmkl .lookFilled-1Gx00P.colorPrimary-3b3xI6,
+.unread-1xRYoj:active, .unread-1xRYoj:hover
+{
+  background: linear-gradient(var(--gradient-rotation), var(--gradient-color),var(--main-color))!important;
+  background-color: var(--main-color) !important;
+}
+/*Relevant*/
+body, .appMount-3lHmkl, bg-h5JY_x {background: transparent; }
+.appMount-3lHmkl .lookFilled-1Gx00P.colorGreen-29iAKY:disabled,
+.container-1YxwTf .wrapper-35wsBm .lookFilled-1Gx00P.colorGreen-29iAKY,
+.container-1YxwTf .wrapper-35wsBm .lookFilled-1Gx00P.colorBrand-3pXr91
+{
+  background: transparent !important;
+} 
+.container-1YxwTf .wrapper-35wsBm .lookFilled-1Gx00P.colorBrand-3pXr91:hover
+{
+  background: var(--danger-color) !important;
+}
+.container-1YxwTf .wrapper-35wsBm .lookFilled-1Gx00P.colorGreen-29iAKY:hover
+{
+  background: var(--success-color) !important;
+}
+/*---------- SQUARE STUFF ----------*/
+/*Updated 22/08/2020*/
+.avatar-1BDn8e{/*Square Chat Avatars*/
+  border: 2.5px solid var(--main-color) !important;/*
+  width: 35px !important;
+  height: 35px !important;*/
+  border-radius:4px !important;
+  background-size: cover!important;
+}
+[class*="avatar"], /*Square vc pfp*/
+[class*="avatar"] * img{
+  border-radius: 4px!important;
+}
+/*---------- BORDERS ----------*/
+/*Updated 22/08/2020*/
+.theme-dark .headerNormal-T_seeN, /*A border for user profiles, popouts*/
+.theme-dark .topSectionNormal-2-vo2m {
+  background-color: rgba(0,0,0,0.4);
+  border: 2px solid var(--main-color);
+}
+.headerTop-3C2Zn0{/*Hotfix after update because fuck discord, its still broken in user profiles but whatever*/
+  background-color: rgba(0,0,0,0.4);
+  border-left: 2px solid var(--main-color);
+  border-right: 2px solid var(--main-color);
+  border-top: 2px solid var(--main-color);
+}
+.activity-11LB_k{
+  background-color: rgba(0,0,0,0.4);
+  border-left: 2px solid var(--main-color);
+  border-right: 2px solid var(--main-color);
+  border-bottom: 2px solid var(--main-color);
+}
+/*---------- PINGS AND MENTIONS ----------*/
+/*Updated 20/06/2020*/
+.numberBadge-2s8kKX {/*Fancier Pings*/
+  background-color: black !important;
+  height: 18px;
+  width: 18px !important;
+  margin-bottom: -3px;
+  margin-right: -5px;
+  border: 1px solid var(--main-color);
+}
+.theme-dark .mentioned-xhSam7,/*testnice*/
+.message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z, 
+.mouse-mode.full-motion .mentioned-xhSam7:hover {
+  background: rgba(129, 0, 187, .1); /* You will have to change this RGBA value if you change main-color */
+  border: 2px solid rgba(129, 0, 187, .7); /* You will have to change this RGBA value if you change main-color */
+}
+.mouse-mode.full-motion .mentioned-xhSam7:hover {
+  background: rgba(129, 0, 187, .2); /* You will have to change this RGBA value if you change main-color */
+  border: 2px solid rgba(129, 0, 187, .8); /* You will have to change this RGBA value if you change main-color */
+}
+/*---------- COLORED TEXT ----------*/
+/*Updated 20/06/2020, thanks to cv discord for giving me the thing about changing server names*/
+.textArea-12jD-V.slateContainer-3Qkn2x > .markup-2BOw-j{ /*Changes text color for when you're actually typing*/
+  color: var(--text-color) !important;
+}
+.guildNameText-74xXQn { /*Changes various text colours*/
+  color: var(--text-color) !important;
+} 
+.markupRtl-3M0hmN {
+  color: var(--text-color) !important;
+}
+.messageContent-2qWWxC {
+  color: var(--text-color) !important;
+}
+/*
+.containerDefault-1ZnADq .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU .name-3_Dsmg {
+  color: var(--text-color);
+}
+.containerDefault-1ZnADq .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU .icon-1_QxNX {
+  color: var(--text-color);
+} */
+/*---------- SERVER GLOW ----------*/
+/*Updated 22/08/2020*/
+.bd-selected{ /*Glow on selected server*/
+  box-shadow: 0 0 30px 0 var(--main-color);
+  border-radius: 50%;
+}
+.bd-guild:hover{ /*Glow on hovering a channel*/
+  box-shadow: 0 0 30px 0 var(--main-color);
+  border-radius: 50%;
+  transition: box-shadow 200ms;
+}
+.acronym-2mOFsV,.icon-27yU2q:not(:hover){/*Force Circular Servers on Hover*/
+  border-radius: 50% !important;
+}
 /*---------- FANCY CODE ----------*/
 /*Updated 05/09/2020*/
 /*Thank you gibbu*/
@@ -375,347 +754,4 @@
 #app-mount pre code .hljs-comment,
 #app-mount pre code .hljs-quote {
   color: #959da5;
-}
-/*---------- Channel Tabs Fix ----------*/
-/*Updated 11/09/2020 thanks BD Server*/
-.channelTabs-tabContainer {
-  background: transparent !important;
-}
-/*---------- MemberCount Fix ----------*/
-#MemberCount{
-  background: transparent !important;
-}
-/*---------- Deleting Nitro ----------*/
-/*Updated 05/09/2020 thanks BD Server*/
-/* Hide Nitro Gift button */
-.buttons-3JBrkn > .buttonWrapper-1ZmCpA.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN.noFocus-2C7BQj {
-  display: none !important;
-}
-/* Hide Home Nitro button */
-.content-3YMskv > .channel-2QD9_O.container-2Pjhx-.clickable-1JJAn8:nth-of-type(2) {
-  display: none !important;
-}
-/*---------- Fixes ----------*/
-/*Updated 05/09/2020*/
-/*.form-2fGMdU {
-  border-top: 1px solid var(--main-color);
-}*//*
-.channelTextArea-rNsIhG {
-  margin-bottom: 30px !important;
-  margin-top: -18px !important;
-}*//*Really scuffed gap remover, I am aware this causes some problem when scrolling*/
-.button-1ZiXG9:hover,
-.peopleListItem-2nzedh.active-rhSpJJ, .peopleListItem-2nzedh:hover{
-  background:rgba(0,0,0,.2);
-}/*Fixes buttons not being themed*/
-/*---------- Channel Tabs ----------*/
-/*Updated 11/09/2020*/
-.channelTabs-tab:hover{
-  background: rgba(0,0,0,.3) !important;
-}
-.channelTabs-tab{
-  background: rgba(0,0,0,.2) !important;
-  border-radius: 0px !important;
-}
-.channelTabs-selected:hover,
-.channelTabs-fav:hover{
-  background: rgba(0,0,0,.5) !important;
-}
-.channelTabs-selected,
-.channelTabs-fav,
-.channelTabs-favContainer{
-  background: rgba(0,0,0,.4) !important;
-}
-.channelTabs-tabIcon,
-.channelTabs-favIcon {
-  border-radius: 4px !important;
-}
-.channelTabs-fav{
-  border-radius: 0px !important;
-  /*border-left: 2px solid var(--main-color);
-  border-right: 2px solid var(--main-color);*/
-}
-.channelTabs-tabName,
-.channelTabs-tabIcon ~ .channelTabs-tabName,
-.channelTabs-favIcon ~ .channelTabs-favName {
-  font: var(--main-font ) !important;
-  font-weight: 600 !important;
-  font-size: 14px !important;
-  color: var(--text-color) !important;
-}
-.channelTabs-newTab:hover {
-  background:var(--hover-color) !important; 
-  color: white !important;
-}
-.channelTabs-newTab {
-  background:var(--main-color) !important; 
-  color: white !important;
-}
-.channelTabs-closeTab,
-.channelTabs-selected .channelTabs-closeTab {
-  background:transparent !important; 
-  color: white !important;
-}
-.channelTabs-closeTab:hover,
-.channelTabs-selected .channelTabs-closeTab:hover {
-  background: transparent !important; 
-  color: var(--hover-color) !important;
-}
-/*---------- Top Bar ----------*/
-/*Updated 04/09/2020, a lot of code taken and then modified from gibbu & Tropical's Slate theme with permission*/
-/*Delete a lot of stuff in dms*/
-.container-1r6BKw .children-19S4PO .nicknames-1XK4Zt {
-  display:none !important;
-}
-.container-1r6BKw .children-19S4PO .status-1XNdyw {
-  display:none !important;
-}
-.akaBadge-1M-1Gw{
-  display:none !important;
-}
-/*Spacing*/
-.container-1r6BKw .children-19S4PO {
-  flex: none;
-  min-width: 230px;
-}
-.container-1r6BKw .children-19S4PO .iconWrapper-2OrFZ1 {
-  margin: 0 10px 0 0;
-}
-.container-1r6BKw .children-19S4PO .iconWrapper-2OrFZ1 .icon-22AiRD {
-  width: 20px;
-}
-/*Channel Name*/
-.container-1r6BKw .children-19S4PO .iconWrapper-2OrFZ1 .channelName-qsg_a_ {
-  margin: 0;
-}
-.container-1r6BKw .children-19S4PO h3 {
-  font-size: 12px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  user-select: none;
-  line-height: normal;
-  flex: 1;
-}/*Defines two layers*/
-.divider-3FBTu8{
-  display:none;
-}/*Deletes the divider*/
-.container-1r6BKw .children-19S4PO h3:before {
-  display: block;
-  content: "Channel Name";
-  font-size: 11px;
-}/*Some stolen code*/
-.container-1r6BKw .children-19S4PO .topic-TCb_qw {
-  display: none;
-}/*Deletes descriptions*/
-.container-1r6BKw .search-36MZv- {
-  margin-top: 4px;
-  margin-left: -18px;
-}
-.container-1r6BKw .toolbar-1t6TWx {
-  /*margin-left:10%;*/
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);/*This centers it, but completely screws up search bar*/
-  border-right: 1px solid #6f727d;
-  border-left: 1px solid #6f727d;
-}/*This is not centered because idk im too lazy just change the margin until you like it
-if you figure out some way to center this without breaking shit please tell me. This also doesn't
-autoresize*/
-/*moved search bar to center btw after input from user 379052485819498507, comments above are redundant*/
-.container-1r6BKw .toolbar-1t6TWx .iconWrapper-2OrFZ1 {
-  margin: 0px 10px;
-}/*Adds spacing between items on the toolbar*/
-.container-1r6BKw .searchBar-3dMhjb {
-  padding: 0 !important;
-  overflow: visible;
-  background: transparent;
-}/*Make this normal looking*/
-.container-1r6BKw .DraftEditor-root {
-  padding: 0 10px 0 28px;
-  margin-top: 3px;
-}/*Offset*/
-/*---------- USERNAMES/SPACING ----------*/
-/*Updated 05/09/2020*/
-.username-1A8OIy{
-  font-size: 15px !important;
-}/*Smaller usernames*/
-.username-1A8OIy:hover{
-  color: var(--hover-color)!important;
-}
-.contents-2mQqc9 > img ~ .header-23xsNx > span.username-1A8OIy:hover::after
-{
-  color: var(--hover-color);
-  text-shadow: 0px 0px 10px var(--hover-color);
-}
-.cozyMessage-3V1Y8y {
-  margin-bottom: -4px;
-}
-/*---------- DateViewer ----------*/
-/*Updated 31/08/2020 or something*/
-#dv-mount{ /*Make the DateViewer plugin background transparent*/
-  background: rgba(0,0,0,0);
-  font: var(--main-font);
-}/*
-.dv-time,.dv-weekday,#dv-main .dv-date,.layer-v9HyYc { 
-  color: var(--text-color) !important;
-} */ /*Changes DV Text Colors; if you think this is aids, comment it*/
-/*---------- Gradients ----------*/
-/*Updated 25/08/2020, Huge thanks to leafy and leo*/
-.childWrapper-anI2G9, .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
-.modeSelected-1zApJ_ .content-3at_AU,
-.container-1r6BKw .topPill-30KHOu .item-PXvHYJ.selected-3s45Ha.themed-OHr7kt,
-.standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha,
-.item-26Dhrx[style*="background-color"],
-.selected-mKYnfr.option-n0icdO,
-.chat-3bRxxu .divider-3gKybi.dividerRed-MKoLlr:before,
-.newMessagesBar-mujexs:before,
-.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU:after,
-.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc,
-.theme-dark .memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover,
-.unread-1xRYoj:active, .unread-1xRYoj:hover, 
-.appMount-3lHmkl .lookFilled-1Gx00P.colorGreen-29iAKY, .appMount-3lHmkl .lookFilled-1Gx00P.colorBrand-3pXr91, .appMount-3lHmkl .lookFilled-1Gx00P.colorPrimary-3b3xI6, /* buttons for days */
-.standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha:after, .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ[style*="color: rgb(255, 255, 255)"]:after /* selected things */
-{
-  background-image: linear-gradient(var(--gradient-rotation), var(--gradient-color),var(--main-color)) !important;
-  background-color: var(--main-color);
-} 
-.members-1998pB .membersGroup-v9BXpm,
-.sidebar-2K8pFh .containerDefault-3GGEv_ .wrapper-CU3qI5 .name-IbjUBS,
-.headerText-2F0828, .discoverHeader-1TWTqG
-{
-  background-image: linear-gradient(var(--gradient-rotation), var(--gradient-color),var(--main-color)) !important;
-  -webkit-background-clip: text;
-  color:transparent;
-}
-.members-1998pB .membersGroup-v9BXpm:before,
-.name-IbjUBS:before,
-.privateChannelsHeaderContainer-3NB1K1:before,
-.discoverHeader-1TWTqG:before
-{
-  background: linear-gradient(to left, var(--gradient-color)50%,transparent) !important;
-}
-.members-1998pB .membersGroup-v9BXpm:after,
-.name-IbjUBS:after,
-.privateChannelsHeaderContainer-3NB1K1:after,
-.discoverHeader-1TWTqG:after
-{
-  background: linear-gradient(to right, var(--gradient-color)50%,transparent) !important;
-}
-.privateChannels-1nO12o .channel-2QD9_O.selected-aXhQR6 .layout-2DM8Md:after,
-.popout-103y-5 .tag-2gHSR7,
-.tab-2Ixsn0.selected-16te-P:after,
-.layer-v9HyYc .themedPopout-1TrfdI .header-ykumBX,
-.appMount-3lHmkl .lookFilled-1Gx00P.colorGreen-29iAKY,
-.appMount-3lHmkl .lookFilled-1Gx00P.colorBrand-3pXr91,
-.appMount-3lHmkl .lookFilled-1Gx00P.colorPrimary-3b3xI6,
-.unread-1xRYoj:active, .unread-1xRYoj:hover
-{
-  background: linear-gradient(var(--gradient-rotation), var(--gradient-color),var(--main-color))!important;
-  background-color: var(--main-color) !important;
-}
-/*Relevant*/
-body, .appMount-3lHmkl, bg-h5JY_x {background: transparent; }
-.appMount-3lHmkl .lookFilled-1Gx00P.colorGreen-29iAKY:disabled,
-.container-1YxwTf .wrapper-35wsBm .lookFilled-1Gx00P.colorGreen-29iAKY,
-.container-1YxwTf .wrapper-35wsBm .lookFilled-1Gx00P.colorBrand-3pXr91
-{
-  background: transparent !important;
-} 
-.container-1YxwTf .wrapper-35wsBm .lookFilled-1Gx00P.colorBrand-3pXr91:hover
-{
-  background: var(--danger-color) !important;
-}
-.container-1YxwTf .wrapper-35wsBm .lookFilled-1Gx00P.colorGreen-29iAKY:hover
-{
-  background: var(--success-color) !important;
-}
-/*---------- SQUARE STUFF ----------*/
-/*Updated 22/08/2020*/
-.avatar-1BDn8e{/*Square Chat Avatars*/
-  border: 2.5px solid var(--main-color) !important;/*
-  width: 35px !important;
-  height: 35px !important;*/
-  border-radius:4px !important;
-  background-size: cover!important;
-}
-[class*="avatar"], /*Square vc pfp*/
-[class*="avatar"] * img{
-  border-radius: 4px!important;
-}
-/*---------- BORDERS ----------*/
-/*Updated 22/08/2020*/
-.theme-dark .headerNormal-T_seeN, /*A border for user profiles, popouts*/
-.theme-dark .topSectionNormal-2-vo2m {
-  background-color: rgba(0,0,0,0.4);
-  border: 2px solid var(--main-color);
-}
-.headerTop-3C2Zn0{/*Hotfix after update because fuck discord, its still broken in user profiles but whatever*/
-  background-color: rgba(0,0,0,0.4);
-  border-left: 2px solid var(--main-color);
-  border-right: 2px solid var(--main-color);
-  border-top: 2px solid var(--main-color);
-}
-.activity-11LB_k{
-  background-color: rgba(0,0,0,0.4);
-  border-left: 2px solid var(--main-color);
-  border-right: 2px solid var(--main-color);
-  border-bottom: 2px solid var(--main-color);
-}
-/*---------- PINGS AND MENTIONS ----------*/
-/*Updated 20/06/2020*/
-.numberBadge-2s8kKX {/*Fancier Pings*/
-  background-color: black !important;
-  height: 18px;
-  width: 18px !important;
-  margin-bottom: -3px;
-  margin-right: -5px;
-  border: 1px solid var(--main-color);
-}
-.theme-dark .mentioned-xhSam7,/*testnice*/
-.message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z, 
-.mouse-mode.full-motion .mentioned-xhSam7:hover {
-  background: rgba(129, 0, 187, .1); /* You will have to change this RGBA value if you change main-color */
-  border: 2px solid rgba(129, 0, 187, .7); /* You will have to change this RGBA value if you change main-color */
-}
-.mouse-mode.full-motion .mentioned-xhSam7:hover {
-  background: rgba(129, 0, 187, .2); /* You will have to change this RGBA value if you change main-color */
-  border: 2px solid rgba(129, 0, 187, .8); /* You will have to change this RGBA value if you change main-color */
-}
-/*---------- COLORED TEXT ----------*/
-/*Updated 20/06/2020, thanks to cv discord for giving me the thing about changing server names*/
-.textArea-12jD-V.slateContainer-3Qkn2x > .markup-2BOw-j{ /*Changes text color for when you're actually typing*/
-  color: var(--text-color) !important;
-}
-.guildNameText-74xXQn { /*Changes various text colours*/
-  color: var(--text-color) !important;
-} 
-.markupRtl-3M0hmN {
-  color: var(--text-color) !important;
-}
-.messageContent-2qWWxC {
-  color: var(--text-color) !important;
-}
-/*
-.containerDefault-1ZnADq .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU .name-3_Dsmg {
-  color: var(--text-color);
-}
-.containerDefault-1ZnADq .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU .icon-1_QxNX {
-  color: var(--text-color);
-} */
-/*---------- SERVER GLOW ----------*/
-/*Updated 22/08/2020*/
-.bd-selected{ /*Glow on selected server*/
-  box-shadow: 0 0 30px 0 var(--main-color);
-  border-radius: 50%;
-}
-.bd-guild:hover{ /*Glow on hovering a channel*/
-  box-shadow: 0 0 30px 0 var(--main-color);
-  border-radius: 50%;
-  transition: box-shadow 200ms;
-}
-.acronym-2mOFsV,.icon-27yU2q:not(:hover){/*Force Circular Servers on Hover*/
-  border-radius: 50% !important;
 }
