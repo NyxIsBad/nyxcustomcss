@@ -82,16 +82,6 @@
   background: transparent !important; 
   color: var(--hover-color) !important;
 }
-
-/*New Content*//*
-.channelTabs-unread:not(.channelTabs-selected),
-.channelTabs-mention:not(.channelTabs-selected) {
-  color: var(--interactive-hover);
-}
-.channelTabs-unread:not(.channelTabs-selected):hover,
-.channelTabs-mention:not(.channelTabs-selected):hover {
-  color: var(--interactive-active);
-}*/
 .channelTabs-mentionBadge {
   background-color: var(--main-color) !important;
 }
