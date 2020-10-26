@@ -367,9 +367,7 @@ body, .appMount-3lHmkl, bg-h5JY_x {background: transparent; }
   font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 #app-mount code {
-  border: 1px solid #141414;
   background-color: rgba(36, 41, 46,.5) !important;
-  font-size: 100%;
 }
 #app-mount pre {
   margin: 10px 0;
