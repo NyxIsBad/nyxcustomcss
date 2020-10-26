@@ -1,4 +1,9 @@
-
+/*---------- Better Formatting Fix ----------*/
+.bf-toolbar.bf-hover:hover:before,
+.bf-toolbar.bf-visible:before,
+.bf-toolbar:before{
+    background: rgba(0,0,0,.2) !important;
+}
 /*---------- MemberCount Fix ----------*/
 #MemberCount{
   background: transparent !important;
@@ -191,7 +196,7 @@ autoresize*/
 /*---------- DateViewer ----------*/
 /*Updated 31/08/2020 or something*/
 #dv-mount{ /*Make the DateViewer plugin background transparent*/
-  background: rgba(0,0,0,0);
+  background: rgba(0,0,0,.2);
   font: var(--main-font);
 }/*
 .dv-time,.dv-weekday,#dv-main .dv-date,.layer-v9HyYc { 
