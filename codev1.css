@@ -2,7 +2,7 @@
 .bf-toolbar.bf-hover:hover:before,
 .bf-toolbar.bf-visible:before,
 .bf-toolbar:before{
-    background: rgba(0,0,0,.2) !important;
+  background: rgba(0,0,0,.2) !important;
 }
 /*---------- MemberCount Fix ----------*/
 #MemberCount{
@@ -328,11 +328,13 @@ body, .appMount-3lHmkl, bg-h5JY_x {background: transparent; }
 .theme-dark .mentioned-xhSam7,/*testnice*/
 .message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z, 
 .mouse-mode.full-motion .mentioned-xhSam7:hover {
-  background: rgba(129, 0, 187, .1); /* You will have to change this RGBA value if you change main-color */
   border: 2px solid rgba(129, 0, 187, .7); /* You will have to change this RGBA value if you change main-color */
+  background-image: linear-gradient(var(--gradient-rotation), rgba(237, 0, 240, .1),rgba(129, 0, 187, .1)) !important;
+  background-color: rgba(129, 0, 187, .1);
 }
 .mouse-mode.full-motion .mentioned-xhSam7:hover {
-  background: rgba(129, 0, 187, .2); /* You will have to change this RGBA value if you change main-color */
+  background-image: linear-gradient(var(--gradient-rotation), rgba(237, 0, 240, .2),rgba(129, 0, 187, .2)) !important;
+  background-color: rgba(129, 0, 187, .2);
   border: 2px solid rgba(129, 0, 187, .8); /* You will have to change this RGBA value if you change main-color */
 }
 /*---------- COLORED TEXT ----------*/
