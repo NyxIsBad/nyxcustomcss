@@ -32,7 +32,7 @@
   background:rgba(0,0,0,.2);
 }/*Fixes buttons not being themed*/
 /*---------- Channel Tabs ----------*/
-/*Updated 25/10/2020*/
+/*Updated 05/11/2020*/
 .channelTabs-tab{
   background: rgba(0,0,0,.2) !important;
   border-radius: 0px !important;
@@ -63,7 +63,7 @@
 }
 .channelTabs-tabName,
 .channelTabs-tabIcon ~ .channelTabs-tabName,
-.channelTabs-favIcon ~ .channelTabs-favName {
+.channelTabs-favIcon ~ .channelTabs-favName     {
   font: var(--main-font ) !important;
   font-weight: 600 !important;
   font-size: 14px !important;
@@ -94,7 +94,9 @@
   background-color: black !important;
 }
 .channelTabs-favMentionBadge,
-.channelTabs-favUnreadBadge {
+.channelTabs-favUnreadBadge,
+.channelTabs-fav .channelTabs-noMention,
+.channelTabs-fav .channelTabs-noUnread{
   color: white !important;
 }
 .channelTabs-noFavNotice {
