@@ -360,20 +360,6 @@ body, .appMount-3lHmkl, bg-h5JY_x {background: transparent; }
 .containerDefault-1ZnADq .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU .icon-1_QxNX {
   color: var(--text-color);
 } */
-/*---------- SERVER GLOW ----------*/
-/*Updated 22/08/2020*/
-.bd-selected{ /*Glow on selected server*/
-  box-shadow: 0 0 30px 0 var(--main-color);
-  border-radius: 50%;
-}
-.bd-guild:hover{ /*Glow on hovering a channel*/
-  box-shadow: 0 0 30px 0 var(--main-color);
-  border-radius: 50%;
-  transition: box-shadow 200ms;
-}
-.acronym-2mOFsV,.icon-27yU2q:not(:hover){/*Force Circular Servers on Hover*/
-  border-radius: 50% !important;
-}
 /*---------- FANCY CODE ----------*/
 /*Updated 05/09/2020*/
 /*Thank you gibbu*/
