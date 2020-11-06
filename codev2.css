@@ -319,6 +319,87 @@ autoresize*/
 .tutorialContainer-1v44GL{
   background: transparent !important;
 }
+/*---------- Gradients ----------*/
+/*Updated 27/10/2020, Huge thanks to leafy and leo*/
+/*Updating from Leo's file 27/10/2020*/
+.categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG, /* discover tab */
+.unread-1xRYoj:after, .mention-1f5kbO:after, /* unread channels bar */
+.menu-3sdvDG:not(#status-picker) .colorDefault-2K3EoJ.focused-3afm-j, .menu-3sdvDG:not(#status-picker) .colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O), /* dropdown menu */
+.appMount-3lHmkl .lookFilled-1Gx00P.colorGreen-29iAKY:disabled, .appMount-3lHmkl .lookFilled-1Gx00P.colorPrimary-3b3xI6:disabled, /* disabled buttons */
+.lookInverted-2D7oAl, .lookInverted-2D7oAl.colorBrand-3pXr91, .lookInverted-2D7oAl.colorGreen-29iAKY, /* more buttons */
+.newMessagesBar-265mhP:before, /* new message bar */
+.jumpToPresentBar-G1R9s6:hover, /* jump to present bar */
+/*End update*/
+/*Integration*/
+.privateChannels-1nO12o .channel-2QD9_O.selected-aXhQR6 .layout-2DM8Md:after,
+.popout-103y-5 .tag-2gHSR7,
+.tab-2Ixsn0.selected-16te-P:after,
+.layer-v9HyYc .themedPopout-1TrfdI .header-ykumBX,
+.appMount-3lHmkl .lookFilled-1Gx00P.colorGreen-29iAKY,
+.appMount-3lHmkl .lookFilled-1Gx00P.colorBrand-3pXr91,
+.appMount-3lHmkl .lookFilled-1Gx00P.colorPrimary-3b3xI6,
+.unread-1xRYoj:active, .unread-1xRYoj:hover,
+/*End integration*/
+.childWrapper-anI2G9, .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
+.wrapper-1BJsBx:hover .childWrapper-anI2G9, 
+.circleIconButton-jET_ig:hover, .circleIconButton-jET_ig.selected-ugP_am, 
+.modeSelected-1zApJ_ .content-3at_AU,
+.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU:after,
+.container-1r6BKw .topPill-30KHOu .item-PXvHYJ.selected-3s45Ha.themed-OHr7kt,
+.standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha,
+.layer-3QrUeG .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha:after,
+.appMount-3lHmkl .lookFilled-1Gx00P.colorGreen-29iAKY, .appMount-3lHmkl .lookFilled-1Gx00P.colorBrand-3pXr91, .appMount-3lHmkl .lookFilled-1Gx00P.colorPrimary-3b3xI6, /* buttons for days */
+.item-26Dhrx[style*="background-color"],
+.selected-mKYnfr.option-n0icdO,
+.chat-3bRxxu .divider-3gKybi.dividerRed-MKoLlr:before,
+.newMessagesBar-mujexs:before,
+.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU:after,
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc,
+.theme-dark .memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover,
+.unread-1xRYoj:active, .unread-1xRYoj:hover, 
+.standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha:after, .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ[style*="color: rgb(255, 255, 255)"]:after /* selected things */
+{
+  background-image: linear-gradient(var(--gradient-rotation), var(--gradient-color),var(--main-color)) !important;
+  background-color: var(--main-color);
+} 
+.members-1998pB .membersGroup-v9BXpm,
+.sidebar-2K8pFh .containerDefault-3GGEv_ .wrapper-CU3qI5 .name-IbjUBS,
+.headerText-2F0828, .discoverHeader-1TWTqG
+{
+  background-image: linear-gradient(var(--gradient-rotation), var(--gradient-color),var(--main-color)) !important;
+  -webkit-background-clip: text;
+  color:transparent;
+}
+.members-1998pB .membersGroup-v9BXpm:before,
+.name-IbjUBS:before,
+.privateChannelsHeaderContainer-3NB1K1:before,
+.discoverHeader-1TWTqG:before
+{
+  background: linear-gradient(to left, var(--gradient-color)50%,transparent) !important;
+}
+.members-1998pB .membersGroup-v9BXpm:after,
+.name-IbjUBS:after,
+.privateChannelsHeaderContainer-3NB1K1:after,
+.discoverHeader-1TWTqG:after
+{
+  background: linear-gradient(to right, var(--gradient-color)50%,transparent) !important;
+}
+/*Relevant*/
+body, .appMount-3lHmkl, bg-h5JY_x {background: transparent; }
+.appMount-3lHmkl .lookFilled-1Gx00P.colorGreen-29iAKY:disabled,
+.container-1YxwTf .wrapper-35wsBm .lookFilled-1Gx00P.colorGreen-29iAKY,
+.container-1YxwTf .wrapper-35wsBm .lookFilled-1Gx00P.colorBrand-3pXr91
+{
+  background: transparent !important;
+} 
+.container-1YxwTf .wrapper-35wsBm .lookFilled-1Gx00P.colorBrand-3pXr91:hover
+{
+  background: var(--danger-color) !important;
+}
+.container-1YxwTf .wrapper-35wsBm .lookFilled-1Gx00P.colorGreen-29iAKY:hover
+{
+  background: var(--success-color) !important;
+}
 /*---------- FANCY CODE ----------*/
 /*Updated 05/09/2020*/
 /*Thank you gibbu*/
