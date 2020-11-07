@@ -343,6 +343,11 @@
   background-image: linear-gradient(var(--gradient-rotation), var(--from-gradient-color),var(--to-gradient-color)) !important;
   background-color: var(--main-color);
 } 
+#bd-settings-sidebar .ui-tab-bar-item.selected,
+.bd-addon-list .bd-card-footer button,.bd-pfbtn,.bd-pfbtn,.bd-select .bd-select-option.selected,.standardSidebarView-3F1I7i #editor-detached button{
+  background-image: linear-gradient(var(--gradient-rotation), var(--from-gradient-color),var(--to-gradient-color)) !important;
+  background-color: var(--main-color);
+} 
 .members-1998pB .membersGroup-v9BXpm,
 .sidebar-2K8pFh .containerDefault-3GGEv_ .wrapper-CU3qI5 .name-IbjUBS,
 .headerText-2F0828, .discoverHeader-1TWTqG
