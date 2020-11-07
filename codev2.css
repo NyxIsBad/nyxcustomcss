@@ -1,4 +1,5 @@
 
+
 /*---------- Better Formatting Fix ----------*/
 .bf-toolbar.bf-hover:hover:before,
 .bf-toolbar.bf-visible:before,
@@ -261,17 +262,15 @@ autoresize*/
   margin-right: -5px;
   border: 1px solid var(--main-color);
 }
-.theme-dark .mentioned-xhSam7,/*testnice*/
+.theme-dark .mentioned-xhSam7,
 .message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z, 
 .mouse-mode.full-motion .mentioned-xhSam7:hover {
-  border: 2px solid rgba(129, 0, 187, .7); /* You will have to change this RGBA value if you change main-color */
-  background-image: linear-gradient(var(--gradient-rotation), rgba(237, 0, 240, .1),rgba(129, 0, 187, .1)) !important;
-  background-color: rgba(129, 0, 187, .1);
+  border: 2px solid var(--ping-border-color);
+  background-image: linear-gradient(var(--gradient-rotation), var(--ping-gradient-color),var(--ping-fill-color)) !important;
 }
 .mouse-mode.full-motion .mentioned-xhSam7:hover {
-  background-image: linear-gradient(var(--gradient-rotation), rgba(237, 0, 240, .2),rgba(129, 0, 187, .2)) !important;
-  background-color: rgba(129, 0, 187, .2);
-  border: 2px solid rgba(129, 0, 187, .8); /* You will have to change this RGBA value if you change main-color */
+  background-image: linear-gradient(var(--gradient-rotation), var(--hover-gradient-color),var(--hover-ping-fill-color)) !important;
+  border: 2px solid var(--hover-ping-border-color);
 }
 /*---------- COLORED TEXT ----------*/
 /*Updated 20/06/2020, thanks to cv discord for giving me the thing about changing server names*/
@@ -316,9 +315,7 @@ autoresize*/
 .acronym-2mOFsV,.icon-27yU2q:not(:hover),.homeIcon-tEMBK1,.circleIconButton-jET_ig{/*Force Circular Servers on Hover*/
   border-radius: 50% !important;
 }
-.tutorialContainer-1v44GL{
-  background: transparent !important;
-}
+
 /*---------- Gradients ----------*/
 /*Updated 27/10/2020, Huge thanks to leafy and leo*/
 /*Updating from Leo's file 27/10/2020*/
@@ -340,8 +337,8 @@ autoresize*/
 .appMount-3lHmkl .lookFilled-1Gx00P.colorPrimary-3b3xI6,
 .unread-1xRYoj:active, .unread-1xRYoj:hover,
 /*End integration*/
-.childWrapper-anI2G9, .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
-.wrapper-1BJsBx:hover .childWrapper-anI2G9, 
+
+.acronym-2mOFsV,
 .circleIconButton-jET_ig:hover, .circleIconButton-jET_ig.selected-ugP_am, 
 .modeSelected-1zApJ_ .content-3at_AU,
 .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU:after,
@@ -359,14 +356,14 @@ autoresize*/
 .unread-1xRYoj:active, .unread-1xRYoj:hover, 
 .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha:after, .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ[style*="color: rgb(255, 255, 255)"]:after /* selected things */
 {
-  background-image: linear-gradient(var(--gradient-rotation), var(--gradient-color),var(--main-color)) !important;
+  background-image: linear-gradient(var(--gradient-rotation), var(--from-gradient-color),var(--to-gradient-color)) !important;
   background-color: var(--main-color);
 } 
 .members-1998pB .membersGroup-v9BXpm,
 .sidebar-2K8pFh .containerDefault-3GGEv_ .wrapper-CU3qI5 .name-IbjUBS,
 .headerText-2F0828, .discoverHeader-1TWTqG
 {
-  background-image: linear-gradient(var(--gradient-rotation), var(--gradient-color),var(--main-color)) !important;
+  background-image: linear-gradient(var(--gradient-rotation), var(--from-gradient-color),var(--to-gradient-color)) !important;
   -webkit-background-clip: text;
   color:transparent;
 }
@@ -375,30 +372,14 @@ autoresize*/
 .privateChannelsHeaderContainer-3NB1K1:before,
 .discoverHeader-1TWTqG:before
 {
-  background: linear-gradient(to left, var(--gradient-color)50%,transparent) !important;
+  background: linear-gradient(to left, var(--from-gradient-color)50%,transparent) !important;
 }
 .members-1998pB .membersGroup-v9BXpm:after,
 .name-IbjUBS:after,
 .privateChannelsHeaderContainer-3NB1K1:after,
 .discoverHeader-1TWTqG:after
 {
-  background: linear-gradient(to right, var(--gradient-color)50%,transparent) !important;
-}
-/*Relevant*/
-body, .appMount-3lHmkl, bg-h5JY_x {background: transparent; }
-.appMount-3lHmkl .lookFilled-1Gx00P.colorGreen-29iAKY:disabled,
-.container-1YxwTf .wrapper-35wsBm .lookFilled-1Gx00P.colorGreen-29iAKY,
-.container-1YxwTf .wrapper-35wsBm .lookFilled-1Gx00P.colorBrand-3pXr91
-{
-  background: transparent !important;
-} 
-.container-1YxwTf .wrapper-35wsBm .lookFilled-1Gx00P.colorBrand-3pXr91:hover
-{
-  background: var(--danger-color) !important;
-}
-.container-1YxwTf .wrapper-35wsBm .lookFilled-1Gx00P.colorGreen-29iAKY:hover
-{
-  background: var(--success-color) !important;
+  background: linear-gradient(to right, var(--from-gradient-color)50%,transparent) !important;
 }
 /*---------- FANCY CODE ----------*/
 /*Updated 05/09/2020*/
@@ -775,3 +756,4 @@ body, .appMount-3lHmkl, bg-h5JY_x {background: transparent; }
 #app-mount pre code .hljs-comment,
 #app-mount pre code .hljs-quote {
   color: #959da5;
+}
