@@ -6,10 +6,6 @@
 .bf-toolbar:before{
   background: rgba(0,0,0,.2) !important;
 }
-/*---------- MemberCount Fix ----------*/
-#MemberCount{
-  background: transparent !important;
-} /*This doesn't work on import css. Please copy paste this into your theme file/customcss.*/
 /*---------- Hide Things ----------*/
 /*Updated 07/11/2020 thanks BD Server*/
 /* Hide Nitro Gift button */
