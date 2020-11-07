@@ -1,4 +1,11 @@
+.placeholder-37qJjk {
+    font-size:0;
+}
 
+.placeholder-37qJjk::after {
+    content:'Please update my theme, new version in #community-presets of the ClearVision support server - Nyx';
+    font-size:16px;
+}
 /*---------- Better Formatting Fix ----------*/
 .bf-toolbar.bf-hover:hover:before,
 .bf-toolbar.bf-visible:before,
