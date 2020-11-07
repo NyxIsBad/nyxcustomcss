@@ -167,9 +167,7 @@ div[aria-label="Servers"] + .tutorialContainer-SGrQ1h + .listItem-2P_4kh {
   transform: translate(-50%, -50%);/*This centers it, but completely screws up search bar*/
   border-right: 1px solid #6f727d;
   border-left: 1px solid #6f727d;
-}/*This is not centered because idk im too lazy just change the margin until you like it
-if you figure out some way to center this without breaking shit please tell me. This also doesn't
-autoresize*/
+}
 /*moved search bar to center btw after input from user 379052485819498507, comments above are redundant*/
 .container-1r6BKw .toolbar-1t6TWx .iconWrapper-2OrFZ1 {
   margin: 0px 10px;
