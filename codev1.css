@@ -316,9 +316,7 @@ autoresize*/
 .acronym-2mOFsV,.icon-27yU2q:not(:hover),.homeIcon-tEMBK1,.circleIconButton-jET_ig{/*Force Circular Servers on Hover*/
   border-radius: 50% !important;
 }
-.tutorialContainer-1v44GL{
-  background: transparent !important;
-}
+
 /*---------- Gradients ----------*/
 /*Updated 27/10/2020, Huge thanks to leafy and leo*/
 /*Updating from Leo's file 27/10/2020*/
@@ -340,8 +338,8 @@ autoresize*/
 .appMount-3lHmkl .lookFilled-1Gx00P.colorPrimary-3b3xI6,
 .unread-1xRYoj:active, .unread-1xRYoj:hover,
 /*End integration*/
-.childWrapper-anI2G9, .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
-.wrapper-1BJsBx:hover .childWrapper-anI2G9, 
+
+.acronym-2mOFsV,
 .circleIconButton-jET_ig:hover, .circleIconButton-jET_ig.selected-ugP_am, 
 .modeSelected-1zApJ_ .content-3at_AU,
 .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU:after,
@@ -776,159 +774,3 @@ body, .appMount-3lHmkl, bg-h5JY_x {background: transparent; }
 #app-mount pre code .hljs-quote {
   color: #959da5;
 }
-/*---------- Gradients ----------*/
-/*Updated 27/10/2020, Huge thanks to leafy and leo*/
-/*Updating from Leo's file 27/10/2020*/
-.categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG, /* discover tab */
-.unread-1xRYoj:after, .mention-1f5kbO:after, /* unread channels bar */
-.menu-3sdvDG:not(#status-picker) .colorDefault-2K3EoJ.focused-3afm-j, .menu-3sdvDG:not(#status-picker) .colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O), /* dropdown menu */
-.appMount-3lHmkl .lookFilled-1Gx00P.colorGreen-29iAKY:disabled, .appMount-3lHmkl .lookFilled-1Gx00P.colorPrimary-3b3xI6:disabled, /* disabled buttons */
-.lookInverted-2D7oAl, .lookInverted-2D7oAl.colorBrand-3pXr91, .lookInverted-2D7oAl.colorGreen-29iAKY, /* more buttons */
-.newMessagesBar-265mhP:before, /* new message bar */
-.jumpToPresentBar-G1R9s6:hover, /* jump to present bar */
-/*End update*/
-/*Integration*/
-.privateChannels-1nO12o .channel-2QD9_O.selected-aXhQR6 .layout-2DM8Md:after,
-.popout-103y-5 .tag-2gHSR7,
-.tab-2Ixsn0.selected-16te-P:after,
-.layer-v9HyYc .themedPopout-1TrfdI .header-ykumBX,
-.appMount-3lHmkl .lookFilled-1Gx00P.colorGreen-29iAKY,
-.appMount-3lHmkl .lookFilled-1Gx00P.colorBrand-3pXr91,
-.appMount-3lHmkl .lookFilled-1Gx00P.colorPrimary-3b3xI6,
-.unread-1xRYoj:active, .unread-1xRYoj:hover,
-/*End integration*/
-.childWrapper-anI2G9, .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
-.wrapper-1BJsBx:hover .childWrapper-anI2G9, 
-.circleIconButton-jET_ig:hover, .circleIconButton-jET_ig.selected-ugP_am, 
-.modeSelected-1zApJ_ .content-3at_AU,
-.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU:after,
-.container-1r6BKw .topPill-30KHOu .item-PXvHYJ.selected-3s45Ha.themed-OHr7kt,
-.standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha,
-.layer-3QrUeG .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha:after,
-.appMount-3lHmkl .lookFilled-1Gx00P.colorGreen-29iAKY, .appMount-3lHmkl .lookFilled-1Gx00P.colorBrand-3pXr91, .appMount-3lHmkl .lookFilled-1Gx00P.colorPrimary-3b3xI6, /* buttons for days */
-.item-26Dhrx[style*="background-color"],
-.selected-mKYnfr.option-n0icdO,
-.chat-3bRxxu .divider-3gKybi.dividerRed-MKoLlr:before,
-.newMessagesBar-mujexs:before,
-.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU:after,
-.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc,
-.theme-dark .memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover,
-.unread-1xRYoj:active, .unread-1xRYoj:hover, 
-.standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha:after, .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ[style*="color: rgb(255, 255, 255)"]:after /* selected things */
-{
-  background-image: linear-gradient(var(--gradient-rotation), var(--gradient-color),var(--main-color)) !important;
-  background-color: var(--main-color);
-} 
-.members-1998pB .membersGroup-v9BXpm,
-.sidebar-2K8pFh .containerDefault-3GGEv_ .wrapper-CU3qI5 .name-IbjUBS,
-.headerText-2F0828, .discoverHeader-1TWTqG
-{
-  background-image: linear-gradient(var(--gradient-rotation), var(--gradient-color),var(--main-color)) !important;
-  -webkit-background-clip: text;
-  color:transparent;
-}
-.members-1998pB .membersGroup-v9BXpm:before,
-.name-IbjUBS:before,
-.privateChannelsHeaderContainer-3NB1K1:before,
-.discoverHeader-1TWTqG:before
-{
-  background: linear-gradient(to left, var(--gradient-color)50%,transparent) !important;
-}
-.members-1998pB .membersGroup-v9BXpm:after,
-.name-IbjUBS:after,
-.privateChannelsHeaderContainer-3NB1K1:after,
-.discoverHeader-1TWTqG:after
-{
-  background: linear-gradient(to right, var(--gradient-color)50%,transparent) !important;
-}
-/*Relevant*/
-body, .appMount-3lHmkl, bg-h5JY_x {background: transparent; }
-.appMount-3lHmkl .lookFilled-1Gx00P.colorGreen-29iAKY:disabled,
-.container-1YxwTf .wrapper-35wsBm .lookFilled-1Gx00P.colorGreen-29iAKY,
-.container-1YxwTf .wrapper-35wsBm .lookFilled-1Gx00P.colorBrand-3pXr91
-{
-  background: transparent !important;
-} 
-.container-1YxwTf .wrapper-35wsBm .lookFilled-1Gx00P.colorBrand-3pXr91:hover
-{
-  background: var(--danger-color) !important;
-}
-.container-1YxwTf .wrapper-35wsBm .lookFilled-1Gx00P.colorGreen-29iAKY:hover
-{
-  background: var(--success-color) !important;
-}
-/*---------- SQUARE STUFF ----------*/
-/*Updated 22/08/2020*/
-.avatar-1BDn8e{/*Square Chat Avatars*/
-  border: 2.5px solid var(--main-color) !important;/*
-  width: 35px !important;
-  height: 35px !important;*/
-  border-radius:4px !important;
-  background-size: cover!important;
-}
-[class*="avatar"], /*Square vc pfp*/
-[class*="avatar"] * img{
-  border-radius: 4px!important;
-}
-/*---------- BORDERS ----------*/
-/*Updated 22/08/2020*/
-.theme-dark .headerNormal-T_seeN, /*A border for user profiles, popouts*/
-.theme-dark .topSectionNormal-2-vo2m {
-  background-color: rgba(0,0,0,0.4);
-  border: 2px solid var(--main-color);
-}
-.headerTop-3C2Zn0{/*Hotfix after update because fuck discord, its still broken in user profiles but whatever*/
-  background-color: rgba(0,0,0,0.4);
-  border-left: 2px solid var(--main-color);
-  border-right: 2px solid var(--main-color);
-  border-top: 2px solid var(--main-color);
-}
-.activity-11LB_k{
-  background-color: rgba(0,0,0,0.4);
-  border-left: 2px solid var(--main-color);
-  border-right: 2px solid var(--main-color);
-  border-bottom: 2px solid var(--main-color);
-}
-/*---------- PINGS AND MENTIONS ----------*/
-/*Updated 20/06/2020*/
-.numberBadge-2s8kKX {/*Fancier Pings*/
-  background-color: black !important;
-  height: 18px;
-  width: 18px !important;
-  margin-bottom: -3px;
-  margin-right: -5px;
-  border: 1px solid var(--main-color);
-}
-.theme-dark .mentioned-xhSam7,/*testnice*/
-.message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z, 
-.mouse-mode.full-motion .mentioned-xhSam7:hover {
-  border: 2px solid rgba(129, 0, 187, .7); /* You will have to change this RGBA value if you change main-color */
-  background-image: linear-gradient(var(--gradient-rotation), rgba(237, 0, 240, .1),rgba(129, 0, 187, .1)) !important;
-  background-color: rgba(129, 0, 187, .1);
-}
-.mouse-mode.full-motion .mentioned-xhSam7:hover {
-  background-image: linear-gradient(var(--gradient-rotation), rgba(237, 0, 240, .2),rgba(129, 0, 187, .2)) !important;
-  background-color: rgba(129, 0, 187, .2);
-  border: 2px solid rgba(129, 0, 187, .8); /* You will have to change this RGBA value if you change main-color */
-}
-/*---------- COLORED TEXT ----------*/
-/*Updated 20/06/2020, thanks to cv discord for giving me the thing about changing server names*/
-.textArea-12jD-V.slateContainer-3Qkn2x > .markup-2BOw-j{ /*Changes text color for when you're actually typing*/
-  color: var(--text-color) !important;
-}
-.guildNameText-74xXQn { /*Changes various text colours*/
-  color: var(--text-color) !important;
-} 
-.markupRtl-3M0hmN {
-  color: var(--text-color) !important;
-}
-.messageContent-2qWWxC {
-  color: var(--text-color) !important;
-}
-/*
-.containerDefault-1ZnADq .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU .name-3_Dsmg {
-  color: var(--text-color);
-}
-.containerDefault-1ZnADq .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU .icon-1_QxNX {
-  color: var(--text-color);
-} */
