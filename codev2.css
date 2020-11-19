@@ -7,6 +7,9 @@
 .peopleListItem-2nzedh.active-rhSpJJ, .peopleListItem-2nzedh:hover{
   background:rgba(0,0,0,.2);
 }/*Fixes buttons not being themed*/
+.channelTextArea-2VhZ6z .scrollableContainer-2NUZem{
+  background: rgba(0,0,0,.2) !important;
+}/*Temporary fix after november update.*/
 /*---------- Better Formatting Fix ----------*/
 .bf-toolbar.bf-hover:hover:before,
 .bf-toolbar.bf-visible:before,
