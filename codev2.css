@@ -105,20 +105,20 @@
   display: none !important;
 }
 /* Hide Home Nitro button */
-.content-3YMskv > .channel-2QD9_O.container-2Pjhx-.clickable-1JJAn8:nth-of-type(2) {
-  display: none !important;
+.privateChannels-1nO12o .channel-2QD9_O[href="/store"] {
+    display: none !important;
 }
 /*---------- Top Bar ----------*/
 /*Updated 04/09/2020, a lot of code taken and then modified from gibbu & Tropical's Slate theme with permission*/
 /*Delete a lot of stuff in dms*/
 .container-1r6BKw .children-19S4PO .nicknames-1XK4Zt {
-  display:none !important;
+  display: none !important;
 }
 .container-1r6BKw .children-19S4PO .status-1XNdyw {
-  display:none !important;
+  display: none !important;
 }
 .akaBadge-1M-1Gw{
-  display:none !important;
+  display: none !important;
 }
 /*Spacing*/
 .container-1r6BKw .children-19S4PO {
