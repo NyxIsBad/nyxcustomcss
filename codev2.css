@@ -24,7 +24,7 @@ made with the help of others.
 /*Updated 28/10/2020*/
 .bf-toolbar.bf-hover:hover:before,
 .bf-toolbar.bf-visible:before,
-.bf-toolbar:before{
+.bf-toolbar:before{/*Lazy blanket that makes entire thing transparent*/
   background: rgba(0,0,0,.2) !important;
 }
 /*---------- Channel Tabs Fix ----------*/
@@ -201,11 +201,13 @@ made with the help of others.
 .username-1A8OIy:hover{
   color: var(--hover-color)!important;
 }
+/*Standardizes some stuff*/
 .contents-2mQqc9 > img ~ .header-23xsNx > span.username-1A8OIy:hover::after
 {
   color: var(--hover-color);
   text-shadow: 0px 0px 10px var(--hover-color);
 }
+/*Makes messages clsoer together*/
 .cozyMessage-3V1Y8y {
   margin-bottom: -4px;
 }
