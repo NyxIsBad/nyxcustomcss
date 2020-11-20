@@ -217,8 +217,11 @@
 .voiceAvatar-14IynY,
 .border-Jn5IOt,
 .wrapper-2QE8vf.ringingIncoming-38YcLn:after,
-.wrapper-2QE8vf.ringingOutgoing-mbXhhQ:after {
+.wrapper-2QE8vf.ringingOutgoing-mbXhhQ:after {/*Calling*/
   border-radius: var(--square-border-radius);
+}
+.replyAvatar-1K9Wmr, .replyBadge-r1su3o{ /*New Reply System*/
+    border-radius: var(--square-border-radius) !important;
 }
 /*---------- Borders ----------*/
 /*Updated 22/08/2020*/
