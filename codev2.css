@@ -6,16 +6,7 @@ Be forewarned that not everything may work as intended and all the parts of this
 are created to work together and sometimes not apart, and a lot of this code was 
 made with the help of others.
 */
-/*---------- Replies ----------*/
-/*Updated 22/11/2020*/
-/*Stealing More Code*/
-.channelTextArea-2VhZ6z:focus-within{
-  box-shadow: 0 0 2px 2px var(--main-color);
-}
-.channelTextArea-2VhZ6z .scrollableContainer-2NUZem:focus-within{
-  box-shadow: none;
-}
-/*---------- CV Fix ----------*/
+/*---------- CV Fixes ----------*/
 /*Updated 19/11/2020*/
 /*New Server Menu*/
 .container-UC8Ug1{
