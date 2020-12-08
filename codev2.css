@@ -506,6 +506,9 @@ made with the help of others.
 #app-mount pre code[class~=cs i]:before, #app-mount pre code[class~=csharp i]:before{
   content: "C#";
 }
+#app-mount pre code[class~=c i]:before{
+  content: "C";
+}
 #app-mount pre code[class~=ini i]:before{
   content: "Initialization File";
 }
