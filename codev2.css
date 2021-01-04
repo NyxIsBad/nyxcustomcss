@@ -205,10 +205,16 @@ made with the help of others.
   content: "Channel Name";
   font-size: 11px;
 }
-/*Deletes descriptions*/
-.container-1r6BKw .children-19S4PO .topic-TCb_qw{
-  display: none;
+/*Makes descriptions clickable and not visible*/
+#app-mount .container-1r6BKw.themed-ANHk51 .children-19S4PO .topic-TCb_qw {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
 }
+/*Search margins*/
 .container-1r6BKw .search-36MZv-{
   margin-top: 4px;
   margin-left: -18px;
