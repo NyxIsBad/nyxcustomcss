@@ -26,6 +26,34 @@ made with the help of others.
   background: rgba(0,0,0,.2) !important;
   border-bottom: 1px dashed var(--main-color);
 }
+/*---------- Permissions Viewer Fix ----------*/
+#permissions-modal-wrapper .callout-backdrop,
+#permissions-modal-wrapper .role-side,
+#permissions-modal-wrapper .perm-side,
+#permissions-modal-wrapper .modal-body,
+.theme-light #permissions-modal-wrapper #permissions-modal,
+.theme-dark #permissions-modal-wrapper #permissions-modal
+{
+    background: rgba(0,0,0,.2) !important;
+}
+#permissions-modal-wrapper .header
+{
+    background: rgba(0,0,0,.4) !important;
+    border-bottom: 2px solid var(--main-color) !important;
+}
+#permissions-modal-wrapper .role-item.selected
+{
+    background: rgba(0,0,0,.6) !important;
+    border: 2px solid var(--main-color) !important;
+}
+#permissions-modal-wrapper .role-item
+{
+    border: 2px solid transparent !important;
+}
+.member-perms::-webkit-scrollbar-thumb,
+#permissions-modal-wrapper *::-webkit-scrollbar-thumb{
+    background-color: var(--main-color) !important;
+}
 /*---------- Better Formatting Fix ----------*/
 /*Updated 28/10/2020*/
 /*Lazy blanket that makes entire thing transparent*/
