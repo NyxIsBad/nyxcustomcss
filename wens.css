@@ -1,10 +1,6 @@
 /*---------- Credits ----------*/
 /*
-Hello curious coder! This is the v2 repository for my custom css. Feel free to use
-any code here, as long as you credit me (and any other people I may have credited)
-Be forewarned that not everything may work as intended and all the parts of this code
-are created to work together and sometimes not apart, and a lot of this code was 
-made with the help of others.
+Hello curious coder! This is the custom repository for my friend wens because he's picky
 */
 /*---------- CV Fixes ----------*/
 /*Updated 19/11/2020*/
@@ -206,8 +202,13 @@ made with the help of others.
   font-size: 11px;
 }
 /*Deletes descriptions*/
-.container-1r6BKw .children-19S4PO .topic-TCb_qw{
-  display: none;
+#app-mount .container-1r6BKw.themed-ANHk51 .children-19S4PO .topic-TCb_qw {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
 }
 .container-1r6BKw .search-36MZv-{
   margin-top: 4px;
