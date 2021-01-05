@@ -364,13 +364,14 @@ made with the help of others.
   color: var(--text-color);
 } */
 /*---------- Glow ----------*/
-/*Updated 06/11/2020*/
+/*Updated 06/01/2021*/
 .childWrapper-anI2G9:hover,
 .childWrapper-anI2G9{
   background: transparent !important;
 }
-/*Glow on hovering a channel*/
-.blobContainer-239gwq:hover{
+/*Glow on hovering a server*/
+.blobContainer-239gwq:hover,
+.homeIcon-tEMBK1:hover{
   box-shadow: 0 0 30px 0 var(--main-color);
   border-radius: var(--circle-border-radius);
   /*transition: box-shadow 200ms;*/ /*this results in some visual glitch when you hover the selected channel*/
