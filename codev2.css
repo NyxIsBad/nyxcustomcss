@@ -441,6 +441,12 @@ made with the help of others.
   -webkit-background-clip: text;
   color:transparent;
 }
+/*Thanks addy for reminding me text-fill-color exists*/
+.sidebar-2K8pFh .containerDefault-3tr_sE .wrapper-PY0fhH .name-3l27Hl .overflow-WK9Ogt{
+  background-image: linear-gradient(var(--gradient-rotation), var(--from-gradient-color),var(--to-gradient-color)) !important;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .members-1998pB .membersGroup-v9BXpm:before,
 .name-3l27Hl:before,
 .privateChannelsHeaderContainer-3NB1K1:before,
