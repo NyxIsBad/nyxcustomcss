@@ -4,6 +4,7 @@ Hello curious coder! This is the custom repository for my friend wens because he
 */
 /*---------- Wens ----------*/
 /*Updated 05/01/2021*/
+/*changes the reaction color*/
 .reaction-1hd86g.reactionMe-wv5HKu .reactionCount-2mvXRV{
     color: var(--text-color) !important;
 }
@@ -410,6 +411,11 @@ Hello curious coder! This is the custom repository for my friend wens because he
   background-image: linear-gradient(var(--gradient-rotation), var(--from-gradient-color),var(--to-gradient-color)) !important;
   -webkit-background-clip: text;
   color:transparent;
+}
+.sidebar-2K8pFh .containerDefault-3tr_sE .wrapper-PY0fhH .name-3l27Hl .overflow-WK9Ogt{
+  background-image: linear-gradient(var(--gradient-rotation), var(--from-gradient-color),var(--to-gradient-color)) !important;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .members-1998pB .membersGroup-v9BXpm:before,
 .name-3l27Hl:before,
