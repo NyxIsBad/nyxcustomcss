@@ -165,6 +165,10 @@ made with the help of others.
 .privateChannels-1nO12o .channel-2QD9_O[href="/store"]{
   display: none !important;
 }
+/* Makes usernames/timestamps not selectable */
+.header-23xsNx{
+  user-select:none;
+}
 /*---------- Top Bar ----------*/
 /*Updated 05/01/2021, a lot of code taken and then modified from gibbu & Tropical's Slate theme with permission*/
 /*Delete a lot of stuff in dms*/
