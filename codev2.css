@@ -275,6 +275,13 @@ made with the help of others.
 .cozyMessage-3V1Y8y{
   margin-bottom: -4px;
 }
+/*Hover for cool little bump*/
+.profileBadge-2niAfJ {
+  transition: 0.4s;
+}
+.profileBadge-2niAfJ:hover {
+  transform: translateY(-1px);
+}
 /*---------- Square Stuff ----------*/
 /*Updated 19/11/2020*/
 /*Square Chat Avatars*/
