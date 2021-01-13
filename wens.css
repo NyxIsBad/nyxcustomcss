@@ -276,6 +276,13 @@ Hello curious coder! This is the custom repository for my friend wens because he
 .cozyMessage-3V1Y8y{
   margin-bottom: -4px;
 }
+/*Hover for cool little bump*/
+.profileBadge-2niAfJ {
+  transition: 0.4s;
+}
+.profileBadge-2niAfJ:hover {
+  transform: translateY(-1px);
+}
 /*---------- Borders ----------*/
 /*Updated 22/08/2020*/
 /*A border for user profiles, popouts*/
