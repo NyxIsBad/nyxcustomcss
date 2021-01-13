@@ -480,6 +480,10 @@ made with the help of others.
 #app-mount code{
   background-color: rgba(36, 41, 46,.5) !important;
 }
+#app-mount pre code,
+#app-mount pre{
+  background: rgba(0,0,0,0.1) !important;
+}
 #app-mount pre code .hljs-built_in,
 #app-mount pre code .hljs-doctag,
 #app-mount pre code .hljs-literal,
