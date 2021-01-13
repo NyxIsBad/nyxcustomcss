@@ -1,0 +1,519 @@
+
+/*---------- Credits ----------*/
+/*
+Hello curious coder! This is the v2 repository for my custom css. Feel free to use
+any code here, as long as you credit me (and any other people I may have credited)
+Be forewarned that not everything may work as intended and all the parts of this code
+are created to work together and sometimes not apart, and a lot of this code was 
+made with the help of others.
+*/
+/*---------- CV Fixes ----------*/
+/*Updated 19/11/2020*/
+/*New Server Menu*/
+.container-UC8Ug1{
+  background: rgba(0,0,0,.2) !important;
+  font: var(--main-font) !important;
+}
+/*Fixes buttons not being themed*/
+.button-1ZiXG9:hover,
+.peopleListItem-2nzedh.active-rhSpJJ, .peopleListItem-2nzedh:hover{
+  background: rgba(0,0,0,.2);
+}
+/*Personal fix after november update for replies*/
+.channelTextArea-2VhZ6z .scrollableContainer-2NUZem{
+  background: rgba(0,0,0,.2) !important;
+}
+.container-2fRDfG{
+  background: rgba(0,0,0,.2) !important;
+  border-bottom: 1px dashed var(--main-color);
+}
+.colorPickerSwatch-5GX3Ve{
+  margin-bottom: 10px;
+}
+.folder-21wGz3{
+  background: transparent !important;
+}
+/*---------- Permissions Viewer Fix ----------*/
+/*Updated 05/01/2021*/
+#permissions-modal-wrapper .callout-backdrop,
+#permissions-modal-wrapper .role-side,
+#permissions-modal-wrapper .perm-side,
+#permissions-modal-wrapper .modal-body,
+.theme-light #permissions-modal-wrapper #permissions-modal,
+.theme-dark #permissions-modal-wrapper #permissions-modal
+{
+  background: rgba(0,0,0,.2) !important;
+}
+#permissions-modal-wrapper .header
+{
+  background: rgba(0,0,0,.4) !important;
+  border-bottom: 2px solid var(--main-color) !important;
+}
+#permissions-modal-wrapper .role-item.selected
+{
+  background: rgba(0,0,0,.6) !important;
+  border: 2px solid var(--main-color) !important;
+}
+#permissions-modal-wrapper .role-item
+{
+  border: 2px solid transparent !important;
+}
+.member-perms::-webkit-scrollbar-thumb,
+#permissions-modal-wrapper *::-webkit-scrollbar-thumb{
+  background-color: var(--main-color) !important;
+}
+/*---------- Better Formatting Fix ----------*/
+/*Updated 28/10/2020*/
+/*Lazy blanket that makes entire thing transparent*/
+.bf-toolbar.bf-hover:hover:before,
+.bf-toolbar.bf-visible:before,
+.bf-toolbar:before{
+  background: rgba(0,0,0,.2) !important;
+}
+/*---------- Channel Tabs Fix ----------*/
+/*Updated 05/11/2020*/
+/*Fixing unthemed tabs*/
+.channelTabs-tab{
+  background: rgba(0,0,0,.2) !important;
+  border-radius: 0px !important;
+}
+.channelTabs-tabContainer{
+  background: transparent !important;
+}
+.channelTabs-tab:hover{
+  background: rgba(0,0,0,.3) !important;
+}
+.channelTabs-selected:hover,
+.channelTabs-fav:hover{
+  background: rgba(0,0,0,.5) !important;
+}
+.channelTabs-selected,
+.channelTabs-fav,
+.channelTabs-favContainer{
+  background: rgba(0,0,0,.4) !important;
+}
+/*Squaring icon*/
+.channelTabs-tabIcon,
+.channelTabs-favIcon{
+  border-radius: var(--square-border-radius) !important;
+}
+.channelTabs-fav{
+  border-radius: 0px !important;
+  /*border-left: 2px solid var(--main-color);
+  border-right: 2px solid var(--main-color);*/
+}
+/*Colors and fonts*/
+.channelTabs-tabName,
+.channelTabs-tabIcon ~ .channelTabs-tabName,
+.channelTabs-favIcon ~ .channelTabs-favName{
+  font: var(--main-font ) !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  color: var(--text-color) !important;
+}
+.channelTabs-newTab:hover{
+  background: var(--hover-color) !important; 
+  color: white !important;
+}
+.channelTabs-newTab{
+  background: var(--main-color) !important; 
+  color: white !important;
+}
+.channelTabs-closeTab,
+.channelTabs-selected .channelTabs-closeTab{
+  background: transparent !important; 
+  color: white !important;
+}
+.channelTabs-closeTab:hover,
+.channelTabs-selected .channelTabs-closeTab:hover{
+  background: transparent !important; 
+  color: var(--hover-color) !important;
+}
+.channelTabs-mentionBadge{
+  background-color: var(--main-color) !important;
+}
+.channelTabs-unreadBadge{
+  background-color: black !important;
+}
+.channelTabs-favMentionBadge,
+.channelTabs-favUnreadBadge,
+.channelTabs-fav .channelTabs-noMention,
+.channelTabs-fav .channelTabs-noUnread{
+  color: white !important;
+}
+.channelTabs-noFavNotice{
+  color: var(--text-color) !important;
+  font: var(--main-font) !important;
+}
+/*---------- DateViewer ----------*/
+/*Updated 31/08/2020 or something*/
+/*Make the DateViewer plugin background transparent*/
+#dv-mount{
+  background: rgba(0,0,0,.2);
+  font: var(--main-font);
+}
+/*
+.dv-time,.dv-weekday,#dv-main .dv-date,.layer-v9HyYc{
+  color: var(--text-color) !important;
+} */ /*Changes DV Text Colors; if you think this is aids, comment it*/
+/*---------- Hide Things ----------*/
+/*Updated 19/11/2020 thanks BD Server*/
+/* Hide Nitro Gift button */
+.buttons-3JBrkn > .button-38aScr{
+  display: none !important;
+}
+/* Hide Home Nitro button */
+.privateChannels-1nO12o .channel-2QD9_O[href="/store"]{
+  display: none !important;
+}
+/* Makes usernames/timestamps not selectable */
+.header-23xsNx{
+  user-select:none;
+}
+/*---------- Top Bar ----------*/
+/*Updated 05/01/2021, a lot of code taken and then modified from gibbu & Tropical's Slate theme with permission*/
+/*Delete a lot of stuff in dms*/
+.container-1r6BKw .children-19S4PO .nicknames-1XK4Zt{
+  display: none !important;
+}
+.container-1r6BKw .children-19S4PO .status-1XNdyw{
+  display: none !important;
+}
+.akaBadge-1M-1Gw{
+  display: none !important;
+}
+/*Spacing*/
+.container-1r6BKw .children-19S4PO{
+  flex: none;
+  min-width: 230px;
+}
+.container-1r6BKw .children-19S4PO .iconWrapper-2OrFZ1{
+  margin: 0 10px 0 0;
+}
+.container-1r6BKw .children-19S4PO .iconWrapper-2OrFZ1 .icon-22AiRD{
+  width: 20px;
+}
+/*Channel Name*/
+.container-1r6BKw .children-19S4PO .iconWrapper-2OrFZ1 .channelName-qsg_a_{
+  margin: 0;
+}
+/*Defines two layers*/
+.container-1r6BKw .children-19S4PO h3{
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  user-select: none;
+  line-height: normal;
+  flex: 1;
+}
+/*Deletes the divider*/
+.divider-3FBTu8{
+  display: none;
+}
+/*Some stolen code*/
+.container-1r6BKw .children-19S4PO h3:before{
+  display: block;
+  content: "Channel Name";
+  font-size: 11px;
+}
+/*Makes descriptions clickable and not visible*/
+#app-mount .container-1r6BKw.themed-ANHk51 .children-19S4PO .topic-TCb_qw {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+/*Search margins*/
+.container-1r6BKw .search-36MZv-{
+  margin-top: 4px;
+  margin-left: -18px;
+}
+.container-1r6BKw .toolbar-1t6TWx{
+  /*margin-left:10%;*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);/*This centers it, but completely screws up search bar*/
+  border-right: 1px solid #6f727d;
+  border-left: 1px solid #6f727d;
+}
+/*moved search bar to center btw after input from user 379052485819498507, comments above are redundant*/
+/*Adds spacing between items on the toolbar*/
+.container-1r6BKw .toolbar-1t6TWx .iconWrapper-2OrFZ1{
+  margin: 0px 10px;
+}
+/*Make this normal looking*/
+.container-1r6BKw .searchBar-3dMhjb{
+  padding: 0 !important;
+  overflow: visible;
+  background: transparent;
+}
+/*Offset*/
+.container-1r6BKw .DraftEditor-root{
+  padding: 0 10px 0 28px;
+  margin-top: 3px;
+}
+/*---------- Usernames and Spacing ----------*/
+/*Updated 05/09/2020*/
+/*Smaller usernames*/
+.username-1A8OIy{
+  font-size: 15px !important;
+}
+/*Standardizes some stuff*/
+.username-1A8OIy:hover{
+  color: var(--hover-color)!important;
+}
+.contents-2mQqc9 > img ~ .header-23xsNx > span.username-1A8OIy:hover::after
+{
+  color: var(--hover-color);
+  text-shadow: 0px 0px 10px var(--hover-color);
+}
+/*Makes messages clsoer together*/
+.cozyMessage-3V1Y8y{
+  margin-bottom: -4px;
+}
+/*---------- Square Stuff ----------*/
+/*Updated 19/11/2020*/
+/*Square Chat Avatars*/
+.avatar-1BDn8e{
+  border: 2.5px solid var(--main-color) !important;/*
+  width: 35px !important;
+  height: 35px !important;*/
+  border-radius: var(--square-border-radius) !important;
+  background-size: cover!important;
+}
+/*Square vc pfp*/
+[class*="avatar"],
+[class*="avatar"] * img{
+  border-radius: var(--square-border-radius)!important;
+}
+/* Thanks Jay Wilson */
+.wrapper-2QE8vf foreignObject{
+  mask: none;
+}
+/*Calling*/
+.voiceAvatar-14IynY,
+.border-Jn5IOt,
+.wrapper-2QE8vf.ringingIncoming-38YcLn:after,
+.wrapper-2QE8vf.ringingOutgoing-mbXhhQ:after{
+  border-radius: var(--square-border-radius);
+}
+/*New Reply System*/
+.replyAvatar-1K9Wmr, .replyBadge-r1su3o{
+  border-radius: var(--square-border-radius) !important;
+}
+/*---------- Borders ----------*/
+/*Updated 22/08/2020*/
+/*A border for user profiles, popouts*/
+.theme-dark .headerNormal-T_seeN,
+.theme-dark .topSectionNormal-2-vo2m{
+  background-color: rgba(0,0,0,0.4);
+  border: 2px solid var(--main-color);
+}
+/*Hotfix after update because fuck discord, its still broken in user profiles but whatever*/
+.headerTop-3C2Zn0{
+  background-color: rgba(0,0,0,0.4);
+  border-left: 2px solid var(--main-color);
+  border-right: 2px solid var(--main-color);
+  border-top: 2px solid var(--main-color);
+}
+.activity-11LB_k{
+  background-color: rgba(0,0,0,0.4);
+  border-left: 2px solid var(--main-color);
+  border-right: 2px solid var(--main-color);
+  border-bottom: 2px solid var(--main-color);
+}
+/*---------- Pings ----------*/
+/*Updated 20/06/2020*/
+/*Fancier Pings*/
+.numberBadge-2s8kKX{
+  background-color: black !important;
+  height: 18px;
+  width: 18px !important;
+  margin-bottom: -3px;
+  margin-right: -5px;
+  border: 1px solid var(--main-color);
+}
+.theme-dark .mentioned-xhSam7,
+.message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z, 
+.mouse-mode.full-motion .mentioned-xhSam7:hover{
+  border: 2px solid var(--ping-border-color);
+  background-image: linear-gradient(var(--gradient-rotation), var(--ping-gradient-color),var(--ping-fill-color)) !important;
+}
+.mouse-mode.full-motion .mentioned-xhSam7:hover{
+  background-image: linear-gradient(var(--gradient-rotation), var(--hover-gradient-color),var(--hover-ping-fill-color)) !important;
+  border: 2px solid var(--hover-ping-border-color);
+}
+/*---------- Color! ----------*/
+/*Updated 20/06/2020, thanks to cv discord for giving me the thing about changing server names*/
+/*Changes text color for when you're actually typing*/
+.textArea-12jD-V.slateContainer-3Qkn2x > .markup-2BOw-j{
+  color: var(--text-color) !important;
+}
+/*Changes various text colours*/
+.guildNameText-74xXQn{
+  color: var(--text-color) !important;
+} 
+.markupRtl-3M0hmN{
+  color: var(--text-color) !important;
+}
+.messageContent-2qWWxC{
+  color: var(--text-color) !important;
+}
+/*
+.containerDefault-1ZnADq .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU .name-3_Dsmg{
+  color: var(--text-color);
+}
+.containerDefault-1ZnADq .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU .icon-1_QxNX{
+  color: var(--text-color);
+} */
+/*---------- Glow ----------*/
+/*Updated 06/01/2021*/
+.childWrapper-anI2G9:hover,
+.childWrapper-anI2G9{
+  background: transparent !important;
+}
+/*Glow on hovering a server*/
+.blobContainer-239gwq:hover,
+.homeIcon-tEMBK1:hover{
+  box-shadow: 0 0 30px 0 var(--main-color);
+  border-radius: var(--circle-border-radius);
+  /*transition: box-shadow 200ms;*/ /*this results in some visual glitch when you hover the selected channel*/
+}
+/*Glow on selected server*/
+.selected-bZ3Lue:not(:hover){
+  box-shadow: 0 0 30px 0 var(--main-color);
+  overflow: visible !important;
+  border-radius: var(--circle-border-radius);
+}
+/*Thanks tropical - gets rid of overflow. Screws up a lot of stuff, had to compensate in gradients and otherwise*/
+.wrapper-25eVIn foreignObject{
+  mask:none;
+  overflow:visible;
+}
+.acronym-2mOFsV,.icon-27yU2q:not(:hover),.homeIcon-tEMBK1,.circleIconButton-jET_ig{/*Force Circular Servers on Hover*/
+  border-radius: var(--circle-border-radius) !important;
+}
+/*---------- Gradients ----------*/
+/*Updated 27/10/2020, Huge thanks to leafy and leo*/
+/*Updating from Leo's file 14/11/2020*/
+.theme-dark .footer-2gL1pp .button-38aScr,
+.lookFilled-1Gx00P.colorGrey-2DXtkV,
+.categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG, /* discover tab */
+.unread-1xRYoj:after, .mention-1f5kbO:after, /* unread channels bar */
+.menu-3sdvDG:not(#status-picker) .colorDefault-2K3EoJ.focused-3afm-j, .menu-3sdvDG:not(#status-picker) .colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O), /* dropdown menu */
+.appMount-3lHmkl .lookFilled-1Gx00P.colorGreen-29iAKY:disabled, .appMount-3lHmkl .lookFilled-1Gx00P.colorPrimary-3b3xI6:disabled, /* disabled buttons */
+.lookInverted-2D7oAl, .lookInverted-2D7oAl.colorBrand-3pXr91, .lookInverted-2D7oAl.colorGreen-29iAKY, /* more buttons */
+.newMessagesBar-265mhP:before, /* new message bar */
+.jumpToPresentBar-G1R9s6:hover, /* jump to present bar */
+/*Integration*/
+.privateChannels-1nO12o .channel-2QD9_O.selected-aXhQR6 .layout-2DM8Md:after,
+.popout-103y-5 .tag-2gHSR7,
+.tab-2Ixsn0.selected-16te-P:after,
+.layer-v9HyYc .themedPopout-1TrfdI .header-ykumBX,
+.appMount-3lHmkl .lookFilled-1Gx00P.colorGreen-29iAKY,
+.appMount-3lHmkl .lookFilled-1Gx00P.colorBrand-3pXr91,
+.appMount-3lHmkl .lookFilled-1Gx00P.colorPrimary-3b3xI6,
+.unread-1xRYoj:active, .unread-1xRYoj:hover,
+/*End integration*/
+.acronym-2mOFsV,.acronym-2mOFsV:hover,
+.circleIconButton-jET_ig:hover, .circleIconButton-jET_ig.selected-ugP_am, 
+.modeSelected-1zApJ_ .content-3at_AU,
+.wrapper-2jXpOf.modeSelected-346R90 .content-1x5b-n:after,
+.container-1r6BKw .topPill-30KHOu .item-PXvHYJ.selected-3s45Ha.themed-OHr7kt,
+.standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha,
+.layer-3QrUeG .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha:after,
+.appMount-3lHmkl .lookFilled-1Gx00P.colorGreen-29iAKY, .appMount-3lHmkl .lookFilled-1Gx00P.colorBrand-3pXr91, .appMount-3lHmkl .lookFilled-1Gx00P.colorPrimary-3b3xI6, /* buttons for days */
+.item-26Dhrx[style*="background-color"],
+.selected-mKYnfr.option-n0icdO,
+.chat-3bRxxu .divider-3gKybi.dividerRed-MKoLlr:before,
+.newMessagesBar-mujexs:before,
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc,
+.theme-dark .memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover,
+.unread-1xRYoj:active, .unread-1xRYoj:hover, 
+.standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha:after, .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ[style*="color: rgb(255, 255, 255)"]:after /* selected things */
+{
+  background-image: linear-gradient(var(--gradient-rotation), var(--from-gradient-color),var(--to-gradient-color)) !important;
+  background-color: var(--main-color);
+} 
+#bd-settings-sidebar .ui-tab-bar-item.selected,
+.bd-addon-list .bd-card-footer button,.bd-pfbtn,.bd-pfbtn,.bd-select .bd-select-option.selected,.standardSidebarView-3F1I7i #editor-detached button{
+  background-image: linear-gradient(var(--gradient-rotation), var(--from-gradient-color),var(--to-gradient-color)) !important;
+  background-color: var(--main-color);
+} 
+.members-1998pB .membersGroup-v9BXpm,
+.sidebar-2K8pFh .containerDefault-3tr_sE .wrapper-PY0fhH .name-3l27Hl .overflow-WK9Ogt, /*Thx Addy*/
+.headerText-2F0828, .discoverHeader-1TWTqG
+{
+  background-image: linear-gradient(var(--gradient-rotation), var(--from-gradient-color),var(--to-gradient-color)) !important;
+  -webkit-background-clip: text;
+  color:transparent;
+}
+.members-1998pB .membersGroup-v9BXpm:before,
+.name-3l27Hl:before,
+.privateChannelsHeaderContainer-3NB1K1:before,
+.discoverHeader-1TWTqG:before
+{
+  background: linear-gradient(to left, var(--from-gradient-color)50%,transparent) !important;
+}
+.members-1998pB .membersGroup-v9BXpm:after,
+.name-3l27Hl:after,
+.privateChannelsHeaderContainer-3NB1K1:after,
+.discoverHeader-1TWTqG:after
+{
+  background: linear-gradient(to right, var(--from-gradient-color)50%,transparent) !important;
+}
+/*---------- FANCY CODE ----------*/
+/*Updated 05/09/2020*/
+/*Thank you gibbu*/
+#app-mount code{
+  background-color: rgba(36, 41, 46,.5) !important;
+}
+#app-mount pre code .hljs-built_in,
+#app-mount pre code .hljs-doctag,
+#app-mount pre code .hljs-literal,
+#app-mount pre code .hljs-meta .hljs-meta-string,
+#app-mount pre code .hljs-number,
+#app-mount pre code .hljs-regexp,
+#app-mount pre code .hljs-selector-class{
+  color: #b392f0;
+}
+#app-mount pre code .hljs-attribute,
+#app-mount pre code .hljs-name,
+#app-mount pre code .hljs-section,
+#app-mount pre code .hljs-selector-class,
+#app-mount pre code .hljs-selector-id,
+#app-mount pre code .hljs-string,
+#app-mount pre code .hljs-title{
+  color: #79b8ff;
+}
+#app-mount pre code .hljs-attr,
+#app-mount pre code .hljs-attribute,
+#app-mount pre code .hljs-bullet,
+#app-mount pre code .hljs-class,
+#app-mount pre code .hljs-link,
+#app-mount pre code .hljs-meta,
+#app-mount pre code .hljs-meta .hljs-keyword,
+#app-mount pre code .hljs-selector-attr,
+#app-mount pre code .hljs-selector-pseudo,
+#app-mount pre code .hljs-subst,
+#app-mount pre code .hljs-symbol,
+#app-mount pre code .hljs-template-variable,
+#app-mount pre code .hljs-title,
+#app-mount pre code .hljs-type,
+#app-mount pre code .hljs-variable{
+  color: #ffab70;
+}
+#app-mount pre code .hljs-addition,
+#app-mount pre code .hljs-keyword,
+#app-mount pre code .hljs-selector-tag{
+  color: #56b6c2;
+}
+#app-mount pre code .hljs-comment,
+#app-mount pre code .hljs-quote{
+  color: #959da5;
+}
