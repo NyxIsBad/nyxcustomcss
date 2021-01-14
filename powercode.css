@@ -1,4 +1,3 @@
-
 /*---------- Credits ----------*/
 /*
 Hello curious coder! This is the v2 repository for my custom css. Feel free to use
@@ -7,6 +6,17 @@ Be forewarned that not everything may work as intended and all the parts of this
 are created to work together and sometimes not apart, and a lot of this code was 
 made with the help of others.
 */
+.theme-dark, 
+.theme-light, 
+:root {
+    --background-primary: rgba(0,0,0,.8) !important;
+    --background-secondary: rgba(0,0,0,.4) !important;
+    --toast-background: rgba(0,0,0,.8) !important;
+    --toast-header: var(--main-color) !important;
+    --toast-contents: rgba(0,0,0,.4) !important;
+    --toast-box-shadow: rgba(0, 0, 0, .2) !important;
+    --toast-border: var(--main-color) !important;
+}
 /*---------- CV Fixes ----------*/
 /*Updated 19/11/2020*/
 /*New Server Menu*/
@@ -31,6 +41,61 @@ made with the help of others.
   margin-bottom: 10px;
 }
 .folder-21wGz3{
+  background: transparent !important;
+}
+/*---------- Powercord Fixes ----------*/
+/*Updated 15/01/2021*/
+.powercord-entities-manage-tabs,
+.appMount-3lHmkl{
+  background-color: rgba(0,0,0,.2) !important;
+}
+.userPopout-3XzG_A .note-3HfJZ5{
+  margin-bottom: 5px !important;
+}
+.quoteMessages{
+  background: rgba(0,0,0,.2) !important;
+}
+.modifiedQuote{
+  background: rgba(0,0,0,.1) !important; 
+}
+.modifiedQuote:hover{
+  background: rgba(0,0,0,.2) !important; 
+}
+.blockquoteContainer-U5TVEi{
+  background: rgba(0,0,0,.1) !important;
+}
+.blockquoteContainer-U5TVEi:hover{
+  background: rgba(0,0,0,.2) !important;
+}
+
+.wrapper-2a6GCs.ephemeral-1PsL1r .username-1A8OIy {
+  --local-bot-name: "Nyx v2"; /* Change this */
+}
+.wrapper-2a6GCs.ephemeral-1PsL1r {
+  background-color: rgba(114, 137, 218, 0.05);
+  box-shadow: inset 2px 0 #7289DA;
+}
+.wrapper-2a6GCs.ephemeral-1PsL1r:hover {
+  background-color: rgba(114, 137, 218, 0.12) !important;
+}
+.wrapper-2a6GCs.ephemeral-1PsL1r [src*="powercord"],
+.wrapper-2a6GCs.ephemeral-1PsL1r [src*="/assets/"] {
+  content: url("https://i.imgur.com/nr0Vhn8.png"); /* Change This */
+}
+.wrapper-2a6GCs.ephemeral-1PsL1r .username-1A8OIy {
+  visibility: hidden;
+}
+.wrapper-2a6GCs.ephemeral-1PsL1r .username-1A8OIy::before {
+  content: var(--local-bot-name);
+  visibility: visible;
+}
+.wrapper-2a6GCs.ephemeral-1PsL1r [src*="powercord"] + .header-23xsNx > .headerText-3Uvj1Y > .botTagCozy-1fFsZk {
+  margin-left: -65px;
+}
+.wrapper-2a6GCs.ephemeral-1PsL1r [src*="/assets/"] + .header-23xsNx > .headerText-3Uvj1Y > .botTagCozy-1fFsZk {
+  margin-left: -30px;
+}
+.PluginDownloaderApply:not(.applied) div:hover{
   background: transparent !important;
 }
 /*---------- Permissions Viewer Fix ----------*/
