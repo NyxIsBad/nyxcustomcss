@@ -6,17 +6,6 @@ Be forewarned that not everything may work as intended and all the parts of this
 are created to work together and sometimes not apart, and a lot of this code was 
 made with the help of others.
 */
-.theme-dark, 
-.theme-light, 
-:root {
-    --background-primary: rgba(0,0,0,.8) !important;
-    --background-secondary: rgba(0,0,0,.4) !important;
-    --toast-background: rgba(0,0,0,.8) !important;
-    --toast-header: var(--main-color) !important;
-    --toast-contents: rgba(0,0,0,.4) !important;
-    --toast-box-shadow: rgba(0, 0, 0, .2) !important;
-    --toast-border: var(--main-color) !important;
-}
 /*---------- CV Fixes ----------*/
 /*Updated 19/11/2020*/
 /*New Server Menu*/
@@ -45,30 +34,30 @@ made with the help of others.
 }
 /*---------- Powercord Fixes ----------*/
 /*Updated 15/01/2021*/
-.powercord-entities-manage-tabs,
-.appMount-3lHmkl{
+/*Settings*/
+.powercord-entities-manage-tabs{
   background-color: rgba(0,0,0,.2) !important;
 }
+/*PronounDB*/
 .userPopout-3XzG_A .note-3HfJZ5{
   margin-bottom: 5px !important;
 }
+/*Quoter plugin*/
 .quoteMessages{
   background: rgba(0,0,0,.2) !important;
 }
-.modifiedQuote{
+.modifiedQuote,
+.blockquoteContainer-U5TVEi{
   background: rgba(0,0,0,.1) !important; 
 }
-.modifiedQuote:hover{
+.modifiedQuote:hover,
+.blockquoteContainer-U5TVEi:hover{
   background: rgba(0,0,0,.2) !important; 
 }
-.blockquoteContainer-U5TVEi{
-  background: rgba(0,0,0,.1) !important;
-}
-.blockquoteContainer-U5TVEi:hover{
+/*plugin downloader and theme downloader*/
+.PluginDownloaderApply:not(.applied) div:hover,
+.ThemeDownloaderApply:not(.applied) div:hover{
   background: rgba(0,0,0,.2) !important;
-}
-.PluginDownloaderApply:not(.applied) div:hover{
-  background: transparent !important;
 }
 /*---------- Permissions Viewer Fix ----------*/
 /*Updated 05/01/2021*/
