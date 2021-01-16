@@ -26,6 +26,11 @@ made with the help of others.
   background: rgba(0,0,0,.2) !important;
   border-bottom: 1px dashed var(--main-color);
 }
+/*fixes role color*/
+.colorPickerSwatch-5GX3Ve.custom-2SJn4n{
+  margin-right: 10px;
+}
+/*fixes server folder color*/
 .colorPickerRow-1LgLnl{
   margin-left: -10px;
 }
