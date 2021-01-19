@@ -64,7 +64,8 @@ made with the help of others.
 }
 /*plugin downloader and theme downloader*/
 .PluginDownloaderApply:not(.applied) div:hover,
-.ThemeDownloaderApply:not(.applied) div:hover{
+.ThemeDownloaderApply:not(.applied) div:hover,
+.powercord-snippet-apply:not(.applied) div:hover{
   background: rgba(0,0,0,.2) !important;
 }
 /*---------- Permissions Viewer Fix ----------*/
