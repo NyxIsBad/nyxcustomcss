@@ -40,6 +40,30 @@ made with the help of others.
 .folder-21wGz3{
   background: transparent !important;
 }
+/*Share Screen Modal*/
+.modalSize-cqUaws, .modalHeader-19eoYJ + div{
+    width: 600px !important;
+}
+/*Message Date Appearance Style*/
+.divider-JfaTT5 {
+    border-top: thin solid rgba(0, 0, 0, 0);
+}
+.divider-JfaTT5:before {
+    content: "";
+    height: 2px;
+    opacity: 0.4;
+    flex-grow: 1;
+    background: var(--main-color);
+    margin-right: 0;
+}
+.divider-JfaTT5:after {
+    content: "";
+    height: 2px;
+    opacity: 0.4;
+    flex-grow: 1;    
+    background: var(--main-color);
+    margin-left: 0;
+}
 /*---------- Permissions Viewer Fix ----------*/
 /*Updated 05/01/2021*/
 #permissions-modal-wrapper .callout-backdrop,
