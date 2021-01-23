@@ -15,6 +15,14 @@ Hello curious coder! This is the custom repository for my friend wens because he
   background: rgba(0,0,0,.2) !important;
   font: var(--main-font) !important;
 }
+/*Personal fix after november update for replies*/	
+.channelTextArea-2VhZ6z .scrollableContainer-2NUZem{	
+  background: rgba(0,0,0,.2) !important;	
+}	
+.container-2fRDfG{	
+  background: rgba(0,0,0,.2) !important;	
+  border-bottom: 1px dashed var(--main-color);	
+}
 /*Fixes buttons not being themed*/
 .button-1ZiXG9:hover,
 .peopleListItem-2nzedh.active-rhSpJJ, .peopleListItem-2nzedh:hover{
