@@ -7,7 +7,7 @@ are created to work together and sometimes not apart, and a lot of this code was
 made with the help of others.
 */
 /*---------- CV Fixes ----------*/
-/*Updated 19/11/2020*/
+/*Updated 24/01/2021*/
 /*New Server Menu*/
 .container-UC8Ug1{
   background: rgba(0,0,0,.2) !important;
@@ -17,14 +17,6 @@ made with the help of others.
 .button-1ZiXG9:hover,
 .peopleListItem-2nzedh.active-rhSpJJ, .peopleListItem-2nzedh:hover{
   background: rgba(0,0,0,.2);
-}
-/*Personal fix after november update for replies*/
-.channelTextArea-2VhZ6z .scrollableContainer-2NUZem{
-  background: rgba(0,0,0,.2) !important;
-}
-.container-2fRDfG{
-  background: rgba(0,0,0,.2) !important;
-  border-bottom: 1px dashed var(--main-color);
 }
 /*fixes role color*/
 .colorPickerSwatch-5GX3Ve.custom-2SJn4n{
@@ -40,30 +32,29 @@ made with the help of others.
 .folder-21wGz3{
   background: transparent !important;
 }
-
-/*Share Screen Modal*/
+/*Share Screen Modal by Addy*/
 .modalSize-cqUaws, .modalHeader-19eoYJ + div{
-    width: 600px !important;
+  width: 600px !important;
 }
-/*Message Date Appearance Style*/
+/*Message Date Appearance Style by Addy*/
 .divider-JfaTT5 {
-    border-top: thin solid rgba(0, 0, 0, 0);
+  border-top: thin solid rgba(0, 0, 0, 0);
 }
 .divider-JfaTT5:before {
-    content: "";
-    height: 2px;
-    opacity: 0.4;
-    flex-grow: 1;
-    background: var(--main-color);
-    margin-right: 0;
+  content: "";
+  height: 2px;
+  opacity: 0.4;
+  flex-grow: 1;
+  background: var(--main-color);
+  margin-right: 0;
 }
 .divider-JfaTT5:after {
-    content: "";
-    height: 2px;
-    opacity: 0.4;
-    flex-grow: 1;    
-    background: var(--main-color);
-    margin-left: 0;
+  content: "";
+  height: 2px;
+  opacity: 0.4;
+  flex-grow: 1;    
+  background: var(--main-color);
+  margin-left: 0;
 }
 /*---------- Powercord Fixes ----------*/
 /*Updated 15/01/2021*/
