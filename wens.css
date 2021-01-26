@@ -55,16 +55,18 @@ Hello curious coder! This is the custom repository for my friend wens because he
   height: 2px;
   opacity: 0.4;
   flex-grow: 1;
-  background: var(--main-color);
+  background: linear-gradient(to left, var(--from-gradient-color),var(--to-gradient-color));
   margin-right: 0;
+  z-index: -1;
 }
 .divider-JfaTT5:after {
   content: "";
   height: 2px;
   opacity: 0.4;
   flex-grow: 1;    
-  background: var(--main-color);
+  background: linear-gradient(to left, var(--from-gradient-color),var(--to-gradient-color));
   margin-left: 0;
+  z-index: -1;
 }
 /*---------- Permissions Viewer Fix ----------*/
 /*Updated 05/01/2021*/
