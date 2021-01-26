@@ -61,8 +61,8 @@ made with the help of others.
   content: "";
   height: 2px;
   opacity: 0.4;
-  flex-grow: 1;    
-  background: linear-gradient(to left, var(--from-gradient-color),var(--to-gradient-color));
+  flex-grow: 1;
+  background: linear-gradient(to right, var(--from-gradient-color),var(--to-gradient-color));
   margin-left: 0;
   z-index: -1;
 }
