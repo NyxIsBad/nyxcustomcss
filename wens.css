@@ -478,15 +478,6 @@ Hello curious coder! This is the custom repository for my friend wens because he
 {
   background: linear-gradient(to right, var(--from-gradient-color)50%,transparent) !important;
 }
-/*---------- Emoji Thing ----------*/
-/*Updated 31/01/2021*/
-.base-1pYU8j {
-  transition: all 0.3s;
-}
-.base-1pYU8j:hover {
-  transition: all 0s;
-  transform: scale(1.01);
-}
 /*---------- FANCY CODE ----------*/
 /*Updated 05/09/2020*/
 /*Thank you gibbu*/
