@@ -94,16 +94,6 @@ made with the help of others.
 .powercord-snippet-apply:not(.applied) div:hover{
   background: rgba(0,0,0,.2) !important;
 }
-/*Role Colors Everywhere*/
-.topic-TCb_qw .wrapper-3WhCwL, .topic-TCb_qw .mention, .markup-2BOw-j .wrapper-3WhCwL, .markup-2BOw-j .mention{
-  padding: 1px 1.2px 1px 1.2px !important;
-}
-.rolecolor-mention span,
-.rolecolor-mention:hover span{
-  padding: 1px 4px 1px 4px !important;
-  border-radius: 5px !important;
-  transition: ease-in-out .2s !important;
-}
 /*---------- Permissions Viewer Fix ----------*/
 /*Updated 05/01/2021*/
 #permissions-modal-wrapper .callout-backdrop,
