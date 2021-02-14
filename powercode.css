@@ -422,17 +422,9 @@ made with the help of others.
 }
 /*---------- Color! ----------*/
 /*Updated 20/06/2020, thanks to cv discord for giving me the thing about changing server names*/
-/*Changes text color for when you're actually typing*/
-.textArea-12jD-V.slateContainer-3Qkn2x > .markup-2BOw-j{
-  color: var(--text-color) !important;
-}
-/*Changes various text colours*/
-.guildNameText-74xXQn{
-  color: var(--text-color) !important;
-} 
-.markupRtl-3M0hmN{
-  color: var(--text-color) !important;
-}
+.textArea-12jD-V.slateContainer-3Qkn2x > .markup-2BOw-j, /*Typing area*/
+.guildNameText-74xXQn, /*Server names on hover*/
+.markupRtl-3M0hmN,
 .messageContent-2qWWxC{
   color: var(--text-color) !important;
 }
