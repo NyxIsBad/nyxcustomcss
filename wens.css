@@ -15,6 +15,9 @@ Hello curious coder! This is the custom repository for my friend wens because he
   background: rgba(0,0,0,.2) !important;
   font: var(--main-font) !important;
 }
+.container-UC8Ug1:hover{
+  background: var(--hover-color) !important;
+}
 /*Personal fix after november update for replies*/	
 .channelTextArea-2VhZ6z .scrollableContainer-2NUZem{	
   background: rgba(0,0,0,.2) !important;	
@@ -195,15 +198,15 @@ Hello curious coder! This is the custom repository for my friend wens because he
 /*Updated 19/11/2020 thanks BD Server*/
 /* Hide Nitro Gift button */
 .buttons-3JBrkn > .button-38aScr{
-  display: none !important;
+  display: none;
 }
 /* Hide Home Nitro button */
 .privateChannels-1nO12o .channel-2QD9_O[href="/store"]{
-  display: none !important;
+  display: none;
 }
 /* Makes usernames/timestamps not selectable */
 .header-23xsNx{
-  user-select:none;
+  user-select: none;
 }
 /*---------- Top Bar ----------*/
 /*Updated 05/01/2021 a lot of code taken and then modified from gibbu & Tropical's Slate theme with permission*/
