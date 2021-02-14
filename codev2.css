@@ -392,7 +392,8 @@ made with the help of others.
 .textArea-12jD-V.slateContainer-3Qkn2x > .markup-2BOw-j, /*Typing area*/
 .guildNameText-74xXQn, /*Server names on hover*/
 .markupRtl-3M0hmN,
-.messageContent-2qWWxC{
+.messageContent-2qWWxC,
+.tooltipContent-bqVLWK{
   color: var(--text-color) !important;
 }
 /*
