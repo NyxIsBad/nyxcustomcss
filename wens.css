@@ -31,20 +31,6 @@ Hello curious coder! This is the custom repository for my friend wens because he
 .peopleListItem-2nzedh.active-rhSpJJ, .peopleListItem-2nzedh:hover{
   background: rgba(0,0,0,.2);
 }
-/*fixes role color*/
-.colorPickerSwatch-5GX3Ve.custom-2SJn4n{
-  margin-right: 10px;
-}
-/*fixes server folder color*/
-.colorPickerRow-1LgLnl{
-  margin-left: -10px;
-}
-.colorPickerSwatch-5GX3Ve{
-  margin-bottom: 10px;
-}
-.folder-21wGz3{
-  background: transparent !important;
-}
 /*Share Screen Modal by Addy*/
 .modalSize-cqUaws, .modalHeader-19eoYJ + div{
     width: 600px !important;
