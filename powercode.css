@@ -227,10 +227,6 @@ made with the help of others.
 } */ /*Changes DV Text Colors; if you think this is aids, comment it*/
 /*---------- Hide Things ----------*/
 /*Updated 19/11/2020 thanks BD Server*/
-/* Hide Nitro Gift button */
-.buttons-3JBrkn > .button-38aScr{
-  display: none;
-}
 /* Hide Home Nitro button */
 .privateChannels-1nO12o .channel-2QD9_O[href="/store"]{
   display: none;
