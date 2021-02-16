@@ -90,7 +90,8 @@ made with the help of others.
 }
 /*Alias*/
 .powercord-alias-textarea,
-.powercord-alias-pair{
+.powercord-alias-pair,
+.powercord-alias-example{
   background: rgba(0,0,0,.2) !important;
 }
 .powercord-alias-example,
@@ -423,7 +424,7 @@ made with the help of others.
   border: 2px solid var(--hover-ping-border-color);
 }
 /*---------- Color! ----------*/
-/*Updated 20/06/2020, thanks to cv discord for giving me the thing about changing server names*/
+/*Updated 14/02/2020*/
 .textArea-12jD-V.slateContainer-3Qkn2x > .markup-2BOw-j, /*Typing area*/
 .guildNameText-74xXQn, /*Server names on hover*/
 .markupRtl-3M0hmN,
