@@ -9,7 +9,7 @@ Hello curious coder! This is the custom repository for my friend wens because he
     color: var(--text-color) !important;
 }
 /*---------- CV Fixes ----------*/
-/*Updated 24/01/2021*/
+/*Updated 17/02/2021*/
 /*New Server Menu*/
 .container-UC8Ug1{
   background: rgba(0,0,0,.2) !important;
@@ -56,6 +56,11 @@ Hello curious coder! This is the custom repository for my friend wens because he
   background: linear-gradient(to right, var(--from-gradient-color),var(--to-gradient-color));
   margin-left: 0;
   z-index: -1;
+}
+/*Seach result tabs*/
+.tab-2j5AEF.selected-2LAck8{
+  background-image: linear-gradient(var(--gradient-rotation), var(--from-gradient-color),var(--to-gradient-color)) !important;
+  background-color: var(--main-color);
 }
 /*---------- Permissions Viewer Fix ----------*/
 /*Updated 05/01/2021*/
