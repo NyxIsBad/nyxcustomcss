@@ -42,7 +42,7 @@ made with the help of others.
   height: 2px;
   opacity: 0.4;
   flex-grow: 1;
-  background: linear-gradient(to left, var(--from-gradient-color),var(--to-gradient-color));
+  background: linear-gradient(to left, var(--from-gradient-color), var(--to-gradient-color));
   margin-right: 0;
   z-index: -1;
 }
@@ -51,7 +51,7 @@ made with the help of others.
   height: 2px;
   opacity: 0.4;
   flex-grow: 1;
-  background: linear-gradient(to right, var(--from-gradient-color),var(--to-gradient-color));
+  background: linear-gradient(to right, var(--from-gradient-color), var(--to-gradient-color));
   margin-left: 0;
   z-index: -1;
 }
@@ -447,10 +447,10 @@ made with the help of others.
 .message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z, 
 .mouse-mode.full-motion .mentioned-xhSam7:hover{
   border: 2px solid var(--ping-border-color);
-  background-image: linear-gradient(var(--gradient-rotation), var(--ping-gradient-color),var(--ping-fill-color)) !important;
+  background-image: linear-gradient(var(--gradient-rotation), var(--ping-gradient-color), var(--ping-fill-color)) !important;
 }
 .mouse-mode.full-motion .mentioned-xhSam7:hover{
-  background-image: linear-gradient(var(--gradient-rotation), var(--hover-gradient-color),var(--hover-ping-fill-color)) !important;
+  background-image: linear-gradient(var(--gradient-rotation), var(--hover-gradient-color), var(--hover-ping-fill-color)) !important;
   border: 2px solid var(--hover-ping-border-color);
 }
 /*---------- Color! ----------*/
@@ -507,7 +507,6 @@ made with the help of others.
 .lookInverted-2D7oAl, .lookInverted-2D7oAl.colorBrand-3pXr91, .lookInverted-2D7oAl.colorGreen-29iAKY, /* more buttons */
 .newMessagesBar-265mhP:before, /* new message bar */
 .jumpToPresentBar-G1R9s6:hover, /* jump to present bar */
-
 .privateChannels-1nO12o .channel-2QD9_O.selected-aXhQR6 .layout-2DM8Md:after,
 .popout-103y-5 .tag-2gHSR7,
 .tab-2j5AEF.selected-2LAck8:after,
@@ -515,10 +514,9 @@ made with the help of others.
 .appMount-3lHmkl .lookFilled-1Gx00P.colorGreen-29iAKY,
 .appMount-3lHmkl .lookFilled-1Gx00P.colorBrand-3pXr91,
 .appMount-3lHmkl .lookFilled-1Gx00P.colorPrimary-3b3xI6,
-
 .acronym-2mOFsV,.acronym-2mOFsV:hover,
-.circleIconButton-jET_ig:hover, .circleIconButton-jET_ig.selected-	, 
-.modeSelected-346R90 .content-1x5b-n
+.circleIconButton-jET_ig:hover, .circleIconButton-jET_ig.selected-ugP_am, 
+.modeSelected-346R90 .content-1x5b-n,
 .wrapper-2jXpOf.modeSelected-346R90 .content-1x5b-n:after,
 .container-1r6BKw .topPill-30KHOu .item-PXvHYJ.selected-3s45Ha.themed-OHr7kt,
 .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha,
@@ -532,20 +530,20 @@ made with the help of others.
 .unread-1xRYoj:active, .unread-1xRYoj:hover, /*New Unreads bar*/
 .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha:after, .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ[style*="color: rgb(255, 255, 255)"]:after /* selected things */
 {
-  background-image: linear-gradient(var(--gradient-rotation), var(--from-gradient-color),var(--to-gradient-color)) !important;
+  background-image: linear-gradient(var(--gradient-rotation), var(--from-gradient-color),v ar(--to-gradient-color)) !important;
   background-color: var(--main-color);
 } 
 /*Some BD things*/
 #bd-settings-sidebar .ui-tab-bar-item.selected,
 .bd-addon-list .bd-card-footer button,.bd-pfbtn,.bd-pfbtn,.bd-select .bd-select-option.selected,.standardSidebarView-3F1I7i #editor-detached button{
-  background-image: linear-gradient(var(--gradient-rotation), var(--from-gradient-color),var(--to-gradient-color)) !important;
+  background-image: linear-gradient(var(--gradient-rotation), var(--from-gradient-color), var(--to-gradient-color)) !important;
   background-color: var(--main-color);
 } 
 .members-1998pB .membersGroup-v9BXpm,
 .sidebar-2K8pFh .containerDefault-3tr_sE .wrapper-PY0fhH .name-3l27Hl .overflow-WK9Ogt, /*Thx Addy*/
 .headerText-2F0828, .discoverHeader-1TWTqG
 {
-  background-image: linear-gradient(var(--gradient-rotation), var(--from-gradient-color),var(--to-gradient-color)) !important;
+  background-image: linear-gradient(var(--gradient-rotation), var(--from-gradient-color), var(--to-gradient-color)) !important;
   -webkit-background-clip: text;
   color:transparent;
 }
@@ -554,24 +552,24 @@ made with the help of others.
 .privateChannelsHeaderContainer-3NB1K1:before,
 .discoverHeader-1TWTqG:before
 {
-  background: linear-gradient(to left, var(--from-gradient-color)50%,transparent) !important;
+  background: linear-gradient(to left, var(--from-gradient-color) 50%, transparent) !important;
 }
 .members-1998pB .membersGroup-v9BXpm:after,
 .name-3l27Hl:after,
 .privateChannelsHeaderContainer-3NB1K1:after,
 .discoverHeader-1TWTqG:after
 {
-  background: linear-gradient(to right, var(--from-gradient-color)50%,transparent) !important;
+  background: linear-gradient(to right, var(--from-gradient-color) 50%, transparent) !important;
 }
 /*---------- FANCY CODE ----------*/
 /*Updated 05/09/2020*/
 /*Thank you gibbu*/
 #app-mount code{
-  background-color: rgba(36, 41, 46,.5) !important;
+  background-color: rgba(36, 41, 46, .5) !important;
 }
 #app-mount pre code,
 #app-mount pre{
-  background: rgba(0,0,0,0.1) !important;
+  background: rgba(0, 0, 0, 0.1) !important;
 }
 #app-mount pre code .hljs-built_in,
 #app-mount pre code .hljs-doctag,
