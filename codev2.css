@@ -182,7 +182,7 @@ made with the help of others.
 /*
 .dv-time,.dv-weekday,#dv-main .dv-date,.layer-v9HyYc{
   color: var(--text-color) !important;
-} */ /*Changes DV Text Colors; if you think this is aids, comment it*/
+}*/ /*Changes DV Text Colors; if you think this is aids, comment it*/
 /*---------- Hide Things ----------*/
 /*Updated 19/11/2020 thanks BD Server*/
 /* Hide Home Nitro button */
@@ -418,7 +418,7 @@ made with the help of others.
 }
 .containerDefault-1ZnADq .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU .icon-1_QxNX{
   color: var(--text-color);
-} */
+}*/
 /*---------- Glow ----------*/
 /*Updated 06/01/2021*/
 .childWrapper-anI2G9:hover,
@@ -488,7 +488,7 @@ made with the help of others.
 .bd-addon-list .bd-card-footer button,.bd-pfbtn,.bd-pfbtn,.bd-select .bd-select-option.selected,.standardSidebarView-3F1I7i #editor-detached button{
   background-image: linear-gradient(var(--gradient-rotation), var(--from-gradient-color), var(--to-gradient-color)) !important;
   background-color: var(--main-color);
-} 
+}
 .members-1998pB .membersGroup-v9BXpm,
 .sidebar-2K8pFh .containerDefault-3tr_sE .wrapper-PY0fhH .name-3l27Hl .overflow-WK9Ogt, /*Thx Addy*/
 .headerText-2F0828, .discoverHeader-1TWTqG
