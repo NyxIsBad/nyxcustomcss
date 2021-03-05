@@ -135,7 +135,7 @@ Hello curious coder! This is the custom repository for my friend wens because he
 .channelTabs-tabName,
 .channelTabs-tabIcon ~ .channelTabs-tabName,
 .channelTabs-favIcon ~ .channelTabs-favName{
-  font: var(--main-font ) !important;
+  font: var(--main-font) !important;
   font-weight: 600 !important;
   font-size: 14px !important;
   color: var(--text-color) !important;
