@@ -31,7 +31,7 @@ made with the help of others.
 }
 /*Share Screen Modal by Addy*/
 .modalSize-cqUaws, .modalHeader-19eoYJ + div{
-    width: 600px !important;
+  width: 600px !important;
 }
 /*Message Date Appearance Style by Addy*/
 .divider-JfaTT5 {
@@ -50,7 +50,7 @@ made with the help of others.
   content: "";
   height: 2px;
   opacity: 0.4;
-  flex-grow: 1;    
+  flex-grow: 1;
   background: linear-gradient(to right, var(--from-gradient-color), var(--to-gradient-color));
   margin-left: 0;
   z-index: -1;
