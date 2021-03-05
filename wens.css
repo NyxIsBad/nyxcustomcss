@@ -184,7 +184,7 @@ Hello curious coder! This is the custom repository for my friend wens because he
 /*
 .dv-time,.dv-weekday,#dv-main .dv-date,.layer-v9HyYc{
   color: var(--text-color) !important;
-} */ /*Changes DV Text Colors; if you think this is aids, comment it*/
+}*/ /*Changes DV Text Colors; if you think this is aids, comment it*/
 /*---------- Hide Things ----------*/
 /*Updated 19/11/2020 thanks BD Server*/
 /* Hide Home Nitro button */
@@ -390,7 +390,7 @@ Hello curious coder! This is the custom repository for my friend wens because he
 }
 .containerDefault-1ZnADq .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU .icon-1_QxNX{
   color: var(--text-color);
-} */
+}*/
 /*---------- Glow ----------*/
 /*Updated 06/01/2021*/
 .childWrapper-anI2G9:hover,
@@ -454,13 +454,13 @@ Hello curious coder! This is the custom repository for my friend wens because he
 {
   background-image: linear-gradient(var(--gradient-rotation), var(--from-gradient-color), var(--to-gradient-color)) !important;
   background-color: var(--main-color);
-} 
+}
 /*Some BD things*/
 #bd-settings-sidebar .ui-tab-bar-item.selected,
 .bd-addon-list .bd-card-footer button,.bd-pfbtn,.bd-pfbtn,.bd-select .bd-select-option.selected,.standardSidebarView-3F1I7i #editor-detached button{
   background-image: linear-gradient(var(--gradient-rotation), var(--from-gradient-color), var(--to-gradient-color)) !important;
   background-color: var(--main-color);
-} 
+}
 .members-1998pB .membersGroup-v9BXpm,
 .sidebar-2K8pFh .containerDefault-3tr_sE .wrapper-PY0fhH .name-3l27Hl .overflow-WK9Ogt, /*Thx Addy*/
 .headerText-2F0828, .discoverHeader-1TWTqG
