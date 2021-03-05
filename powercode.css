@@ -10,7 +10,7 @@ made with the help of others.
 /*Updated 17/02/2021*/
 /*New Server Menu*/
 .container-UC8Ug1{
-  background: rgba(0,0,0,.2) !important;
+  background: rgba(0, 0, 0, .2) !important;
   font: var(--main-font) !important;
 }
 .container-UC8Ug1:hover{
@@ -18,16 +18,16 @@ made with the help of others.
 }
 /*Personal fix after november update for replies*/	
 .channelTextArea-2VhZ6z .scrollableContainer-2NUZem{	
-  background: rgba(0,0,0,.2) !important;	
+  background: rgba(0, 0, 0, .2) !important;	
 }	
 .container-2fRDfG{	
-  background: rgba(0,0,0,.2) !important;	
+  background: rgba(0, 0, 0, .2) !important;	
   border-bottom: 1px dashed var(--main-color);	
 }
 /*Fixes buttons not being themed*/
 .button-1ZiXG9:hover,
 .peopleListItem-2nzedh.active-rhSpJJ, .peopleListItem-2nzedh:hover{
-  background: rgba(0,0,0,.2);
+  background: rgba(0, 0, 0, .2);
 }
 /*Share Screen Modal by Addy*/
 .modalSize-cqUaws, .modalHeader-19eoYJ + div{
@@ -57,14 +57,14 @@ made with the help of others.
 }
 /*Seach result tabs*/
 .tab-2j5AEF.selected-2LAck8{
-  background-image: linear-gradient(var(--gradient-rotation), var(--from-gradient-color),var(--to-gradient-color)) !important;
+  background-image: linear-gradient(var(--gradient-rotation), var(--from-gradient-color), var(--to-gradient-color)) !important;
   background-color: var(--main-color);
 }
 /*---------- Powercord Fixes ----------*/
 /*Updated 17/02/2021*/
 /*Settings*/
 .powercord-entities-manage-tabs{
-  background-color: rgba(0,0,0,.2) !important;
+  background-color: rgba(0, 0, 0, .2) !important;
 }
 /*PronounDB*/
 .userPopout-3XzG_A .note-3HfJZ5{
@@ -72,7 +72,7 @@ made with the help of others.
 }
 /*Quoter plugin*/
 .quoteMessages{
-  background: rgba(0,0,0,.2) !important;
+  background: rgba(0, 0, 0, .2) !important;
 }
 .blockquoteContainer-U5TVEi blockquote{
   color: var(--text-color);
@@ -91,13 +91,13 @@ made with the help of others.
 .PluginDownloaderApply:not(.applied) div:hover,
 .ThemeDownloaderApply:not(.applied) div:hover,
 .powercord-snippet-apply:not(.applied) div:hover{
-  background: rgba(0,0,0,.2) !important;
+  background: rgba(0, 0, 0, .2) !important;
 }
 /*Alias*/
 .powercord-alias-textarea,
 .powercord-alias-pair,
 .powercord-alias-example{
-  background: rgba(0,0,0,.2) !important;
+  background: rgba(0, 0, 0, .2) !important;
 }
 .powercord-alias-example,
 .powercord-alias-header,
@@ -119,16 +119,16 @@ made with the help of others.
 .theme-light #permissions-modal-wrapper #permissions-modal,
 .theme-dark #permissions-modal-wrapper #permissions-modal
 {
-  background: rgba(0,0,0,.2) !important;
+  background: rgba(0, 0, 0, .2) !important;
 }
 #permissions-modal-wrapper .header
 {
-  background: rgba(0,0,0,.4) !important;
+  background: rgba(0, 0, 0, .4) !important;
   border-bottom: 2px solid var(--main-color) !important;
 }
 #permissions-modal-wrapper .role-item.selected
 {
-  background: rgba(0,0,0,.6) !important;
+  background: rgba(0, 0, 0, .6) !important;
   border: 2px solid var(--main-color) !important;
 }
 #permissions-modal-wrapper .role-item
@@ -145,29 +145,29 @@ made with the help of others.
 .bf-toolbar.bf-hover:hover:before,
 .bf-toolbar.bf-visible:before,
 .bf-toolbar:before{
-  background: rgba(0,0,0,.2) !important;
+  background: rgba(0, 0, 0, .2) !important;
 }
 /*---------- Channel Tabs Fix ----------*/
 /*Updated 05/11/2020*/
 /*Fixing unthemed tabs*/
 .channelTabs-tab{
-  background: rgba(0,0,0,.2) !important;
+  background: rgba(0, 0, 0, .2) !important;
   border-radius: 0px !important;
 }
 .channelTabs-tabContainer{
   background: transparent !important;
 }
 .channelTabs-tab:hover{
-  background: rgba(0,0,0,.3) !important;
+  background: rgba(0, 0, 0, .3) !important;
 }
 .channelTabs-selected:hover,
 .channelTabs-fav:hover{
-  background: rgba(0,0,0,.5) !important;
+  background: rgba(0, 0, 0, .5) !important;
 }
 .channelTabs-selected,
 .channelTabs-fav,
 .channelTabs-favContainer{
-  background: rgba(0,0,0,.4) !important;
+  background: rgba(0, 0, 0, .4) !important;
 }
 /*Squaring icon*/
 .channelTabs-tabIcon,
@@ -183,7 +183,7 @@ made with the help of others.
 .channelTabs-tabName,
 .channelTabs-tabIcon ~ .channelTabs-tabName,
 .channelTabs-favIcon ~ .channelTabs-favName{
-  font: var(--main-font ) !important;
+  font: var(--main-font) !important;
   font-weight: 600 !important;
   font-size: 14px !important;
   color: var(--text-color) !important;
@@ -226,7 +226,7 @@ made with the help of others.
 /*Updated 31/08/2020 or something*/
 /*Make the DateViewer plugin background transparent*/
 #dv-mount{
-  background: rgba(0,0,0,.2);
+  background: rgba(0, 0, 0, .2);
   font: var(--main-font);
 }
 /*
@@ -389,7 +389,7 @@ made with the help of others.
   width: 35px !important;
   height: 35px !important;*/
   border-radius: var(--square-border-radius) !important;
-  background-size: cover!important;
+  background-size: cover !important;
 }
 /*Square vc pfp*/
 [class*="avatar"],
@@ -416,18 +416,18 @@ made with the help of others.
 /*A border for user profiles, popouts*/
 .theme-dark .headerNormal-T_seeN,
 .theme-dark .topSectionNormal-2-vo2m{
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0, 0, 0, 0.4);
   border: 2px solid var(--main-color);
 }
 /*Hotfix after update because fuck discord, its still broken in user profiles but whatever*/
 .headerTop-3C2Zn0{
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0, 0, 0, 0.4);
   border-left: 2px solid var(--main-color);
   border-right: 2px solid var(--main-color);
   border-top: 2px solid var(--main-color);
 }
 .activity-11LB_k{
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0, 0, 0, 0.4);
   border-left: 2px solid var(--main-color);
   border-right: 2px solid var(--main-color);
   border-bottom: 2px solid var(--main-color);
@@ -530,7 +530,7 @@ made with the help of others.
 .unread-1xRYoj:active, .unread-1xRYoj:hover, /*New Unreads bar*/
 .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha:after, .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ[style*="color: rgb(255, 255, 255)"]:after /* selected things */
 {
-  background-image: linear-gradient(var(--gradient-rotation), var(--from-gradient-color),v ar(--to-gradient-color)) !important;
+  background-image: linear-gradient(var(--gradient-rotation), var(--from-gradient-color), var(--to-gradient-color)) !important;
   background-color: var(--main-color);
 } 
 /*Some BD things*/
