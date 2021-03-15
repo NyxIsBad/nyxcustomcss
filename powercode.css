@@ -497,7 +497,7 @@ made with the help of others.
   border-radius: var(--circle-border-radius) !important;
 }
 /*---------- Gradients ----------*/
-/*Updated 06/03/2021, Huge thanks to leafy and leo*/
+/*Updated 15/03/2021, Huge thanks to leafy and leo*/
 .theme-dark .footer-2gL1pp .button-38aScr,
 .lookFilled-1Gx00P.colorGrey-2DXtkV,
 .categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG, /* discover tab */
@@ -528,9 +528,11 @@ made with the help of others.
 .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc,
 .theme-dark .memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover,
 .unread-1xRYoj:active, .unread-1xRYoj:hover, /*New Unreads bar*/
-.standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha:after, .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ[style*="color: rgb(255, 255, 255)"]:after /* selected things */
+.standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha:after, .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ[style*="color: rgb(255, 255, 255)"]:after, /* selected things */
+.item-26Dhrx[aria-checked=true] .radioBar-bMNUI-, /*Voice Settings: Input Mode*/
+.lookGhost-2Fn_0-.colorGrey-2DXtkV /*Voice Settings: Shortcut bind*/
 {
-  background-image: linear-gradient(var(--gradient-rotation), var(--from-gradient-color), var(--to-gradient-color)) !important;
+  background-image: linear-gradient(var(--gradient-rotation), var(--from-gradient-color),var(--to-gradient-color)) !important;
   background-color: var(--main-color);
 }
 /*Some BD things*/
@@ -541,38 +543,29 @@ made with the help of others.
 }
 .members-1998pB .membersGroup-v9BXpm,
 .sidebar-2K8pFh .containerDefault-3tr_sE .wrapper-PY0fhH .name-3l27Hl .overflow-WK9Ogt, /*Thx Addy*/
-.headerText-2F0828, .discoverHeader-1TWTqG
+.headerText-2F0828, .discoverHeader-1TWTqG,
+.header-2RyJ0Y
 {
   background-image: linear-gradient(var(--gradient-rotation), var(--from-gradient-color), var(--to-gradient-color)) !important;
   -webkit-background-clip: text;
-  color:transparent;
+  color: transparent !important;
 }
 .members-1998pB .membersGroup-v9BXpm:before,
 .name-3l27Hl:before,
 .privateChannelsHeaderContainer-3NB1K1:before,
 .discoverHeader-1TWTqG:before
+.sidebar-CFHs9e .header-2RyJ0Y:before /*Settings bars*/
 {
-  background: linear-gradient(to left, var(--from-gradient-color) 50%, transparent) !important;
+  background: linear-gradient(to left, var(--from-gradient-color) 50%,transparent) !important;
 }
 .members-1998pB .membersGroup-v9BXpm:after,
 .name-3l27Hl:after,
 .privateChannelsHeaderContainer-3NB1K1:after,
 .discoverHeader-1TWTqG:after
+.sidebar-CFHs9e .header-2RyJ0Y:after /*Settings bars*/
 {
-  background: linear-gradient(to right, var(--from-gradient-color) 50%, transparent) !important;
+  background: linear-gradient(to right, var(--from-gradient-color) 50%,transparent) !important;
 }
-/*---------- FANCY CODE ----------*/
-/*Updated 05/09/2020*/
-/*Thank you gibbu*/
-#app-mount code{
-  background-color: rgba(36, 41, 46, .5) !important;
-}
-#app-mount pre code,
-#app-mount pre{
-  background: rgba(0, 0, 0, 0.1) !important;
-}
-#app-mount pre code .hljs-built_in,
-#app-mount pre code .hljs-doctag,
 #app-mount pre code .hljs-literal,
 #app-mount pre code .hljs-meta .hljs-meta-string,
 #app-mount pre code .hljs-number,
