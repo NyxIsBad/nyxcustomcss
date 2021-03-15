@@ -553,7 +553,7 @@ made with the help of others.
 .members-1998pB .membersGroup-v9BXpm:before,
 .name-3l27Hl:before,
 .privateChannelsHeaderContainer-3NB1K1:before,
-.discoverHeader-1TWTqG:before
+.discoverHeader-1TWTqG:before,
 .sidebar-CFHs9e .header-2RyJ0Y:before /*Settings bars*/
 {
   background: linear-gradient(to left, var(--from-gradient-color) 50%,transparent) !important;
@@ -561,7 +561,7 @@ made with the help of others.
 .members-1998pB .membersGroup-v9BXpm:after,
 .name-3l27Hl:after,
 .privateChannelsHeaderContainer-3NB1K1:after,
-.discoverHeader-1TWTqG:after
+.discoverHeader-1TWTqG:after,
 .sidebar-CFHs9e .header-2RyJ0Y:after /*Settings bars*/
 {
   background: linear-gradient(to right, var(--from-gradient-color) 50%,transparent) !important;
