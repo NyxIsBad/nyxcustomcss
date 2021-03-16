@@ -110,9 +110,19 @@ made with the help of others.
 .powercord-alias-textarea{
   height: 190px !important;
 }
-/*Shiki plugin background removal if you use it*/
+/*Shiki code blocks*/
 .vpc-shiki{ 
   background: rgba(0,0,0,0.2) !important;
+}
+.vpc-shiki-copy-btn{
+  background-color: var(--main-color) !important;
+  border-radius: 4px !important;
+  right: 4px !important;
+  bottom: 4px !important;
+}
+.vpc-shiki-copy-btn:hover{
+  background-color: var(--hover-color) !important;
+  transition: ease-in-out .2s;
 }
 /*---------- Permissions Viewer Fix ----------*/
 /*Updated 05/01/2021*/
