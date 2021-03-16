@@ -110,6 +110,10 @@ made with the help of others.
 .powercord-alias-textarea{
   height: 190px !important;
 }
+/*Shiki plugin background removal if you use it*/
+.vpc-shiki{ 
+  background: rgba(0,0,0,0.2) !important;
+}
 /*---------- Permissions Viewer Fix ----------*/
 /*Updated 05/01/2021*/
 #permissions-modal-wrapper .callout-backdrop,
@@ -556,7 +560,7 @@ made with the help of others.
 .discoverHeader-1TWTqG:before,
 .sidebar-CFHs9e .header-2RyJ0Y:before /*Settings bars*/
 {
-  background: linear-gradient(to left, var(--from-gradient-color) 50%,transparent) !important;
+  background: linear-gradient(to left, var(--from-gradient-color) 50%, transparent) !important;
 }
 .members-1998pB .membersGroup-v9BXpm:after,
 .name-3l27Hl:after,
@@ -564,8 +568,20 @@ made with the help of others.
 .discoverHeader-1TWTqG:after,
 .sidebar-CFHs9e .header-2RyJ0Y:after /*Settings bars*/
 {
-  background: linear-gradient(to right, var(--from-gradient-color) 50%,transparent) !important;
+  background: linear-gradient(to right, var(--from-gradient-color) 50%, transparent) !important;
 }
+/*---------- FANCY CODE ----------*/
+/*Updated 05/09/2020*/
+/*Thank you gibbu*/
+#app-mount code{
+  background-color: rgba(36, 41, 46, .5) !important;
+}
+#app-mount pre code,
+#app-mount pre{
+  background: rgba(0, 0, 0, 0.1) !important;
+}
+#app-mount pre code .hljs-built_in,
+#app-mount pre code .hljs-doctag,
 #app-mount pre code .hljs-literal,
 #app-mount pre code .hljs-meta .hljs-meta-string,
 #app-mount pre code .hljs-number,
