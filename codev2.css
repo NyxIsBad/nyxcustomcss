@@ -519,6 +519,9 @@ made with the help of others.
 /*---------- FANCY CODE ----------*/
 /*Updated 05/09/2020*/
 /*Thank you gibbu*/
+.markup-2BOw-j pre{
+  max-width: 100%;
+}
 #app-mount code,
 #app-mount pre{
   font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -528,7 +531,7 @@ made with the help of others.
 }
 #app-mount pre{
   margin: 10px 0;
-  background: rgba(0, 0, 0, .1) !important;
+  background: transparent !important;
   position: relative;
   overflow: hidden;
   margin-bottom: 5px;
