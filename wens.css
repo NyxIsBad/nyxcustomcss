@@ -491,6 +491,9 @@ Hello curious coder! This is the custom repository for my friend wens because he
 /*---------- FANCY CODE ----------*/
 /*Updated 05/09/2020*/
 /*Thank you gibbu*/
+.markup-2BOw-j pre{
+  max-width: 100%;
+}
 #app-mount code,
 #app-mount pre{
   font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -500,7 +503,7 @@ Hello curious coder! This is the custom repository for my friend wens because he
 }
 #app-mount pre{
   margin: 10px 0;
-  background: rgba(0, 0, 0, .1) !important;
+  background: transparent !important;
   position: relative;
   overflow: hidden;
   margin-bottom: 5px;
