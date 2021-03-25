@@ -62,6 +62,117 @@ Hello curious coder! This is the custom repository for my friend wens because he
   background-image: linear-gradient(var(--gradient-rotation), var(--from-gradient-color), var(--to-gradient-color)) !important;
   background-color: var(--main-color);
 }
+/*Temporary fix for clearvision for the 2021-03-24 rerolls by Nyx*/
+/*2021-03-24 rerolls*/
+.scroller-1Bvpku {
+  background: transparent;
+}
+.expandedGuilds-1JMD4M > .listItem-GuPuDH {
+  -webkit-animation: cv-fade-in 0.3s ease-in-out;
+  animation: cv-fade-in 0.3s ease-in-out;
+}
+.guildSeparator-33mFX6 {
+  background: rgba(255,255,255,0.1);
+}
+.layer-3QrUeG .wrapper-3NnKdC {
+  background-color: transparent;
+}
+.platform-osx .wrapper-3NnKdC {
+  margin-top: 0;
+  padding-top: 48px;
+}
+.platform-osx .wrapper-3NnKdC:before {
+  content: "";
+  height: 48px;
+  margin-top: -48px;
+  background-color: rgba(0,0,0,0.3);
+}
+.wrapper-3NnKdC {
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, calc(var(--background-shading) * .3));
+}
+.circleIconButton-1QV--U {
+  background: rgba(0,0,0,0.3);
+  color: rgba(255,255,255,0.3);
+  transition: all 0.3s ease-in-out;
+}
+.circleIconButton-1QV--U.selected-1JjBPm,
+.circleIconButton-1QV--U:hover {
+  background: var(--main-color);
+  color: #fff;
+}
+.homeIcon-FuNwkv {
+    width: 100%;
+    height: 100%;
+    background: var(--home-icon) var(--home-position)/var(--home-size) no-repeat;
+}
+.homeIcon-FuNwkv > path {
+    display: none;
+}
+.guildsError-g6NwOI {
+    background: rgba(0,0,0,0.5);
+    border: 2px solid var(--danger-color);
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+.guildsError-g6NwOI:hover {
+    background: var(--danger-color);
+    border-color: var(--danger-color);
+}
+.expandedGuilds-1JMD4M > .listItem-GuPuDH {
+    -webkit-animation: cv-fade-in 0.3s ease-in-out;
+    animation: cv-fade-in 0.3s ease-in-out;
+}
+.dragInner-Oq_toX {
+    background: rgba(255,255,255,0.1);
+}
+.iconBadge-3qSJIw {
+    background: rgba(255,255,255,0.07);
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.07);
+}
+.iconBadge-3qSJIw.participating-1NvRVd {
+    background-color: var(--backdrop-overlay);
+}
+.container-1eFT6O {
+    background-color: var(--backdrop-overlay);
+}
+.role-2-tni0:hover {
+    background-color: rgba(255,255,255,0.1);
+}
+.iconContainer-2SYmeK.checked-1Gs3_E {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+.notice-18685F {
+    background-color: var(--main-color);
+}
+.wrapper-3Njo_c .expandedFolderBackground-1cujaW {
+    background: rgba(255,255,255,0.04);
+    border-radius: 16px 16px 24px 24px;
+    transition: background-color 0.3s ease-in-out;
+}
+.wrapper-3Njo_c .expandedFolderBackground-1cujaW.collapsed-2ZrjoL {
+    background: transparent;
+}
+.folder-1hbNCn {
+    background: rgba(255,255,255,0.07);
+    transition: all 0.3s ease-in-out;
+}
+.folder-1hbNCn.hover-qTxTR {
+    background: rgba(255,255,255,0.1);
+}
+ul.tree-2wKJdG {
+    outline: none;
+}
+.scroller-1Bvpku {
+    background: transparent;
+}
+/*Also from rerolls, server folder transparency*/
+.folder-1hbNCn,.folder-1hbNCn:hover,.expandedFolderIconWrapper-Huv7rA,.expandedFolderIconWrapper-Huv7rA:hover{
+  background: transparent;
+}
+.expandedFolderBackground-1cujaW{
+  background: rgba(0,0,0,.2);
+}
 /*---------- Permissions Viewer Fix ----------*/
 /*Updated 05/01/2021*/
 #permissions-modal-wrapper .callout-backdrop,
@@ -378,7 +489,7 @@ Hello curious coder! This is the custom repository for my friend wens because he
 /*Updated 14/02/2021*/
 /*Changes text color for when you're actually typing*/
 .textArea-12jD-V.slateContainer-3Qkn2x > .markup-2BOw-j, /*Typing area*/
-.guildNameText-74xXQn, /*Server names on hover*/
+.guildNameText-3Zwx4p, /*Server names on hover*/
 .markupRtl-3M0hmN,
 .messageContent-2qWWxC,
 .tooltipContent-bqVLWK{
@@ -398,8 +509,8 @@ Hello curious coder! This is the custom repository for my friend wens because he
   background: transparent !important;
 }
 /*Glow on hovering a server*/
-.blobContainer-239gwq:hover,
-.homeIcon-tEMBK1:hover{
+.blobContainer-pmnxKB:hover,
+.homeIcon-FuNwkv:hover{
   box-shadow: 0 0 30px 0 var(--main-color);
   border-radius: var(--circle-border-radius);
   /*transition: box-shadow 200ms;*/ /*this results in some visual glitch when you hover the selected channel*/
@@ -415,7 +526,7 @@ Hello curious coder! This is the custom repository for my friend wens because he
   mask:none;
   overflow:visible;
 }
-.acronym-2mOFsV,.icon-27yU2q:not(:hover),.homeIcon-tEMBK1,.circleIconButton-jET_ig{/*Force Circular Servers on Hover*/
+.acronym-2mOFsV,.icon-27yU2q:not(:hover),.homeIcon-FuNwkv,.circleIconButton-1QV--U{/*Force Circular Servers on Hover*/
   border-radius: var(--circle-border-radius) !important;
 }
 /*---------- Gradients ----------*/
@@ -437,7 +548,7 @@ Hello curious coder! This is the custom repository for my friend wens because he
 .appMount-3lHmkl .lookFilled-1Gx00P.colorBrand-3pXr91,
 .appMount-3lHmkl .lookFilled-1Gx00P.colorPrimary-3b3xI6,
 .acronym-2mOFsV,.acronym-2mOFsV:hover,
-.circleIconButton-jET_ig:hover, .circleIconButton-jET_ig.selected-ugP_am, 
+.circleIconButton-1QV--U:hover, .circleIconButton-1QV--U.selected-1JjBPm, 
 .modeSelected-346R90 .content-1x5b-n,
 .wrapper-2jXpOf.modeSelected-346R90 .content-1x5b-n:after,
 .container-1r6BKw .topPill-30KHOu .item-PXvHYJ.selected-3s45Ha.themed-OHr7kt,
