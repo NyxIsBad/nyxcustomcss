@@ -17,7 +17,7 @@ made with the help of others.
 .channelTextArea-2VhZ6z .scrollableContainer-2NUZem{
   background: rgba(0,0,0,.2) !important;
 }
-.container-2fRDfG{
+.container-2fRDfG{/*When replying*/
   background: rgba(0,0,0,.2) !important;
   border-bottom: 1px dashed var(--main-color);
 }
@@ -47,11 +47,6 @@ made with the help of others.
   margin-left: 0;
   z-index: -1;
 }
-/*Seach result tabs*/
-.tab-2j5AEF.selected-2LAck8{
-  background-image: linear-gradient(20deg,red,green)) !important;
-  background-color: var(--main-color);
-}
 /*Temporary fix for clearvision for the 2021-03-24 rerolls by Nyx*/
 /*2021-03-24 rerolls*/
 .footer-1kmXd4,/*No pins on server fix*/
@@ -74,7 +69,7 @@ made with the help of others.
   background: transparent;
 }
 /*---------- Permissions Viewer Fix ----------*/
-/*Updated 05/01/2021*/
+/*Updated 2021-01-05*/
 #permissions-modal-wrapper .callout-backdrop,
 #permissions-modal-wrapper .role-side,
 #permissions-modal-wrapper .perm-side,
@@ -103,7 +98,7 @@ made with the help of others.
   background-color: var(--main-color) !important;
 }
 /*---------- Better Formatting Fix ----------*/
-/*Updated 28/10/2020*/
+/*Updated 2020-10-28*/
 /*Lazy blanket that makes entire thing transparent*/
 .bf-toolbar.bf-hover:hover:before,
 .bf-toolbar.bf-visible:before,
@@ -111,7 +106,7 @@ made with the help of others.
   background: rgba(0,0,0,.2) !important;
 }
 /*---------- Channel Tabs Fix ----------*/
-/*Updated 05/11/2020*/
+/*Updated 2020-11-05*/
 /*Fixing unthemed tabs*/
 .channelTabs-tab{
   background: rgba(0,0,0,.2) !important;
@@ -186,7 +181,7 @@ made with the help of others.
   font: var(--main-font) !important;
 }
 /*---------- DateViewer ----------*/
-/*Updated 31/08/2020 or something*/
+/*Updated 2020-08-31*/
 /*Make the DateViewer plugin background transparent*/
 #dv-mount{
   background: rgba(0,0,0,.2);
@@ -197,7 +192,7 @@ made with the help of others.
   color: var(--text-color) !important;
 }*/ /*Changes DV Text Colors; if you think this is aids,comment it*/
 /*---------- Hide Things ----------*/
-/*Updated 19/11/2020 thanks BD Server*/
+/*Updated 2021-11-19 thanks BD Server*/
 /* Hide Home Nitro button */
 .privateChannels-1nO12o .channel-2QD9_O[href="/store"]{
   display: none;
@@ -207,7 +202,7 @@ made with the help of others.
   user-select: none;
 }
 /*---------- Top Bar ----------*/
-/*Updated 05/01/2021,a lot of code taken and then modified from gibbu & Tropical's Slate theme with permission*/
+/*Updated 2021-01-05,a lot of code taken and then modified from gibbu & Tropical's Slate theme with permission*/
 /*Delete a lot of stuff in dms*/
 .container-1r6BKw .children-19S4PO .nicknames-1XK4Zt{
   display: none !important;
@@ -294,7 +289,7 @@ made with the help of others.
   margin-top: 3px;
 }
 /*---------- Usernames and Spacing ----------*/
-/*Updated 05/09/2020*/
+/*Updated 2021-02-03*/
 /*Smaller usernames*/
 .username-1A8OIy{
   font-size: 15px !important;
@@ -320,7 +315,7 @@ made with the help of others.
   transform: translateY(-1px);
 }
 /*---------- NSFW Tag ----------*/
-/*Updated 23/02/2021*/
+/*Updated 2021-02-23*/
 [aria-label*="(NSFW)"] ~ .name-23GUGE:after,
 [aria-label*="(NSFW - per adulti)"] ~ .name-23GUGE:after,
 [aria-label*="(NSD)"] ~ .name-23GUGE:after,
@@ -345,7 +340,7 @@ made with the help of others.
   margin-left: 5px;
 }
 /*---------- Square Stuff ----------*/
-/*Updated 19/11/2020*/
+/*Updated 2020-11-19*/
 /*Square Chat Avatars*/
 .avatar-1BDn8e{
   border: 2.5px solid var(--main-color) !important;/*
@@ -375,7 +370,7 @@ made with the help of others.
   border-radius: var(--square-border-radius) !important;
 }
 /*---------- Borders ----------*/
-/*Updated 22/08/2020*/
+/*Updated 2020-08-22*/
 /*A border for user profiles,popouts*/
 .theme-dark .headerNormal-T_seeN,
 .theme-dark .topSectionNormal-2-vo2m{
@@ -396,7 +391,7 @@ made with the help of others.
   border-bottom: 2px solid var(--main-color);
 }
 /*---------- Pings ----------*/
-/*Updated 20/06/2020*/
+/*Updated 2020-06-20*/
 /*Fancier Pings*/
 .numberBadge-2s8kKX{
   background-color: black !important;
@@ -417,7 +412,7 @@ made with the help of others.
   border: 2px solid var(--hover-ping-border-color);
 }
 /*---------- Color! ----------*/
-/*Updated 14/02/2021*/
+/*Updated 2021-02-14*/
 .textArea-12jD-V.slateContainer-3Qkn2x > .markup-2BOw-j,/*Typing area*/
 .guildNameText-3Zwx4p,/*Server names on hover*/
 .markupRtl-3M0hmN,
@@ -433,7 +428,7 @@ made with the help of others.
   color: var(--text-color);
 }*/
 /*---------- Glow ----------*/
-/*Updated 06/01/2021*/
+/*Updated 2021-01-06*/
 .childWrapper-anI2G9:hover,
 .childWrapper-anI2G9{
   background: transparent !important;
@@ -460,7 +455,7 @@ made with the help of others.
   border-radius: var(--circle-border-radius) !important;
 }
 /*---------- Gradients ----------*/
-/*Updated 15/03/2021,Huge thanks to leafy and leo*/
+/*Updated 2021-03-26,Huge thanks to leafy and leo*/
 .theme-dark .footer-2gL1pp .button-38aScr,
 .lookFilled-1Gx00P.colorGrey-2DXtkV,
 .categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG,/* discover tab */
@@ -488,6 +483,7 @@ made with the help of others.
 .item-26Dhrx[style*="background-color"],
 .selected-mKYnfr.option-n0icdO,
 .chat-3bRxxu .divider-3gKybi.dividerRed-MKoLlr:before,
+.tab-2j5AEF.selected-2LAck8, /*Search buttons*/
 .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc,
 .theme-dark .memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover,
 .unread-1xRYoj:active,.unread-1xRYoj:hover,/*New Unreads bar*/
@@ -530,7 +526,7 @@ made with the help of others.
   background: linear-gradient(to right,var(--from-gradient-color) 50%,transparent) !important;
 }
 /*---------- FANCY CODE ----------*/
-/*Updated 05/09/2020*/
+/*Updated 2020-09-05*/
 /*Thank you gibbu*/
 .markup-2BOw-j pre{
   max-width: 100%;
