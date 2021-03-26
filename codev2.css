@@ -13,13 +13,13 @@ made with the help of others.
   background: rgba(0,0,0,.2) !important;
   font: var(--main-font) !important;
 }
-/*Personal fix after november update for replies*/	
-.channelTextArea-2VhZ6z .scrollableContainer-2NUZem{	
-  background: rgba(0,0,0,.2) !important;	
+/*Personal fix after november update for replies*/
+.channelTextArea-2VhZ6z .scrollableContainer-2NUZem{
+  background: rgba(0,0,0,.2) !important;
 }
-.container-2fRDfG{	
-  background: rgba(0,0,0,.2) !important;	
-  border-bottom: 1px dashed var(--main-color);	
+.container-2fRDfG{
+  background: rgba(0,0,0,.2) !important;
+  border-bottom: 1px dashed var(--main-color);
 }
 /*Share Screen Modal by Addy*/
 .modalSize-cqUaws,.modalHeader-19eoYJ + div{
