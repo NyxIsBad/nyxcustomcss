@@ -60,22 +60,22 @@ made with the help of others.
   background-image: linear-gradient(var(--gradient-rotation), var(--from-gradient-color), var(--to-gradient-color)) !important;
   background-color: var(--main-color);
 }
-/*Temporary fix for clearvision for the 2021-03-24 rerolls*/
-/*2021-03-24 rerolls*/
 /*Temporary fix for clearvision for the 2021-03-24 rerolls by Nyx*/
 /*2021-03-24 rerolls*/
-.list-A0BHjR{
+.footer-1kmXd4,/*No pins on server fix*/
+.categoryList-xW5xXr,/*Stickers*/
+.list-A0BHjR{/*New commands popup left panel*/
   background: rgba(0,0,0,.1);
 }
 .iconBadge-3qSJIw.participating-1NvRVd {
-    background-color: var(--backdrop-overlay);
+  background-color: var(--backdrop-overlay);
 }
 .role-2-tni0:hover {
-    background-color: rgba(255,255,255,0.1);
+  background-color: rgba(255,255,255,0.1);
 }
 .iconContainer-2SYmeK.checked-1Gs3_E {
-    background-color: var(--main-color);
-    border-color: var(--main-color);
+  background-color: var(--main-color);
+  border-color: var(--main-color);
 }
 /*server folder transparency*/
 .folder-1hbNCn,.folder-1hbNCn:hover,.expandedFolderIconWrapper-Huv7rA,.expandedFolderIconWrapper-Huv7rA:hover{
