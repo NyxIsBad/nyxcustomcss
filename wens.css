@@ -3,68 +3,52 @@
 Hello curious coder! This is the custom repository for my friend wens because he's picky
 */
 /*---------- Wens ----------*/
-/*Updated 05/01/2021*/
+/*Updated 2021-01-05*/
 /*changes the reaction color*/
 .reaction-1hd86g.reactionMe-wv5HKu .reactionCount-2mvXRV{
-    color: var(--text-color) !important;
+  color: var(--text-color) !important;
 }
 /*---------- CV Fixes ----------*/
-/*Updated 17/02/2021*/
+/*Updated 2021-03-06*/
 /*New Server Menu*/
 .container-UC8Ug1{
-  background: rgba(0, 0, 0, .2) !important;
+  background: rgba(0,0,0,.2) !important;
   font: var(--main-font) !important;
 }
-.container-UC8Ug1:hover{
-  background: var(--hover-color) !important;
+/*Personal fix after november update for replies*/
+.channelTextArea-2VhZ6z .scrollableContainer-2NUZem{
+  background: rgba(0,0,0,.2) !important;
 }
-/*Personal fix after november update for replies*/	
-.channelTextArea-2VhZ6z .scrollableContainer-2NUZem{	
-  background: rgba(0, 0, 0, .2) !important;	
-}	
-.container-2fRDfG{	
-  background: rgba(0, 0, 0, .2) !important;	
-  border-bottom: 1px dashed var(--main-color);	
-}
-/*Fixes buttons not being themed*/
-.button-1ZiXG9:hover,
-.peopleListItem-2nzedh.active-rhSpJJ, .peopleListItem-2nzedh:hover{
-  background: rgba(0, 0, 0, .2);
+.container-2fRDfG{/*When replying*/
+  background: rgba(0,0,0,.2) !important;
+  border-bottom: 1px dashed var(--main-color);
 }
 /*Share Screen Modal by Addy*/
-.modalSize-cqUaws, .modalHeader-19eoYJ + div{
-    width: 600px !important;
+.modalSize-cqUaws,.modalHeader-19eoYJ + div{
+  width: 600px !important;
 }
 /*Message Date Appearance Style by Addy*/
-.divider-JfaTT5 {
-  border-top: thin solid rgba(0, 0, 0, 0);
+.divider-JfaTT5{
+  border-top: thin solid rgba(0,0,0,0);
 }
-.divider-JfaTT5:before {
+.divider-JfaTT5:before{
   content: "";
   height: 2px;
   opacity: 0.4;
   flex-grow: 1;
-  background: linear-gradient(to left, var(--from-gradient-color), var(--to-gradient-color));
+  background: linear-gradient(to left,var(--from-gradient-color),var(--to-gradient-color));
   margin-right: 0;
   z-index: -1;
 }
-.divider-JfaTT5:after {
+.divider-JfaTT5:after{
   content: "";
   height: 2px;
   opacity: 0.4;
-  flex-grow: 1;    
-  background: linear-gradient(to right, var(--from-gradient-color), var(--to-gradient-color));
+  flex-grow: 1;
+  background: linear-gradient(to right,var(--from-gradient-color),var(--to-gradient-color));
   margin-left: 0;
   z-index: -1;
 }
-/*Seach result tabs*/
-.tab-2j5AEF.selected-2LAck8{
-  background-image: linear-gradient(var(--gradient-rotation), var(--from-gradient-color), var(--to-gradient-color)) !important;
-  background-color: var(--main-color);
-}
-/*
-This fix is technically obsolete as of 2021-03-26. However, I am leaving some fixes that are currently not in the main css files. This means the file is still relevant
-*/
 /*Temporary fix for clearvision for the 2021-03-24 rerolls by Nyx*/
 /*2021-03-24 rerolls*/
 .footer-1kmXd4,/*No pins on server fix*/
@@ -72,13 +56,13 @@ This fix is technically obsolete as of 2021-03-26. However, I am leaving some fi
 .list-A0BHjR{/*New commands popup left panel*/
   background: rgba(0,0,0,.1);
 }
-.iconBadge-3qSJIw.participating-1NvRVd {
+.iconBadge-3qSJIw.participating-1NvRVd{
   background-color: var(--backdrop-overlay);
 }
-.role-2-tni0:hover {
+.role-2-tni0:hover{
   background-color: rgba(255,255,255,0.1);
 }
-.iconContainer-2SYmeK.checked-1Gs3_E {
+.iconContainer-2SYmeK.checked-1Gs3_E{
   background-color: var(--main-color);
   border-color: var(--main-color);
 }
@@ -87,7 +71,7 @@ This fix is technically obsolete as of 2021-03-26. However, I am leaving some fi
   background: transparent;
 }
 /*---------- Permissions Viewer Fix ----------*/
-/*Updated 05/01/2021*/
+/*Updated 2021-01-05*/
 #permissions-modal-wrapper .callout-backdrop,
 #permissions-modal-wrapper .role-side,
 #permissions-modal-wrapper .perm-side,
@@ -95,16 +79,16 @@ This fix is technically obsolete as of 2021-03-26. However, I am leaving some fi
 .theme-light #permissions-modal-wrapper #permissions-modal,
 .theme-dark #permissions-modal-wrapper #permissions-modal
 {
-  background: rgba(0, 0, 0, .2) !important;
+  background: rgba(0,0,0,.2) !important;
 }
 #permissions-modal-wrapper .header
 {
-  background: rgba(0, 0, 0, .4) !important;
+  background: rgba(0,0,0,.4) !important;
   border-bottom: 2px solid var(--main-color) !important;
 }
 #permissions-modal-wrapper .role-item.selected
 {
-  background: rgba(0, 0, 0, .6) !important;
+  background: rgba(0,0,0,.6) !important;
   border: 2px solid var(--main-color) !important;
 }
 #permissions-modal-wrapper .role-item
@@ -116,34 +100,34 @@ This fix is technically obsolete as of 2021-03-26. However, I am leaving some fi
   background-color: var(--main-color) !important;
 }
 /*---------- Better Formatting Fix ----------*/
-/*Updated 28/10/2020*/
+/*Updated 2020-10-28*/
 /*Lazy blanket that makes entire thing transparent*/
 .bf-toolbar.bf-hover:hover:before,
 .bf-toolbar.bf-visible:before,
 .bf-toolbar:before{
-  background: rgba(0, 0, 0, .2) !important;
+  background: rgba(0,0,0,.2) !important;
 }
 /*---------- Channel Tabs Fix ----------*/
-/*Updated 05/11/2020*/
+/*Updated 2020-11-05*/
 /*Fixing unthemed tabs*/
 .channelTabs-tab{
-  background: rgba(0, 0, 0, .2) !important;
+  background: rgba(0,0,0,.2) !important;
   border-radius: 0px !important;
 }
 .channelTabs-tabContainer{
   background: transparent !important;
 }
 .channelTabs-tab:hover{
-  background: rgba(0, 0, 0, .3) !important;
+  background: rgba(0,0,0,.3) !important;
 }
 .channelTabs-selected:hover,
 .channelTabs-fav:hover{
-  background: rgba(0, 0, 0, .5) !important;
+  background: rgba(0,0,0,.5) !important;
 }
 .channelTabs-selected,
 .channelTabs-fav,
 .channelTabs-favContainer{
-  background: rgba(0, 0, 0, .4) !important;
+  background: rgba(0,0,0,.4) !important;
 }
 /*Squaring icon*/
 .channelTabs-tabIcon,
@@ -199,18 +183,18 @@ This fix is technically obsolete as of 2021-03-26. However, I am leaving some fi
   font: var(--main-font) !important;
 }
 /*---------- DateViewer ----------*/
-/*Updated 31/08/2020 or something*/
+/*Updated 2020-08-31*/
 /*Make the DateViewer plugin background transparent*/
 #dv-mount{
-  background: rgba(0, 0, 0, .2);
+  background: rgba(0,0,0,.2);
   font: var(--main-font);
 }
 /*
 .dv-time,.dv-weekday,#dv-main .dv-date,.layer-v9HyYc{
   color: var(--text-color) !important;
-}*/ /*Changes DV Text Colors; if you think this is aids, comment it*/
+}*/ /*Changes DV Text Colors; if you think this is aids,comment it*/
 /*---------- Hide Things ----------*/
-/*Updated 19/11/2020 thanks BD Server*/
+/*Updated 2021-11-19 thanks BD Server*/
 /* Hide Home Nitro button */
 .privateChannels-1nO12o .channel-2QD9_O[href="/store"]{
   display: none;
@@ -220,7 +204,7 @@ This fix is technically obsolete as of 2021-03-26. However, I am leaving some fi
   user-select: none;
 }
 /*---------- Top Bar ----------*/
-/*Updated 05/01/2021 a lot of code taken and then modified from gibbu & Tropical's Slate theme with permission*/
+/*Updated 2021-01-05,a lot of code taken and then modified from gibbu & Tropical's Slate theme with permission*/
 /*Delete a lot of stuff in dms*/
 .container-1r6BKw .children-19S4PO .nicknames-1XK4Zt{
   display: none !important;
@@ -266,8 +250,8 @@ This fix is technically obsolete as of 2021-03-26. However, I am leaving some fi
   content: "Channel Name";
   font-size: 11px;
 }
-/*Deletes descriptions*/
-#app-mount .container-1r6BKw.themed-ANHk51 .children-19S4PO .topic-TCb_qw {
+/*Makes descriptions clickable and not visible*/
+#app-mount .container-1r6BKw.themed-ANHk51 .children-19S4PO .topic-TCb_qw{
   position: absolute;
   top: 0;
   left: 0;
@@ -275,6 +259,7 @@ This fix is technically obsolete as of 2021-03-26. However, I am leaving some fi
   height: 100%;
   opacity: 0;
 }
+/*Search margins*/
 .container-1r6BKw .search-36MZv-{
   margin-top: 4px;
   margin-left: -18px;
@@ -285,11 +270,11 @@ This fix is technically obsolete as of 2021-03-26. However, I am leaving some fi
   top: 50%;
   left: 50%;
   margin-right: -50%;
-  transform: translate(-50%, -50%);/*This centers it, but completely screws up search bar*/
+  transform: translate(-50%,-50%);/*This centers it,but completely screws up search bar*/
   border-right: 1px solid #6f727d;
   border-left: 1px solid #6f727d;
 }
-/*moved search bar to center btw after input from user 379052485819498507, comments above are redundant*/
+/*moved search bar to center btw after input from user 379052485819498507,comments above are redundant*/
 /*Adds spacing between items on the toolbar*/
 .container-1r6BKw .toolbar-1t6TWx .iconWrapper-2OrFZ1{
   margin: 0px 10px;
@@ -306,7 +291,7 @@ This fix is technically obsolete as of 2021-03-26. However, I am leaving some fi
   margin-top: 3px;
 }
 /*---------- Usernames and Spacing ----------*/
-/*Updated 05/09/2020*/
+/*Updated 2021-02-03*/
 /*Smaller usernames*/
 .username-1A8OIy{
   font-size: 15px !important;
@@ -325,14 +310,14 @@ This fix is technically obsolete as of 2021-03-26. However, I am leaving some fi
   margin-bottom: -4px;
 }
 /*Hover for cool little bump*/
-.profileBadge-2niAfJ {
+.profileBadge-2niAfJ{
   transition: 0.4s;
 }
-.profileBadge-2niAfJ:hover {
+.profileBadge-2niAfJ:hover{
   transform: translateY(-1px);
 }
 /*---------- NSFW Tag ----------*/
-/*Updated 23/02/2021*/
+/*Updated 2021-02-23*/
 [aria-label*="(NSFW)"] ~ .name-23GUGE:after,
 [aria-label*="(NSFW - per adulti)"] ~ .name-23GUGE:after,
 [aria-label*="(NSD)"] ~ .name-23GUGE:after,
@@ -357,28 +342,28 @@ This fix is technically obsolete as of 2021-03-26. However, I am leaving some fi
   margin-left: 5px;
 }
 /*---------- Borders ----------*/
-/*Updated 22/08/2020*/
-/*A border for user profiles, popouts*/
+/*Updated 2020-08-22*/
+/*A border for user profiles,popouts*/
 .theme-dark .headerNormal-T_seeN,
 .theme-dark .topSectionNormal-2-vo2m{
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0,0,0,0.4);
   border: 2px solid var(--main-color);
 }
-/*Hotfix after update because fuck discord, its still broken in user profiles but whatever*/
+/*Hotfix after update because fuck discord,its still broken in user profiles but whatever*/
 .headerTop-3C2Zn0{
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0,0,0,0.4);
   border-left: 2px solid var(--main-color);
   border-right: 2px solid var(--main-color);
   border-top: 2px solid var(--main-color);
 }
 .activity-11LB_k{
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0,0,0,0.4);
   border-left: 2px solid var(--main-color);
   border-right: 2px solid var(--main-color);
   border-bottom: 2px solid var(--main-color);
 }
 /*---------- Pings ----------*/
-/*Updated 20/06/2020*/
+/*Updated 2020-06-20*/
 /*Fancier Pings*/
 .numberBadge-2s8kKX{
   background-color: black !important;
@@ -389,20 +374,19 @@ This fix is technically obsolete as of 2021-03-26. However, I am leaving some fi
   border: 1px solid var(--main-color);
 }
 .theme-dark .mentioned-xhSam7,
-.message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z, 
+.message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z,
 .mouse-mode.full-motion .mentioned-xhSam7:hover{
   border: 2px solid var(--ping-border-color);
-  background-image: linear-gradient(var(--gradient-rotation), var(--ping-gradient-color), var(--ping-fill-color)) !important;
+  background-image: linear-gradient(var(--gradient-rotation),var(--ping-gradient-color),var(--ping-fill-color)) !important;
 }
 .mouse-mode.full-motion .mentioned-xhSam7:hover{
-  background-image: linear-gradient(var(--gradient-rotation), var(--hover-gradient-color), var(--hover-ping-fill-color)) !important;
+  background-image: linear-gradient(var(--gradient-rotation),var(--hover-gradient-color),var(--hover-ping-fill-color)) !important;
   border: 2px solid var(--hover-ping-border-color);
 }
 /*---------- Color! ----------*/
-/*Updated 14/02/2021*/
-/*Changes text color for when you're actually typing*/
-.textArea-12jD-V.slateContainer-3Qkn2x > .markup-2BOw-j, /*Typing area*/
-.guildNameText-3Zwx4p, /*Server names on hover*/
+/*Updated 2021-02-14*/
+.textArea-12jD-V.slateContainer-3Qkn2x > .markup-2BOw-j,/*Typing area*/
+.guildNameText-3Zwx4p,/*Server names on hover*/
 .markupRtl-3M0hmN,
 .messageContent-2qWWxC,
 .tooltipContent-bqVLWK{
@@ -416,7 +400,7 @@ This fix is technically obsolete as of 2021-03-26. However, I am leaving some fi
   color: var(--text-color);
 }*/
 /*---------- Glow ----------*/
-/*Updated 06/01/2021*/
+/*Updated 2021-01-06*/
 .childWrapper-anI2G9:hover,
 .childWrapper-anI2G9{
   background: transparent !important;
@@ -434,7 +418,7 @@ This fix is technically obsolete as of 2021-03-26. However, I am leaving some fi
   overflow: visible !important;
   border-radius: var(--circle-border-radius);
 }
-/*Thanks tropical - gets rid of overflow. Screws up a lot of stuff, had to compensate in gradients and otherwise*/
+/*Thanks tropical - gets rid of overflow. Screws up a lot of stuff,had to compensate in gradients and otherwise*/
 .wrapper-25eVIn foreignObject{
   mask:none;
   overflow:visible;
@@ -443,16 +427,16 @@ This fix is technically obsolete as of 2021-03-26. However, I am leaving some fi
   border-radius: var(--circle-border-radius) !important;
 }
 /*---------- Gradients ----------*/
-/*Updated 15/03/2021, Huge thanks to leafy and leo*/
+/*Updated 2021-03-26,Huge thanks to leafy and leo*/
 .theme-dark .footer-2gL1pp .button-38aScr,
 .lookFilled-1Gx00P.colorGrey-2DXtkV,
-.categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG, /* discover tab */
-.unread-1xRYoj:after, .mention-1f5kbO:after, /* unread channels bar */
-.menu-3sdvDG:not(#status-picker) .colorDefault-2K3EoJ.focused-3afm-j, .menu-3sdvDG:not(#status-picker) .colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O), /* dropdown menu */
-.appMount-3lHmkl .lookFilled-1Gx00P.colorGreen-29iAKY:disabled, .appMount-3lHmkl .lookFilled-1Gx00P.colorPrimary-3b3xI6:disabled, /* disabled buttons */
-.lookInverted-2D7oAl, .lookInverted-2D7oAl.colorBrand-3pXr91, .lookInverted-2D7oAl.colorGreen-29iAKY, /* more buttons */
-.newMessagesBar-265mhP:before, /* new message bar */
-.jumpToPresentBar-G1R9s6:hover, /* jump to present bar */
+.categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG,/* discover tab */
+.unread-1xRYoj:after,.mention-1f5kbO:after,/* unread channels bar */
+.menu-3sdvDG:not(#status-picker) .colorDefault-2K3EoJ.focused-3afm-j,.menu-3sdvDG:not(#status-picker) .colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O),/* dropdown menu */
+.appMount-3lHmkl .lookFilled-1Gx00P.colorGreen-29iAKY:disabled,.appMount-3lHmkl .lookFilled-1Gx00P.colorPrimary-3b3xI6:disabled,/* disabled buttons */
+.lookInverted-2D7oAl,.lookInverted-2D7oAl.colorBrand-3pXr91,.lookInverted-2D7oAl.colorGreen-29iAKY,/* more buttons */
+.newMessagesBar-265mhP:before,/* new message bar */
+.jumpToPresentBar-G1R9s6:hover,/* jump to present bar */
 .privateChannels-1nO12o .channel-2QD9_O.selected-aXhQR6 .layout-2DM8Md:after,
 .popout-103y-5 .tag-2gHSR7,
 .tab-2j5AEF.selected-2LAck8:after,
@@ -461,38 +445,39 @@ This fix is technically obsolete as of 2021-03-26. However, I am leaving some fi
 .appMount-3lHmkl .lookFilled-1Gx00P.colorBrand-3pXr91,
 .appMount-3lHmkl .lookFilled-1Gx00P.colorPrimary-3b3xI6,
 .acronym-2mOFsV,.acronym-2mOFsV:hover,
-.circleIconButton-1QV--U:hover, .circleIconButton-1QV--U.selected-1JjBPm, 
+.circleIconButton-1QV--U:hover,.circleIconButton-1QV--U.selected-1JjBPm,
 .modeSelected-346R90 .content-1x5b-n,
 .wrapper-2jXpOf.modeSelected-346R90 .content-1x5b-n:after,
 .container-1r6BKw .topPill-30KHOu .item-PXvHYJ.selected-3s45Ha.themed-OHr7kt,
 .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha,
 .layer-3QrUeG .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha:after,
-.appMount-3lHmkl .lookFilled-1Gx00P.colorGreen-29iAKY, .appMount-3lHmkl .lookFilled-1Gx00P.colorBrand-3pXr91, .appMount-3lHmkl .lookFilled-1Gx00P.colorPrimary-3b3xI6, /* buttons for days */
+.appMount-3lHmkl .lookFilled-1Gx00P.colorGreen-29iAKY,.appMount-3lHmkl .lookFilled-1Gx00P.colorBrand-3pXr91,.appMount-3lHmkl .lookFilled-1Gx00P.colorPrimary-3b3xI6,/* buttons for days */
 .item-26Dhrx[style*="background-color"],
 .selected-mKYnfr.option-n0icdO,
 .chat-3bRxxu .divider-3gKybi.dividerRed-MKoLlr:before,
+.tab-2j5AEF.selected-2LAck8, /*Search buttons*/
 .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc,
 .theme-dark .memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover,
-.unread-1xRYoj:active, .unread-1xRYoj:hover, /*New Unreads bar*/
-.standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha:after, .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ[style*="color: rgb(255, 255, 255)"]:after, /* selected things */
-.item-26Dhrx[aria-checked=true] .radioBar-bMNUI-, /*Voice Settings: Input Mode*/
+.unread-1xRYoj:active,.unread-1xRYoj:hover,/*New Unreads bar*/
+.standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha:after,.standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ[style*="color: rgb(255,255,255)"]:after,/* selected things */
+.item-26Dhrx[aria-checked=true] .radioBar-bMNUI-,/*Voice Settings: Input Mode*/
 .lookGhost-2Fn_0-.colorGrey-2DXtkV /*Voice Settings: Shortcut bind*/
 {
-  background-image: linear-gradient(var(--gradient-rotation), var(--from-gradient-color),var(--to-gradient-color)) !important;
+  background-image: linear-gradient(var(--gradient-rotation),var(--from-gradient-color),var(--to-gradient-color)) !important;
   background-color: var(--main-color);
 }
 /*Some BD things*/
 #bd-settings-sidebar .ui-tab-bar-item.selected,
 .bd-addon-list .bd-card-footer button,.bd-pfbtn,.bd-pfbtn,.bd-select .bd-select-option.selected,.standardSidebarView-3F1I7i #editor-detached button{
-  background-image: linear-gradient(var(--gradient-rotation), var(--from-gradient-color), var(--to-gradient-color)) !important;
+  background-image: linear-gradient(var(--gradient-rotation),var(--from-gradient-color),var(--to-gradient-color)) !important;
   background-color: var(--main-color);
 }
 .members-1998pB .membersGroup-v9BXpm,
-.sidebar-2K8pFh .containerDefault-3tr_sE .wrapper-PY0fhH .name-3l27Hl .overflow-WK9Ogt, /*Thx Addy*/
-.headerText-2F0828, .discoverHeader-1TWTqG,
+.sidebar-2K8pFh .containerDefault-3tr_sE .wrapper-PY0fhH .name-3l27Hl .overflow-WK9Ogt,/*Thx Addy*/
+.headerText-2F0828,.discoverHeader-1TWTqG,
 .header-2RyJ0Y
 {
-  background-image: linear-gradient(var(--gradient-rotation), var(--from-gradient-color), var(--to-gradient-color)) !important;
+  background-image: linear-gradient(var(--gradient-rotation),var(--from-gradient-color),var(--to-gradient-color)) !important;
   -webkit-background-clip: text;
   color: transparent !important;
 }
@@ -502,7 +487,7 @@ This fix is technically obsolete as of 2021-03-26. However, I am leaving some fi
 .discoverHeader-1TWTqG:before,
 .sidebar-CFHs9e .header-2RyJ0Y:before /*Settings bars*/
 {
-  background: linear-gradient(to left, var(--from-gradient-color) 50%, transparent) !important;
+  background: linear-gradient(to left,var(--from-gradient-color) 50%,transparent) !important;
 }
 .members-1998pB .membersGroup-v9BXpm:after,
 .name-3l27Hl:after,
@@ -510,20 +495,20 @@ This fix is technically obsolete as of 2021-03-26. However, I am leaving some fi
 .discoverHeader-1TWTqG:after,
 .sidebar-CFHs9e .header-2RyJ0Y:after /*Settings bars*/
 {
-  background: linear-gradient(to right, var(--from-gradient-color) 50%, transparent) !important;
+  background: linear-gradient(to right,var(--from-gradient-color) 50%,transparent) !important;
 }
 /*---------- FANCY CODE ----------*/
-/*Updated 05/09/2020*/
+/*Updated 2020-09-05*/
 /*Thank you gibbu*/
 .markup-2BOw-j pre{
   max-width: 100%;
 }
 #app-mount code,
 #app-mount pre{
-  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 }
 #app-mount code{
-  background-color: rgba(36, 41, 46, .5) !important;
+  background-color: rgba(36,41,46,.5) !important;
 }
 #app-mount pre{
   margin: 10px 0;
@@ -546,14 +531,14 @@ This fix is technically obsolete as of 2021-03-26. However, I am leaving some fi
   height: calc(100% - 25px);
   overflow: hidden;
   color: #959da5;
-  background: rgba(29, 33, 37, 0.5) !important;
+  background: rgba(29,33,37,0.5) !important;
   font-size: 11px;
 }
 #app-mount pre code{
   position: relative;
   box-sizing: border-box;
   padding: 25px 0.25em 0.15em 34px !important;
-  background: rgba(29, 33, 37, 0.2) !important;
+  background: rgba(29,33,37,0.2) !important;
   border: 1px solid #141414 !important;
   font-size: 11px;
   line-height: 1.5;
@@ -574,9 +559,9 @@ This fix is technically obsolete as of 2021-03-26. However, I am leaving some fi
   display: flex;
   align-items: center;
   position: absolute;
-  background-color: rgba(47, 54, 61, .3) !important;
+  background-color: rgba(47,54,61,.3) !important;
   box-sizing: border-box;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",Arial,sans-serif;
   line-height: 1;
   white-space: nowrap;
   overflow: hidden;
@@ -598,7 +583,7 @@ This fix is technically obsolete as of 2021-03-26. However, I am leaving some fi
 #app-mount pre code[class~=diff i]:before{
   content: "Diff";
 }
-#app-mount pre code[class~=cs i]:before, #app-mount pre code[class~=csharp i]:before{
+#app-mount pre code[class~=cs i]:before,#app-mount pre code[class~=csharp i]:before{
   content: "C#";
 }
 #app-mount pre code[class~=c i]:before{
@@ -625,7 +610,7 @@ This fix is technically obsolete as of 2021-03-26. However, I am leaving some fi
 #app-mount pre code[class~=d i]:before{
   content: "d";
 }
-#app-mount pre code[class~=javascript i]:before, #app-mount pre code[class~=js i]:before{
+#app-mount pre code[class~=javascript i]:before,#app-mount pre code[class~=js i]:before{
   content: "Javascript";
 }
 #app-mount pre code[class~=css i]:before{
@@ -634,7 +619,7 @@ This fix is technically obsolete as of 2021-03-26. However, I am leaving some fi
 #app-mount pre code[class~=bash i]:before{
   content: "Bash";
 }
-#app-mount pre code[class~=markdown i]:before, #app-mount pre code[class~=md i]:before{
+#app-mount pre code[class~=markdown i]:before,#app-mount pre code[class~=md i]:before{
   content: "Markdown";
 }
 #app-mount pre code[class~=html i]:before{
@@ -655,10 +640,10 @@ This fix is technically obsolete as of 2021-03-26. However, I am leaving some fi
 #app-mount pre code[class~=java i]:before{
   content: "Java";
 }
-#app-mount pre code[class~=py i]:before, #app-mount pre code[class~=python i]:before{
+#app-mount pre code[class~=py i]:before,#app-mount pre code[class~=python i]:before{
   content: "Python";
 }
-#app-mount pre code[class~=vb i]:before, #app-mount pre code[class~=visualbasic i]:before, #app-mount pre code[class~=vbs i]:before{
+#app-mount pre code[class~=vb i]:before,#app-mount pre code[class~=visualbasic i]:before,#app-mount pre code[class~=vbs i]:before{
   content: "Visual Basic";
 }
 #app-mount pre code[class~=lua i]:before{
@@ -682,7 +667,7 @@ This fix is technically obsolete as of 2021-03-26. However, I am leaving some fi
 #app-mount pre code[class~=prolog i]:before{
   content: "Prolog";
 }
-#app-mount pre code[class~=ts i]:before, #app-mount pre code[class~=typescript i]:before{
+#app-mount pre code[class~=ts i]:before,#app-mount pre code[class~=typescript i]:before{
   content: "TypeScript";
 }
 #app-mount pre code[class~=http i]:before{
@@ -697,7 +682,7 @@ This fix is technically obsolete as of 2021-03-26. However, I am leaving some fi
 #app-mount pre code[class~=less i]:before{
   content: "Less";
 }
-#app-mount pre code[class~=sass i]:before, #app-mount pre code[class~=scss i]:before{
+#app-mount pre code[class~=sass i]:before,#app-mount pre code[class~=scss i]:before{
   content: "SCSS";
 }
 #app-mount pre code[class~=elm i]:before{
@@ -724,7 +709,7 @@ This fix is technically obsolete as of 2021-03-26. However, I am leaving some fi
 #app-mount pre code[class~=yaml i]:before{
   content: "YAML";
 }
-#app-mount pre code[class~=shell i]:before, #app-mount pre code[class~=sh i]:before{
+#app-mount pre code[class~=shell i]:before,#app-mount pre code[class~=sh i]:before{
   content: "Shell";
 }
 #app-mount pre code[class~=kotlin i]:before{
@@ -811,7 +796,7 @@ This fix is technically obsolete as of 2021-03-26. However, I am leaving some fi
 #app-mount pre code[class~=flix i]:before{
   content: "Flix";
 }
-#app-mount pre code[class~=fsharp i]:before, #app-mount pre code[class~=fs i]:before{
+#app-mount pre code[class~=fsharp i]:before,#app-mount pre code[class~=fs i]:before{
   content: "F#";
 }
 #app-mount pre code[class~=haskell i]:before{
@@ -847,7 +832,7 @@ This fix is technically obsolete as of 2021-03-26. However, I am leaving some fi
 #app-mount pre code[class~=armasm i]:before{
   content: "Arm Assembly";
 }
-#app-mount pre code[class~=asm i]:before, #app-mount pre code[class~=assembly i]:before{
+#app-mount pre code[class~=asm i]:before,#app-mount pre code[class~=assembly i]:before{
   content: "Assembly";
 }
 #app-mount pre code .hljs-built_in,
