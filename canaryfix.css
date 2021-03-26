@@ -3,7 +3,9 @@ This fix is technically obsolete as of 2021-03-26. However, I am leaving some fi
 */
 /*Temporary fix for clearvision for the 2021-03-24 rerolls by Nyx*/
 /*2021-03-24 rerolls*/
-.list-A0BHjR{
+.footer-1kmXd4,/*No pins on server fix*/
+.categoryList-xW5xXr,/*Stickers*/
+.list-A0BHjR{/*New commands popup left panel*/
   background: rgba(0,0,0,.1);
 }
 .iconBadge-3qSJIw.participating-1NvRVd {
