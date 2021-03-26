@@ -379,19 +379,19 @@ made with the help of others.
   transform: translateY(-1px);
 }
 /*---------- NSFW Tag ----------*/
-/*Updated 2021-02-23*/
-[aria-label*="(NSFW)"] ~ .name-23GUGE:after,
-[aria-label*="(NSFW - per adulti)"] ~ .name-23GUGE:after,
-[aria-label*="(NSD)"] ~ .name-23GUGE:after,
-[aria-label*="(Conteúdo adulto)"] ~ .name-23GUGE:after,
-[aria-label*="(NSFW (aikuissisältö; ei katseltavaksi työtilanteissa))"] ~ .name-23GUGE:after,
-[aria-label*="(Ακατάλληλο NSFW περιεχόμενο)"] ~ .name-23GUGE:after,
-[aria-label*="(откровенный контент)"] ~ .name-23GUGE:after,
-[aria-label*="(не для перегляду на роботі)"] ~ .name-23GUGE:after,
-[aria-label*="（少儿不宜）"] ~ .name-23GUGE:after,
-[aria-label*="(NSFW<閲覧注意>)"] ~ .name-23GUGE:after,
-[aria-label*="(限制級)"] ~ .name-23GUGE:after,
-[aria-label*="(연령 제한)"] ~ .name-23GUGE:after{
+/*Updated 2021-03-27*/
+[aria-label*="(NSFW)"] ~ .name-23GUGE .channelName-2YrOjO:after,
+[aria-label*="(NSFW - per adulti)"] ~ .name-23GUGE .channelName-2YrOjO:after,
+[aria-label*="(NSD)"] ~ .name-23GUGE .channelName-2YrOjO:after,
+[aria-label*="(Conteúdo adulto)"] ~ .name-23GUGE .channelName-2YrOjO:after,
+[aria-label*="(NSFW (aikuissisältö; ei katseltavaksi työtilanteissa))"] ~ .name-23GUGE .channelName-2YrOjO:after,
+[aria-label*="(Ακατάλληλο NSFW περιεχόμενο)"] ~ .name-23GUGE .channelName-2YrOjO:after,
+[aria-label*="(откровенный контент)"] ~ .name-23GUGE .channelName-2YrOjO:after,
+[aria-label*="(не для перегляду на роботі)"] ~ .name-23GUGE .channelName-2YrOjO:after,
+[aria-label*="（少儿不宜）"] ~ .name-23GUGE .channelName-2YrOjO:after,
+[aria-label*="(NSFW<閲覧注意>)"] ~ .name-23GUGE .channelName-2YrOjO:after,
+[aria-label*="(限制級)"] ~ .name-23GUGE .channelName-2YrOjO:after,
+[aria-label*="(연령 제한)"] ~ .name-23GUGE .channelName-2YrOjO:after{
   content: 'nsfw';
   color: white;
   font: var(--main-font);
