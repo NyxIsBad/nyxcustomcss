@@ -498,21 +498,22 @@ Hello curious coder! This is the custom repository for my friend wens because he
   background: linear-gradient(to right,var(--from-gradient-color) 50%,transparent) !important;
 }
 /*---------- FANCY CODE ----------*/
-/*Updated 2020-09-05*/
+/*Updated 2021-03-28*/
 /*Thank you gibbu*/
-.markup-2BOw-j pre{
+#app-mount pre{
+  background: rgba(0,0,0,.4);
   max-width: 100%;
+  border-radius: 0px;
+}
+#app-mount pre code{
+  background: transparent;
 }
 #app-mount code,
 #app-mount pre{
   font-family: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 }
-#app-mount code{
-  background-color: rgba(36,41,46,.5) !important;
-}
 #app-mount pre{
   margin: 10px 0;
-  background: transparent !important;
   position: relative;
   overflow: hidden;
   margin-bottom: 5px;
@@ -531,15 +532,12 @@ Hello curious coder! This is the custom repository for my friend wens because he
   height: calc(100% - 25px);
   overflow: hidden;
   color: #959da5;
-  background: rgba(29,33,37,0.5) !important;
   font-size: 11px;
 }
 #app-mount pre code{
   position: relative;
   box-sizing: border-box;
   padding: 25px 0.25em 0.15em 34px !important;
-  background: rgba(29,33,37,0.2) !important;
-  border: 1px solid #141414 !important;
   font-size: 11px;
   line-height: 1.5;
   border-radius: 3px;
@@ -559,7 +557,6 @@ Hello curious coder! This is the custom repository for my friend wens because he
   display: flex;
   align-items: center;
   position: absolute;
-  background-color: rgba(47,54,61,.3) !important;
   box-sizing: border-box;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",Arial,sans-serif;
   line-height: 1;
