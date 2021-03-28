@@ -121,8 +121,6 @@ made with the help of others.
 /*Shiki code blocks*/
 .vpc-shiki{ 
   background: rgba(0,0,0,0.2) !important;
-  border-radius: 0px !important;
-  border: none !important;
 }
 .vpc-shiki-copy-btn{
   background-color: var(--main-color) !important;
@@ -586,19 +584,15 @@ made with the help of others.
   background: linear-gradient(to right,var(--from-gradient-color) 50%,transparent) !important;
 }
 /*---------- FANCY CODE ----------*/
-/*Updated 2020-09-05*/
+/*Updated 2021-03-28*/
 /*Thank you gibbu*/
-#app-mount code{
-  background-color: rgba(36,41,46,.5) !important;
-}
 #app-mount pre{
-  background: transparent !important;
+  background: rgba(0,0,0,.4);
+  max-width: 100%;
+  border-radius: 0px;
 }
 #app-mount pre code{
-  background: rgba(0,0,0,.4) !important;
-}
-.markup-2BOw-j pre{
-  max-width: 100%;
+  background: transparent;
 }
 #app-mount pre code .hljs-built_in,
 #app-mount pre code .hljs-doctag,
