@@ -121,6 +121,8 @@ made with the help of others.
 /*Shiki code blocks*/
 .vpc-shiki{ 
   background: rgba(0,0,0,0.2) !important;
+  border-radius: 0px !important;
+  border: none !important;
 }
 .vpc-shiki-copy-btn{
   background-color: var(--main-color) !important;
