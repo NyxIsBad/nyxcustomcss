@@ -8,20 +8,20 @@ made with the help of others.
 */
 /*---------- CV Fixes ----------*/
 /*Updated 2021-03-06*/
-/*New Server Menu*/
+/*Create New Server Menu*/
 .container-UC8Ug1{
   background: rgba(0,0,0,.2) !important;
   font: var(--main-font) !important;
 }
-/*Personal fix after november update for replies*/
+/*Make Input Box Lighter*/
 .channelTextArea-2VhZ6z .scrollableContainer-2NUZem{
   background: rgba(0,0,0,.2) !important;
 }
-.container-2fRDfG{/*When replying*/
+.container-2fRDfG{/*Dashed border when replying*/
   background: rgba(0,0,0,.2) !important;
   border-bottom: 1px dashed var(--main-color);
 }
-/*Share Screen Modal by Addy*/
+/*Share Screen Modal Width by Addy*/
 .modalSize-cqUaws,.modalHeader-19eoYJ + div{
   width: 600px !important;
 }
@@ -67,6 +67,11 @@ made with the help of others.
 /*server folder transparency*/
 .folder-1hbNCn,.folder-1hbNCn:hover,.expandedFolderIconWrapper-Huv7rA,.expandedFolderIconWrapper-Huv7rA:hover{
   background: transparent;
+}
+/*Square off the new code previews*/
+.footer-2yA7Ep,
+.textContainer-C0szpm{
+  border-radius: 0px;
 }
 /*---------- Powercord Fixes ----------*/
 /*Updated 2021-02-17*/
@@ -587,7 +592,7 @@ made with the help of others.
 /*Updated 2021-03-28*/
 /*Thank you gibbu*/
 #app-mount pre{
-  background: rgba(0,0,0,.4);
+  background: rgba(0,0,0,.4) !important;
   max-width: 100%;
   border-radius: 0px;
 }
