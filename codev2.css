@@ -73,6 +73,14 @@ made with the help of others.
 .textContainer-C0szpm{
   border-radius: 0px;
 }
+/*Yellow Permission Ticks*/
+.passthrough-1c2ewQ.selected-2YhbGh {background-color: #ffba00;}
+.passthrough-1c2ewQ:not(.selected-2YhbGh) polygon {fill: #ffba00;}
+/*Return scrollbars to 10px except main chat body*/
+.contentRegion-3nDuYy .contentRegionScroller-26nc1e::-webkit-scrollbar, /*Settings scroll right*/
+.sidebarRegionScroller-3MXcoP.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2::-webkit-scrollbar{ /*Settings scroll on left*/
+  width: 10px !important;
+}
 /*---------- Permissions Viewer Fix ----------*/
 /*Updated 2021-01-05*/
 #permissions-modal-wrapper .callout-backdrop,
