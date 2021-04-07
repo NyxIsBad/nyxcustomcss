@@ -9,7 +9,7 @@ Hello curious coder! This is the custom repository for my friend wens because he
   color: var(--text-color) !important;
 }
 /*---------- CV Fixes ----------*/
-/*Updated 2021-03-06*/
+/*Updated 2021-04-08*/
 /*Create New Server Menu*/
 .container-UC8Ug1{
   background: rgba(0,0,0,.2) !important;
@@ -74,6 +74,14 @@ Hello curious coder! This is the custom repository for my friend wens because he
 .footer-2yA7Ep,
 .textContainer-C0szpm{
   border-radius: 0px;
+}
+/*Yellow Permission Ticks*/
+.passthrough-1c2ewQ.selected-2YhbGh {background-color: #ffba00;}
+.passthrough-1c2ewQ:not(.selected-2YhbGh) polygon {fill: #ffba00;}
+/*Return scrollbars to 10px except main chat body*/
+.contentRegion-3nDuYy .contentRegionScroller-26nc1e::-webkit-scrollbar, /*Settings scroll right*/
+.sidebarRegionScroller-3MXcoP.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2::-webkit-scrollbar{ /*Settings scroll on left*/
+  width: 10px !important;
 }
 /*---------- Permissions Viewer Fix ----------*/
 /*Updated 2021-01-05*/
