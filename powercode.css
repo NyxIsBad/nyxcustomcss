@@ -8,12 +8,9 @@ made with the help of others.
 */
 /*---------- CV Fixes ----------*/
 /*Updated 2021-04-08*/
-/*Fixing roles overlap*/
-.header-2mZ9Ov{
-  background: var(--background-image) var(--background-position)/var(--background-size) var(--background-repeat) var(--background-attachment);
-}
-.stickyHeader-hH_ZLl{
-  background: var(--background-overlay);
+/*Dumb fix of server role permissions overlap issues*/
+.contentWidth-xLB44s{
+  overflow: hidden;
 }
 /*Create New Server Menu*/
 .container-UC8Ug1{
