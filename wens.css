@@ -10,6 +10,13 @@ Hello curious coder! This is the custom repository for my friend wens because he
 }
 /*---------- CV Fixes ----------*/
 /*Updated 2021-04-08*/
+/*Fixing roles overlap*/
+.header-2mZ9Ov{
+  background: var(--background-image) var(--background-position)/var(--background-size) var(--background-repeat) var(--background-attachment);
+}
+.stickyHeader-hH_ZLl{
+  background: var(--background-overlay);
+}
 /*Create New Server Menu*/
 .container-UC8Ug1{
   background: rgba(0,0,0,.2) !important;
