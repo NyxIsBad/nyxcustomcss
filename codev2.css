@@ -8,6 +8,17 @@ made with the help of others.
 */
 /*---------- CV Fixes ----------*/
 /*Updated 2021-04-08*/
+/*Stickers fix*/
+.stickerInspected-2EM4w- .stickerBackground-2XECKi, /*Sticker backgrounds when hovered*/
+.viewAllBackground-3Bn1vh{
+  background-color: rgba(255,255,255,0.07);
+}
+.wrapper-OxgYJ1 .scrollerBase-289Jih .listItems-1uJgMC .row-2psonc{ /*Stickers lookup margins*/
+  column-gap: 8px !important;
+}
+.listItems-1uJgMC{ /*Fix preview in store*/
+  width: 100%;
+}
 /*Create New Server Menu*/
 .container-UC8Ug1{
   background: rgba(0,0,0,.2) !important;
@@ -370,6 +381,7 @@ made with the help of others.
 .container-_phMUq, /*Default @everyone permissions in server settings*/
 .avatarUploaderIndicator-2G-aIZ, /*Image upload button in settings*/
 .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ[style*="color: rgb(255, 255, 255)"],/*Subscriptions settings tab*/
+.unicodeShortcut-15J8Ck,/*Shortcut in emote list*/
 .lookGhost-2Fn_0-.colorGrey-2DXtkV /*Voice Settings: Shortcut bind*/
 {
   background-image: linear-gradient(var(--gradient-rotation),var(--from-gradient-color),var(--to-gradient-color)) !important;
