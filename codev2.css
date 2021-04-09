@@ -6,12 +6,14 @@ Be forewarned that not everything may work as intended and all the parts of this
 are created to work together and sometimes not apart,and a lot of this code was 
 made with the help of others.
 */
+                              
+                      
+                              
+                                                         
+                                      
+ 
 /*---------- CV Fixes ----------*/
-/*Updated 2021-03-06*/
-/*Dumb fix of server role permissions overlap issues*/
-.contentWidth-xLB44s{
-  overflow: hidden;
-}
+/*Updated 2021-04-08*/
 /*Create New Server Menu*/
 .container-UC8Ug1{
   background: rgba(0,0,0,.2) !important;
@@ -21,7 +23,8 @@ made with the help of others.
 .channelTextArea-2VhZ6z .scrollableContainer-2NUZem{
   background: rgba(0,0,0,.2) !important;
 }
-.container-2fRDfG{/*Dashed border when replying*/
+/*Dashed border when replying*/
+.container-2fRDfG{
   background: rgba(0,0,0,.2) !important;
   border-bottom: 1px dashed var(--main-color);
 }
@@ -51,31 +54,9 @@ made with the help of others.
   margin-left: 0;
   z-index: -1;
 }
-/*Temporary fix for clearvision for the 2021-03-24 rerolls by Nyx*/
-/*2021-03-24 rerolls*/
-.footer-1kmXd4,/*No pins on server fix*/
-.categoryList-xW5xXr,/*Stickers*/
-.list-A0BHjR{/*New commands popup left panel*/
-  background: rgba(0,0,0,.1);
-}
-.iconBadge-3qSJIw.participating-1NvRVd{
-  background-color: var(--backdrop-overlay);
-}
-.role-2-tni0:hover{
-  background-color: rgba(255,255,255,0.1);
-}
-.iconContainer-2SYmeK.checked-1Gs3_E{
-  background-color: var(--main-color);
-  border-color: var(--main-color);
-}
 /*server folder transparency*/
 .folder-1hbNCn,.folder-1hbNCn:hover,.expandedFolderIconWrapper-Huv7rA,.expandedFolderIconWrapper-Huv7rA:hover{
   background: transparent;
-}
-/*Square off the new code previews*/
-.footer-2yA7Ep,
-.textContainer-C0szpm{
-  border-radius: 0px;
 }
 /*Yellow Permission Ticks*/
 .passthrough-1c2ewQ.selected-2YhbGh {background-color: #ffba00;}
@@ -85,129 +66,27 @@ made with the help of others.
 .sidebarRegionScroller-3MXcoP.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2::-webkit-scrollbar{ /*Settings scroll on left*/
   width: 10px !important;
 }
-/*---------- Permissions Viewer Fix ----------*/
-/*Updated 2021-01-05*/
-#permissions-modal-wrapper .callout-backdrop,
-#permissions-modal-wrapper .role-side,
-#permissions-modal-wrapper .perm-side,
-#permissions-modal-wrapper .modal-body,
-.theme-light #permissions-modal-wrapper #permissions-modal,
-.theme-dark #permissions-modal-wrapper #permissions-modal
+/*Get rid of tip at bottom of user popout*/
+.protip-YaFfgO{
+  display:none;
+}
+.theme-dark .lookGhost-2Fn_0-.colorGrey-2DXtkV{ /*Fix widgets button text not being right*/
+  color: #fff;
+}
+.categoryList-xW5xXr/*Stickers*/
 {
-  background: rgba(0,0,0,.2) !important;
+  background: rgba(0,0,0,.1);
 }
-#permissions-modal-wrapper .header
-{
-  background: rgba(0,0,0,.4) !important;
-  border-bottom: 2px solid var(--main-color) !important;
+/*Square off the new code previews*/
+.footer-2yA7Ep,
+.textContainer-C0szpm{
+  border-radius: 0px;
 }
-#permissions-modal-wrapper .role-item.selected
-{
-  background: rgba(0,0,0,.6) !important;
-  border: 2px solid var(--main-color) !important;
+/*2021-03-24 reroll*/
+.iconContainer-2SYmeK.checked-1Gs3_E{
+  background-color: var(--main-color);
+  border-color: var(--main-color);
 }
-#permissions-modal-wrapper .role-item
-{
-  border: 2px solid transparent !important;
-}
-.member-perms::-webkit-scrollbar-thumb,
-#permissions-modal-wrapper *::-webkit-scrollbar-thumb{
-  background-color: var(--main-color) !important;
-}
-/*---------- Better Formatting Fix ----------*/
-/*Updated 2020-10-28*/
-/*Lazy blanket that makes entire thing transparent*/
-.bf-toolbar.bf-hover:hover:before,
-.bf-toolbar.bf-visible:before,
-.bf-toolbar:before{
-  background: rgba(0,0,0,.2) !important;
-}
-/*---------- Channel Tabs Fix ----------*/
-/*Updated 2020-11-05*/
-/*Fixing unthemed tabs*/
-.channelTabs-tab{
-  background: rgba(0,0,0,.2) !important;
-  border-radius: 0px !important;
-}
-.channelTabs-tabContainer{
-  background: transparent !important;
-}
-.channelTabs-tab:hover{
-  background: rgba(0,0,0,.3) !important;
-}
-.channelTabs-selected:hover,
-.channelTabs-fav:hover{
-  background: rgba(0,0,0,.5) !important;
-}
-.channelTabs-selected,
-.channelTabs-fav,
-.channelTabs-favContainer{
-  background: rgba(0,0,0,.4) !important;
-}
-/*Squaring icon*/
-.channelTabs-tabIcon,
-.channelTabs-favIcon{
-  border-radius: var(--square-border-radius) !important;
-}
-.channelTabs-fav{
-  border-radius: 0px !important;
-  /*border-left: 2px solid var(--main-color);
-  border-right: 2px solid var(--main-color);*/
-}
-/*Colors and fonts*/
-.channelTabs-tabName,
-.channelTabs-tabIcon ~ .channelTabs-tabName,
-.channelTabs-favIcon ~ .channelTabs-favName{
-  font: var(--main-font) !important;
-  font-weight: 600 !important;
-  font-size: 14px !important;
-  color: var(--text-color) !important;
-}
-.channelTabs-newTab:hover{
-  background: var(--hover-color) !important; 
-  color: white !important;
-}
-.channelTabs-newTab{
-  background: var(--main-color) !important; 
-  color: white !important;
-}
-.channelTabs-closeTab,
-.channelTabs-selected .channelTabs-closeTab{
-  background: transparent !important; 
-  color: white !important;
-}
-.channelTabs-closeTab:hover,
-.channelTabs-selected .channelTabs-closeTab:hover{
-  background: transparent !important; 
-  color: var(--hover-color) !important;
-}
-.channelTabs-mentionBadge{
-  background-color: var(--main-color) !important;
-}
-.channelTabs-unreadBadge{
-  background-color: black !important;
-}
-.channelTabs-favMentionBadge,
-.channelTabs-favUnreadBadge,
-.channelTabs-fav .channelTabs-noMention,
-.channelTabs-fav .channelTabs-noUnread{
-  color: white !important;
-}
-.channelTabs-noFavNotice{
-  color: var(--text-color) !important;
-  font: var(--main-font) !important;
-}
-/*---------- DateViewer ----------*/
-/*Updated 2020-08-31*/
-/*Make the DateViewer plugin background transparent*/
-#dv-mount{
-  background: rgba(0,0,0,.2);
-  font: var(--main-font);
-}
-/*
-.dv-time,.dv-weekday,#dv-main .dv-date,.layer-v9HyYc{
-  color: var(--text-color) !important;
-}*/ /*Changes DV Text Colors; if you think this is aids,comment it*/
 /*---------- Hide Things ----------*/
 /*Updated 2021-11-19 thanks BD Server*/
 /* Hide Home Nitro button */
@@ -387,25 +266,11 @@ made with the help of others.
   border-radius: var(--square-border-radius) !important;
 }
 /*---------- Borders ----------*/
-/*Updated 2020-08-22*/
+/*Updated 2021-04-09*/
 /*A border for user profiles,popouts*/
-.theme-dark .headerNormal-T_seeN,
-.theme-dark .topSectionNormal-2-vo2m{
-  background-color: rgba(0,0,0,0.4);
+.inner-1ilYF7,
+.userPopout-3XzG_A{
   border: 2px solid var(--main-color);
-}
-/*Hotfix after update because fuck discord,its still broken in user profiles but whatever*/
-.headerTop-3C2Zn0{
-  background-color: rgba(0,0,0,0.4);
-  border-left: 2px solid var(--main-color);
-  border-right: 2px solid var(--main-color);
-  border-top: 2px solid var(--main-color);
-}
-.activity-11LB_k{
-  background-color: rgba(0,0,0,0.4);
-  border-left: 2px solid var(--main-color);
-  border-right: 2px solid var(--main-color);
-  border-bottom: 2px solid var(--main-color);
 }
 /*---------- Pings ----------*/
 /*Updated 2020-06-20*/
@@ -506,6 +371,11 @@ made with the help of others.
 .unread-1xRYoj:active,.unread-1xRYoj:hover,/*New Unreads bar*/
 .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha:after,.standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ[style*="color: rgb(255,255,255)"]:after,/* selected things */
 .item-26Dhrx[aria-checked=true] .radioBar-bMNUI-,/*Voice Settings: Input Mode*/
+.navButtonActive-1MkytQ,/*New emote popup button*/
+.item-PXvHYJ.selected-3s45Ha, /*Role settings*/
+.container-_phMUq, /*Default @everyone permissions in server settings*/
+.avatarUploaderIndicator-2G-aIZ, /*Image upload button in settings*/
+.standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ[style*="color: rgb(255, 255, 255)"],/*Subscriptions settings tab*/
 .lookGhost-2Fn_0-.colorGrey-2DXtkV /*Voice Settings: Shortcut bind*/
 {
   background-image: linear-gradient(var(--gradient-rotation),var(--from-gradient-color),var(--to-gradient-color)) !important;
@@ -921,3 +791,126 @@ made with the help of others.
 #app-mount pre code .hljs-quote{
   color: #959da5;
 }
+/*---------- Permissions Viewer Fix ----------*/
+/*Updated 2021-01-05*/
+#permissions-modal-wrapper .callout-backdrop,
+#permissions-modal-wrapper .role-side,
+#permissions-modal-wrapper .perm-side,
+#permissions-modal-wrapper .modal-body,
+.theme-light #permissions-modal-wrapper #permissions-modal,
+.theme-dark #permissions-modal-wrapper #permissions-modal
+{
+  background: rgba(0,0,0,.2) !important;
+}
+#permissions-modal-wrapper .header
+{
+  background: rgba(0,0,0,.4) !important;
+  border-bottom: 2px solid var(--main-color) !important;
+}
+#permissions-modal-wrapper .role-item.selected
+{
+  background: rgba(0,0,0,.6) !important;
+  border: 2px solid var(--main-color) !important;
+}
+#permissions-modal-wrapper .role-item
+{
+  border: 2px solid transparent !important;
+}
+.member-perms::-webkit-scrollbar-thumb,
+#permissions-modal-wrapper *::-webkit-scrollbar-thumb{
+  background-color: var(--main-color) !important;
+}
+/*---------- Better Formatting Fix ----------*/
+/*Updated 2020-10-28*/
+/*Lazy blanket that makes entire thing transparent*/
+.bf-toolbar.bf-hover:hover:before,
+.bf-toolbar.bf-visible:before,
+.bf-toolbar:before{
+  background: rgba(0,0,0,.2) !important;
+}
+/*---------- Channel Tabs Fix ----------*/
+/*Updated 2020-11-05*/
+/*Fixing unthemed tabs*/
+.channelTabs-tab{
+  background: rgba(0,0,0,.2) !important;
+  border-radius: 0px !important;
+}
+.channelTabs-tabContainer{
+  background: transparent !important;
+}
+.channelTabs-tab:hover{
+  background: rgba(0,0,0,.3) !important;
+}
+.channelTabs-selected:hover,
+.channelTabs-fav:hover{
+  background: rgba(0,0,0,.5) !important;
+}
+.channelTabs-selected,
+.channelTabs-fav,
+.channelTabs-favContainer{
+  background: rgba(0,0,0,.4) !important;
+}
+/*Squaring icon*/
+.channelTabs-tabIcon,
+.channelTabs-favIcon{
+  border-radius: var(--square-border-radius) !important;
+}
+.channelTabs-fav{
+  border-radius: 0px !important;
+  /*border-left: 2px solid var(--main-color);
+  border-right: 2px solid var(--main-color);*/
+}
+/*Colors and fonts*/
+.channelTabs-tabName,
+.channelTabs-tabIcon ~ .channelTabs-tabName,
+.channelTabs-favIcon ~ .channelTabs-favName{
+  font: var(--main-font) !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  color: var(--text-color) !important;
+}
+.channelTabs-newTab:hover{
+  background: var(--hover-color) !important; 
+  color: white !important;
+}
+.channelTabs-newTab{
+  background: var(--main-color) !important; 
+  color: white !important;
+}
+.channelTabs-closeTab,
+.channelTabs-selected .channelTabs-closeTab{
+  background: transparent !important; 
+  color: white !important;
+}
+.channelTabs-closeTab:hover,
+.channelTabs-selected .channelTabs-closeTab:hover{
+  background: transparent !important; 
+  color: var(--hover-color) !important;
+}
+.channelTabs-mentionBadge{
+  background-color: var(--main-color) !important;
+}
+.channelTabs-unreadBadge{
+  background-color: black !important;
+}
+.channelTabs-favMentionBadge,
+.channelTabs-favUnreadBadge,
+.channelTabs-fav .channelTabs-noMention,
+.channelTabs-fav .channelTabs-noUnread{
+  color: white !important;
+}
+.channelTabs-noFavNotice{
+  color: var(--text-color) !important;
+  font: var(--main-font) !important;
+}
+/*---------- DateViewer ----------*/
+/*Updated 2020-08-31*/
+/*Make the DateViewer plugin background transparent*/
+#dv-mount{
+  background: rgba(0,0,0,.2);
+  font: var(--main-font);
+}
+/*
+.dv-time,.dv-weekday,#dv-main .dv-date,.layer-v9HyYc{
+  color: var(--text-color) !important;
+}*/ /*Changes DV Text Colors; if you think this is aids,comment it*/
