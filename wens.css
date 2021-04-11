@@ -84,6 +84,18 @@ Hello curious coder! This is the custom repository for my friend wens because he
 {
   background: rgba(0,0,0,.1);
 }
+.fullScreen-1tMzXY .flexCenter-2Y_vCg{ /*Fullscreen share*/
+  background: rgba(0, 0, 0, calc(var(--background-shading) * .6));
+}
+.iconBadge-3qSJIw.participating-1NvRVd { /*Voice connected*/
+  background-color: black !important;
+  height: 18px;
+  width: 18px !important;
+  margin-bottom: -3px;
+  margin-right: -5px;
+  border: 1px solid var(--main-color);
+  filter: drop-shadow(0 0 2px var(--main-color));
+}
 /*Square off the new code previews*/
 .footer-2yA7Ep,
 .textContainer-C0szpm{
@@ -259,6 +271,7 @@ Hello curious coder! This is the custom repository for my friend wens because he
   margin-bottom: -3px;
   margin-right: -5px;
   border: 1px solid var(--main-color);
+  filter: drop-shadow(0 0 2px var(--main-color)) drop-shadow(0 0 3px var(--main-color));
 }
 .theme-dark .mentioned-xhSam7,
 .message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z,
