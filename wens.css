@@ -272,6 +272,9 @@ Hello curious coder! This is the custom repository for my friend wens because he
   margin-right: -5px;
   border: 1px solid var(--main-color);
 }
+.lowerBadge-29hYVK .numberBadge-2s8kKX{
+  filter: drop-shadow(0 0 3px var(--main-color)) drop-shadow(0 0 0px var(--main-color)) !important;
+}
 .theme-dark .mentioned-xhSam7,
 .message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z,
 .mouse-mode.full-motion .mentioned-xhSam7:hover{
