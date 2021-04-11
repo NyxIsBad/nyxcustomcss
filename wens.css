@@ -271,7 +271,6 @@ Hello curious coder! This is the custom repository for my friend wens because he
   margin-bottom: -3px;
   margin-right: -5px;
   border: 1px solid var(--main-color);
-  filter: drop-shadow(0 0 2px var(--main-color)) drop-shadow(0 0 3px var(--main-color));
 }
 .theme-dark .mentioned-xhSam7,
 .message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z,
