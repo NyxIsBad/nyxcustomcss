@@ -192,6 +192,7 @@ made with the help of others.
   grid-column-start: 1;
   padding: 5px 20px;
   max-height: 78px;
+  overflow-y: auto !important;
 }
 .activity-1ythUs ~ .activityProfile-2bJRaP{
   grid-row-start: 2;
@@ -334,6 +335,10 @@ made with the help of others.
   border-radius: 3px;
   max-height: 30px !important;
   animation: cv-slide-top .2s ease-in-out;
+}
+span.username-2b1r56.username-3gJmXY {
+  text-overflow: ellipsis !important;
+  word-break: normal;
 }
 /*---------- Hide Things ----------*/
 /*Updated 2021-11-19 thanks BD Server*/
