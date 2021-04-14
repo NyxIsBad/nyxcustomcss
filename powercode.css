@@ -281,7 +281,6 @@ made with the help of others.
   grid-column-start: 1;
   padding: 5px 20px;
   max-height: 78px;
-  overflow-y: auto !important;
 }
 .activity-1ythUs ~ .activityProfile-2bJRaP{
   grid-row-start: 2;
