@@ -106,6 +106,231 @@ Hello curious coder! This is the custom repository for my friend wens because he
   background-color: var(--main-color);
   border-color: var(--main-color);
 }
+/*Emote Autocomplete reversion to old style*/
+.contentTitle-2tG_sM {
+  color: var(--text-muted);
+}
+.autocompleteRowContentPrimary-238PvP .colorInteractiveActive-3Ip9Eu {
+  font-weight: inherit;
+  font-size: 100%;
+}
+.autocompleteRowContentSecondary-1tgI-F {
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--text-muted);
+}
+/*---------- Massive User-Modal rewrite ----------*/
+/*Updated 2021-04-14, thanks leafy*/
+.root-SR8cQa > .topSectionNormal-2-vo2m{
+	background: rgba(0, 0, 0, calc(var(--background-shading) * .3)) !important;
+}
+.root-SR8cQa{
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 50% 50%;
+  width: 900px;
+  height: 600px;
+  background: rgba(0, 0, 0, calc(var(--background-shading) * .6)) !important; /*BG over full thing*/
+}
+/*Loads of grid stuff*/
+.topSectionNormal-2-vo2m,
+.topSectionPlaying-1J5E4n,
+.topSectionSpotify-1lI0-P,
+.topSectionStreaming-1Tpf5X,
+.topSectionXbox-3fWLjS{
+  display: grid;
+  grid-template-rows: 40% auto;
+}
+.header-QKLPzZ{
+  grid-row-start: 1;
+  display: grid;
+  grid-template-columns: auto auto 20px;
+  grid-template-rows: 110px 100px;
+  padding-bottom: 0;
+}
+.avatar-3EQepX{
+  grid-column-start: 1;
+  grid-row-start: 1;
+  align-self: start;
+  height: 100px !important;
+  width: 100px !important;
+}
+.headerInfo-30uryT{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  align-self: start;
+}
+.headerInfo-30uryT + div,
+.headerInfo-30uryT + button{
+  grid-column-start: 2;
+  grid-row-start: 1;
+  align-self: start;
+  justify-self: end;
+}
+.headerInfo-30uryT + div + div,
+.headerInfo-30uryT + button + div{
+  align-self: start;
+}
+.headerInfo-30uryT + div[role=button],
+.actionButton-3W1xZa + div[role=button]{
+  grid-column-start: 3;
+  grid-row-start: 1;
+  align-self: start;
+  justify-self: start;
+}
+.customStatus-154i-H{
+  word-break: break-word;
+}
+.header-QKLPzZ + div,
+.headerFill-adLl4x{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 80px auto 0;
+  grid-row-start: 2;
+}
+.activity-1ythUs{
+  grid-row-start: 1;
+  grid-column-start: 1;
+  padding: 5px 20px;
+  max-height: 78px;
+}
+.activity-1ythUs ~ .activityProfile-2bJRaP{
+  grid-row-start: 2;
+  grid-column-start: 1;
+}
+/*Tabs on top in comments*/
+.tabBarContainer-1s1u-z{
+  grid-row-start: 3;
+  grid-column-start: 1;
+  align-self: end;
+  position: relative;
+  /*
+  bottom: 450px;
+  left: 450px;*/
+}
+.body-3ND3kc{
+  /*margin-top: 50px;*/
+  margin-top: -25px;
+  height: auto !important;
+  overflow-y: scroll;
+  background: transparent !important;
+}
+.infoScroller-3EYYns::webkit-scrollbar, .listScroller-2_vlfo::webkit-scrollbar,
+.body-3ND3kc::webkit-scrollbar{
+  width: 10px !important;
+}
+.fade-2kXiP2{
+  height: auto;
+  clip:
+}
+.infoScroller-3EYYns,
+.listScroller-2_vlfo{
+  margin-top: 24px;
+  padding-top: 8px;
+  overflow: hidden scroll !important;
+}
+.topSectionPlaying-1J5E4n .bodyNormal-2D39hT{
+  display: grid;
+  grid-template-columns: 80px auto;
+  grid-template-rows: auto 64px;
+}
+.topSectionPlaying-1J5E4n .assets-VMAukC{
+  grid-row-start: 1;
+  grid-column-start: 1;
+}
+.topSectionPlaying-1J5E4n .assetsLargeImageProfile-3YXDex{
+  height: 80px;
+  width: 80px;
+}
+.topSectionPlaying-1J5E4n .content-3JfFJh{
+  max-width: 180px;
+}
+.topSectionPlaying-1J5E4n .actionsProfile-jEtjVX{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.topSectionPlaying-1J5E4n .actionsProfile-jEtjVX .button-2IFFQ4{
+  margin-right: 2px;
+  padding: 2px 8px;
+}
+.topSectionSpotify-1lI0-P .bodyAlignCenter-1KzvJk,
+.topSectionSpotify-1lI0-P .bodyNormal-2D39hT{
+  display: grid;
+  grid-template-columns: 80px auto;
+  grid-template-rows: auto 64px;
+}
+.topSectionSpotify-1lI0-P .assets-VMAukC{
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+.topSectionSpotify-1lI0-P .assetsLargeImageProfile-3YXDex{ /*Spotify thumbnail icon*/
+  height: 80px;
+  width: 80px;
+}
+.topSectionSpotify-1lI0-P .content-3JfFJh{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  margin-left: 0;
+  padding-top: 25px;
+}
+.topSectionSpotify-1lI0-P .actionsProfile-jEtjVX{
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+.topSectionStreaming-1Tpf5X .buttonInvertedPurple-WtBglX{
+  padding: 2px 15px;
+  align-self: start;
+  height: 32px;
+  min-height: 32px;
+}
+.topSectionStreaming-1Tpf5X .buttonInvertedPurple-WtBglX + div[role=button]{
+  align-self: start;
+}
+.topSectionStreaming-1Tpf5X .bodyAlignCenter-1KzvJk,
+.topSectionStreaming-1Tpf5X .bodyNormal-2D39hT{
+  display: grid;
+  grid-template-columns: auto 100px;
+  grid-template-rows: auto 64px;
+}
+.topSectionStreaming-1Tpf5X .assets-VMAukC{
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+.topSectionStreaming-1Tpf5X .content-3JfFJh{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  margin-left: 0;
+}
+.topSectionStreaming-1Tpf5X .actionsProfile-jEtjVX{
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+.topSectionXbox-3fWLjS .body-ZAhrcj{
+  display: grid;
+  grid-template-columns: 80px auto;
+  grid-template-rows: auto 64px;
+}
+.topSectionXbox-3fWLjS .assets-VMAukC{
+  grid-row-start: 1;
+  grid-column-start: 1;
+}
+.topSectionXbox-3fWLjS .content-3JfFJh{
+  max-width: 180px;
+}
+.topSectionXbox-3fWLjS .button-2IFFQ4{
+  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  margin-right: 2px;
+  padding: 2px 8px;
+}
 /*---------- Hide Things ----------*/
 /*Updated 2021-11-19 thanks BD Server*/
 /* Hide Home Nitro button */
@@ -260,6 +485,15 @@ Hello curious coder! This is the custom repository for my friend wens because he
 .inner-1ilYF7,
 .userPopout-3XzG_A{
   border: 2px solid var(--main-color);
+}
+/*Border Radius of user modal tabs*/
+.themed-OHr7kt{
+  border-radius: 3px;
+  max-height: 30px;
+}
+.uploadModal-2ifh8j,
+.root-SR8cQa{
+	border-radius: 0px !important;
 }
 /*---------- Pings ----------*/
 /*Updated 2020-06-20*/
