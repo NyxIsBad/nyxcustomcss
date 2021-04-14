@@ -64,8 +64,8 @@ made with the help of others.
   background: transparent;
 }
 /*Yellow Permission Ticks*/
-.passthrough-1c2ewQ.selected-2YhbGh {background-color: #ffba00;}
-.passthrough-1c2ewQ:not(.selected-2YhbGh) polygon {fill: #ffba00;}
+.passthrough-1c2ewQ.selected-2YhbGh{background-color: #ffba00;}
+.passthrough-1c2ewQ:not(.selected-2YhbGh) polygon{fill: #ffba00;}
 /*Return scrollbars to 10px except main chat body*/
 .contentRegion-3nDuYy .contentRegionScroller-26nc1e::-webkit-scrollbar, /*Settings scroll right*/
 .sidebarRegionScroller-3MXcoP.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2::-webkit-scrollbar{ /*Settings scroll on left*/
@@ -85,7 +85,7 @@ made with the help of others.
 .fullScreen-1tMzXY .flexCenter-2Y_vCg{ /*Fullscreen share*/
   background: rgba(0, 0, 0, calc(var(--background-shading) * .6));
 }
-.iconBadge-3qSJIw.participating-1NvRVd { /*Voice connected*/
+.iconBadge-3qSJIw.participating-1NvRVd{ /*Voice connected*/
   background-color: black !important;
   height: 18px;
   width: 18px !important;
@@ -105,14 +105,14 @@ made with the help of others.
   border-color: var(--main-color);
 }
 /*Emote Autocomplete reversion to old style*/
-.contentTitle-2tG_sM {
+.contentTitle-2tG_sM{
   color: var(--text-muted);
 }
-.autocompleteRowContentPrimary-238PvP .colorInteractiveActive-3Ip9Eu {
+.autocompleteRowContentPrimary-238PvP .colorInteractiveActive-3Ip9Eu{
   font-weight: inherit;
   font-size: 100%;
 }
-.autocompleteRowContentSecondary-1tgI-F {
+.autocompleteRowContentSecondary-1tgI-F{
   font-size: 14px;
   line-height: 18px;
   color: var(--text-muted);
@@ -120,7 +120,7 @@ made with the help of others.
 /*---------- Massive User-Modal rewrite ----------*/
 /*Updated 2021-04-14, thanks leafy*/
 .root-SR8cQa > .topSectionNormal-2-vo2m{
-	background: rgba(0, 0, 0, calc(var(--background-shading) * .3)) !important;
+  background: rgba(0, 0, 0, calc(var(--background-shading) * .3)) !important;
 }
 .root-SR8cQa{
   display: grid;
@@ -329,6 +329,12 @@ made with the help of others.
   margin-right: 2px;
   padding: 2px 8px;
 }
+.tabBar-2MuP6- > .item-PXvHYJ,
+.top-28JiJ- .selected-3s45Ha.themed-OHr7kt.item-PXvHYJ{
+  border-radius: 3px;
+  max-height: 30px !important;
+  animation: cv-slide-top .2s ease-in-out;
+}
 /*---------- Hide Things ----------*/
 /*Updated 2021-11-19 thanks BD Server*/
 /* Hide Home Nitro button */
@@ -516,7 +522,7 @@ made with the help of others.
 }
 .uploadModal-2ifh8j,
 .root-SR8cQa{
-	border-radius: 0px !important;
+  border-radius: 0px !important;
 }
 /*---------- Pings ----------*/
 /*Updated 2020-06-20*/
@@ -626,6 +632,7 @@ made with the help of others.
 .avatarUploaderIndicator-2G-aIZ, /*Image upload button in settings*/
 .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ[style*="color: rgb(255, 255, 255)"],/*Subscriptions settings tab*/
 .unicodeShortcut-15J8Ck,/*Shortcut in emote list*/
+.tabBar-2MuP6- > .item-PXvHYJ:after,/*User Modal Tabs when doing an activity*/
 .lookGhost-2Fn_0-.colorGrey-2DXtkV /*Voice Settings: Shortcut bind*/
 {
   background-image: linear-gradient(var(--gradient-rotation),var(--from-gradient-color),var(--to-gradient-color)) !important;
