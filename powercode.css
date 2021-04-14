@@ -114,6 +114,14 @@ made with the help of others.
 }
 /*---------- Powercord Fixes ----------*/
 /*Updated 2021-04-08*/
+.invite-inspector .modal-yWgWj-{
+  background: transparent;
+  border-radius: 0px;
+}
+/*Guild profiles*/
+.guild-profile{
+  top: 25px;
+}
 /*In App Notifications*/
 .ian-toast .markup-2BOw-j{
   text-align: center;
