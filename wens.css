@@ -486,11 +486,6 @@ Hello curious coder! This is the custom repository for my friend wens because he
 .userPopout-3XzG_A{
   border: 2px solid var(--main-color);
 }
-/*Border Radius of user modal tabs*/
-.themed-OHr7kt{
-  border-radius: 3px;
-  max-height: 30px;
-}
 .uploadModal-2ifh8j,
 .root-SR8cQa{
 	border-radius: 0px !important;
