@@ -405,6 +405,9 @@ span.username-2b1r56.username-3gJmXY {
   content: "Channel Name";
   font-size: 11px;
 }
+.container-1r6BKw:hover > .children-19S4PO h3:before{
+  content: "Click for more details (if possible)";
+}
 /*Makes descriptions clickable and not visible*/
 #app-mount .container-1r6BKw.themed-ANHk51 .children-19S4PO .topic-TCb_qw{
   position: absolute;
