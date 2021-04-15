@@ -66,8 +66,15 @@ made with the help of others.
 /*Yellow Permission Ticks*/
 .passthrough-1c2ewQ.selected-2YhbGh{background-color: #ffba00;}
 .passthrough-1c2ewQ:not(.selected-2YhbGh) polygon{fill: #ffba00;}
-/*Return scrollbars to 10px except main chat body*/
+/*Return scrollbars to 10px*/
 .contentRegion-3nDuYy .contentRegionScroller-26nc1e::-webkit-scrollbar, /*Settings scroll right*/
+.CodeMirror-vscrollbar::-webkit-scrollbar,
+.perm-scroller::-webkit-scrollbar,/*Permissions viewer plugin*/
+.role-scroller::-webkit-scrollbar,
+.scroller-2LSbBU::-webkit-scrollbar, /*Main chatbox scroll bar*/
+.scroller-3ZpLaI::-webkit-scrollbar, /*Role scrollers*/
+.scroller-1J_F7B::-webkit-scrollbar, /*Audit logs*/
+.body-3ND3kc::-webkit-scrollbar, /*User modal scrollers*/
 .sidebarRegionScroller-3MXcoP.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2::-webkit-scrollbar{ /*Settings scroll on left*/
   width: 10px !important;
 }
