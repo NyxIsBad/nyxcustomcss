@@ -77,6 +77,7 @@ Hello curious coder! This is the custom repository for my friend wens because he
 .scroller-3ZpLaI::-webkit-scrollbar, /*Role scrollers*/
 .scroller-1J_F7B::-webkit-scrollbar, /*Audit logs*/
 .body-3ND3kc::-webkit-scrollbar, /*User modal scrollers*/
+.peopleList-3c4jOR::-webkit-scrollbar,
 .sidebarRegionScroller-3MXcoP.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2::-webkit-scrollbar{ /*Settings scroll on left*/
   width: 10px !important;
 }
