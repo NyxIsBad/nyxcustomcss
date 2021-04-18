@@ -217,8 +217,29 @@ pre::-webkit-scrollbar /*Code scrollbars*/{
   background-color: var(--hover-color) !important;
   transition: ease-in-out .2s;
 }
-/*---------- Massive User-Modal rewrite ----------*/
-/*Updated 2021-04-14, thanks leafy*/
+/*---------- Massive Users rewrite ----------*/
+/*Updated 2021-04-19, thanks leafy*/
+/*Popout*/
+.userPopout-3XzG_A{
+  border-radius: 0px !important;
+}
+.userPopout-3XzG_A{
+  width: 500px;
+  -webkit-box-orient: horizontal;
+  flex-direction: row;
+  height: 400px;
+}
+.footer-1fjuF6{
+  display: none;
+}
+.header-2BwW8b{
+  width: 250px;
+  overflow: hidden auto;
+}
+.userPopout-3XzG_A .body-3iLsc4{ /*Right side actually covers*/
+  width: 100%;
+}
+/*Modal*/
 .root-SR8cQa > .topSectionNormal-2-vo2m{
   background: rgba(0, 0, 0, calc(var(--background-shading) * .3)) !important;
 }
