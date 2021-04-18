@@ -76,7 +76,9 @@ made with the help of others.
 .scroller-1J_F7B::-webkit-scrollbar, /*Audit logs*/
 .body-3ND3kc::-webkit-scrollbar, /*User modal scrollers*/
 .peopleList-3c4jOR::-webkit-scrollbar,
-.sidebarRegionScroller-3MXcoP.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2::-webkit-scrollbar{ /*Settings scroll on left*/
+.header-2BwW8b::-webkit-scrollbar, /*user popout*/
+.sidebarRegionScroller-3MXcoP.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2::-webkit-scrollbar,/*Settings scroll on left*/
+pre::-webkit-scrollbar /*Code scrollbars*/{ 
   width: 10px !important;
 }
 /*Get rid of tip at bottom of user popout*/
