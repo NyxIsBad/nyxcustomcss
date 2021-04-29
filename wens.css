@@ -129,6 +129,14 @@ pre::-webkit-scrollbar /*Code scrollbars*/{
   line-height: 18px;
   color: var(--text-muted);
 }
+.scrollerBase-289Jih .fade-2kXiP2{ /*Old Roles list fix*/
+  height: 100vh !important;
+}
+.tabBar-11f3uI .brand-1Zl8en{ /*New Roles list fix*/
+  margin-bottom: 16px;
+  padding: 0 10px 0 10px;
+  border-radius: 4px;
+}
 /*---------- Massive Users rewrite ----------*/
 /*Updated 2021-04-19, thanks leafy*/
 /*Popout*/
@@ -250,10 +258,6 @@ pre::-webkit-scrollbar /*Code scrollbars*/{
 .infoScroller-3EYYns::webkit-scrollbar, .listScroller-2_vlfo::webkit-scrollbar,
 .body-3ND3kc::webkit-scrollbar{
   width: 10px !important;
-}
-.fade-2kXiP2{
-  height: auto;
-  clip:
 }
 .infoScroller-3EYYns,
 .listScroller-2_vlfo{
