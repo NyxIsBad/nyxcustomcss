@@ -122,6 +122,14 @@ pre::-webkit-scrollbar /*Code scrollbars*/{
   line-height: 18px;
   color: var(--text-muted);
 }
+.scrollerBase-289Jih .fade-2kXiP2{ /*Old Roles list fix*/
+  height: 100vh !important;
+}
+.tabBar-11f3uI .brand-1Zl8en{ /*New Roles list fix*/
+  margin-bottom: 16px;
+  padding: 0 10px 0 10px;
+  border-radius: 4px;
+}
 /*---------- Powercord Fixes ----------*/
 /*Updated 2021-04-08*/
 .invite-inspector .modal-yWgWj-{
