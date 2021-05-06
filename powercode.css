@@ -772,6 +772,7 @@ span.username-2b1r56.username-3gJmXY {
 .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ[style*="color: rgb(255, 255, 255)"],/*Subscriptions settings tab*/
 .unicodeShortcut-15J8Ck,/*Shortcut in emote list*/
 .tabBar-2MuP6- > .item-PXvHYJ:after,/*User Modal Tabs when doing an activity*/
+.colorable-1bkp8v.white-3GPOIp, /*Vc mute button*/
 .lookGhost-2Fn_0-.colorGrey-2DXtkV /*Voice Settings: Shortcut bind*/
 {
   background-image: linear-gradient(var(--gradient-rotation),var(--from-gradient-color),var(--to-gradient-color)) !important;
