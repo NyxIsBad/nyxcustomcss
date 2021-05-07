@@ -215,13 +215,13 @@ pre::-webkit-scrollbar /*Code scrollbars*/{
 .vpc-shiki{ 
   background: rgba(0,0,0,0.2) !important;
 }
-.vpc-shiki-copy-btn{
+.vpc-shiki-btn{
   background-color: var(--main-color) !important;
   border-radius: 4px !important;
   right: 4px !important;
   bottom: 4px !important;
 }
-.vpc-shiki-copy-btn:hover{
+.vpc-shiki-btn:hover{
   background-color: var(--hover-color) !important;
   transition: ease-in-out .2s;
 }
