@@ -8,6 +8,10 @@ made with the help of others.
 */
 /*---------- CV Fixes ----------*/
 /*Updated 2021-04-08*/
+/*Button fix*/
+.footer-2gL1pp .button-38aScr:nth-child(2){
+  margin-right: 5px;
+}
 /*Stickers fix*/
 .stickerInspected-2EM4w- .stickerBackground-2XECKi, /*Sticker backgrounds when hovered*/
 .viewAllBackground-3Bn1vh{
