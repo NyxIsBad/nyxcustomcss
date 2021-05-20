@@ -145,6 +145,7 @@ pre::-webkit-scrollbar /*Code scrollbars*/{
 .userPopout-3XzG_A{
   border-radius: 0px !important;
 }
+/*
 .userPopout-3XzG_A{
   width: 500px;
   -webkit-box-orient: horizontal;
@@ -158,9 +159,9 @@ pre::-webkit-scrollbar /*Code scrollbars*/{
   width: 250px;
   overflow: hidden auto;
 }
-.userPopout-3XzG_A .body-3iLsc4{ /*Right side actually covers*/
+.userPopout-3XzG_A .body-3iLsc4{ 
   width: 100%;
-}
+}*//*Right side actually covers*/
 /*Modal*/
 .root-SR8cQa > .topSectionNormal-2-vo2m{
   background: rgba(0, 0, 0, calc(var(--background-shading) * .3)) !important;
