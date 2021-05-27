@@ -232,9 +232,10 @@ pre::-webkit-scrollbar /*Code scrollbars*/{
 /*---------- Massive Users rewrite ----------*/
 /*Updated 2021-04-19, thanks leafy*/
 /*Popout*/
-/*.userPopout-3XzG_A{
+.userPopout-3XzG_A{
   border-radius: 0px !important;
 }
+/*
 .userPopout-3XzG_A{
   width: 500px;
   -webkit-box-orient: horizontal;
