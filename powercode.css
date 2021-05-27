@@ -7,26 +7,35 @@ are created to work together and sometimes not apart,and a lot of this code was
 made with the help of others.
 */
 /*---------- CV Fixes ----------*/
-/*Updated 2021-04-08*/
-/*Button fix*/
+/*Updated 2021-05-28*/
+/*Conf applies to base theme as well*/
+/*Spinning profile popout logo thing*/
+.loadingPopout-qYljDW,
+.spinner-2enMB9 {
+  background: transparent;
+}
+/*Fix to the profile popout having a margin on right*/
+.userPopout-3XzG_A:before{
+  margin: 0px;
+}
+/*Button (like when joining or leaving servers etc) fix*/
 .footer-2gL1pp .button-38aScr:nth-child(2){
   margin-right: 5px;
 }
-/*Stickers fix*/
-.stickerInspected-2EM4w- .stickerBackground-2XECKi, /*Sticker backgrounds when hovered*/
-.viewAllBackground-3Bn1vh{
-  background-color: rgba(255,255,255,0.07);
+.fullScreen-1tMzXY .flexCenter-2Y_vCg{ /*Fullscreen share*/
+  background: rgba(0, 0, 0, calc(var(--background-shading) * .6));
 }
-.wrapper-OxgYJ1 .row-2psonc{ /*Stickers lookup margins*/
-  column-gap: 8px !important;
+.categoryList-xW5xXr { /*Stickers side bar*/
+  background: rgba(0,0,0,.1);
 }
-.listItems-1uJgMC{ /*Fix preview in store*/
-  width: 100%;
-}
-/*Create New Server Menu*/
+
+
+/*Create New Server Menu,. makes hover grey*/
 .container-UC8Ug1{
   background: rgba(0,0,0,.2) !important;
-  font: var(--main-font) !important;
+}
+.container-UC8Ug1:hover{
+  background: var(--hover-color) !important;
 }
 /*Make Input Box Lighter*/
 .channelTextArea-2VhZ6z .scrollableContainer-2NUZem{
@@ -80,9 +89,9 @@ made with the help of others.
 .scroller-1J_F7B::-webkit-scrollbar, /*Audit logs*/
 .body-3ND3kc::-webkit-scrollbar, /*User modal scrollers*/
 .peopleList-3c4jOR::-webkit-scrollbar,
-.header-2BwW8b::-webkit-scrollbar, /*
-*/
-.sidebarRegionScroller-3MXcoP.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2::-webkit-scrollbar,/*Settings scroll on left*/
+.header-2BwW8b::-webkit-scrollbar, /*user popout*/
+.sidebarRegionScroller-3MXcoP.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2::-webkit-scrollbar,/*Settings scroll on left*/\
+.content-3YMskv::-webkit-scrollbar,
 pre::-webkit-scrollbar /*Code scrollbars*/{ 
   width: 10px !important;
 }
@@ -93,21 +102,11 @@ pre::-webkit-scrollbar /*Code scrollbars*/{
 .theme-dark .lookGhost-2Fn_0-.colorGrey-2DXtkV{ /*Fix widgets button text not being right*/
   color: #fff;
 }
-.categoryList-xW5xXr/*Stickers*/
-{
-  background: rgba(0,0,0,.1);
-}
-.fullScreen-1tMzXY .flexCenter-2Y_vCg{ /*Fullscreen share*/
-  background: rgba(0, 0, 0, calc(var(--background-shading) * .6));
-}
-.iconBadge-3qSJIw.participating-1NvRVd{ /*Voice connected*/
-  background-color: black !important;
-  height: 18px;
-  width: 18px !important;
-  margin-bottom: -3px;
-  margin-right: -5px;
-  border: 1px solid var(--main-color);
-  filter: drop-shadow(0 0 2px var(--main-color));
+
+/*Square off the new code previews*/
+.footer-2yA7Ep,
+.textContainer-C0szpm{
+  border-radius: 0px;
 }
 /*2021-03-24 reroll*/
 .iconContainer-2SYmeK.checked-1Gs3_E{
@@ -675,19 +674,18 @@ span.username-2b1r56.username-3gJmXY {
 .quickswitcher-3JagVE{
   border-radius: 0px !important;
 }
-/*---------- Pings ----------*/
-/*Updated 2020-06-20*/
+/*---------- Pings and Voice ----------*/
+/*Updated 2021-05-28*/
 /*Fancier Pings*/
-.numberBadge-2s8kKX{
+.numberBadge-2s8kKX,
+.iconBadge-3qSJIw.participating-1NvRVd{ /*Voice connected*/
   background-color: black !important;
   height: 18px;
   width: 18px !important;
   margin-bottom: -3px;
   margin-right: -5px;
   border: 1px solid var(--main-color);
-}
-.lowerBadge-29hYVK .numberBadge-2s8kKX{
-  filter: drop-shadow(0 0 3px var(--main-color)) drop-shadow(0 0 0px var(--main-color)) !important;
+  filter: drop-shadow(0 0 2px var(--main-color));
 }
 .theme-dark .mentioned-xhSam7,
 .message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z,
