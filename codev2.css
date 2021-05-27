@@ -798,7 +798,6 @@ span.username-2b1r56.username-3gJmXY {
   top: 0;
   left: 0;
   padding: 0 calc(var(--spacing) / 3);
-  -webkit-mask: url('data:image/svg+xml; utf-8,') center/12px no-repeat;
   background: #d1d5da !important;
 }
 #app-mount pre code[class~=hljs]:before{
