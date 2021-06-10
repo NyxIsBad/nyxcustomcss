@@ -7,7 +7,6 @@ are created to work together and sometimes not apart,and a lot of this code was
 made with the help of others.
 */
 /*---------- CV Fixes ----------*/
-/*Updated 2021-05-28*/
 /*Conf applies to base theme as well*/
 /*Spinning profile popout logo thing*/
 .loadingPopout-qYljDW,
@@ -28,8 +27,10 @@ made with the help of others.
 .categoryList-xW5xXr { /*Stickers side bar*/
   background: rgba(0,0,0,.1);
 }
-
-
+.note-1MiCN7{margin-left:0} /*Discord fix ur dumb notes margin*/
+.animatorLeft-1EQxU0 > .userPopout-xaxa6l{
+  margin-right: 0px;
+}
 /*Create New Server Menu,. makes hover grey*/
 .container-UC8Ug1{
   background: rgba(0,0,0,.2) !important;
@@ -38,12 +39,15 @@ made with the help of others.
   background: var(--hover-color) !important;
 }
 /*Make Input Box Lighter*/
-.channelTextArea-2VhZ6z .scrollableContainer-2NUZem{
+.channelTextArea-rNsIhG{
   background: rgba(0,0,0,.2) !important;
+}
+.clipContainer-eeROt0{
+  border-radius: 8px;
 }
 /*Dashed border when replying*/
 .container-2fRDfG{
-  background: rgba(0,0,0,.2) !important;
+  background: transparent !important;
   border-bottom: 1px dashed var(--main-color);
 }
 /*Share Screen Modal Width by Addy*/
@@ -87,10 +91,10 @@ made with the help of others.
 .scroller-2LSbBU::-webkit-scrollbar, /*Main chatbox scroll bar*/
 .scroller-3ZpLaI::-webkit-scrollbar, /*Role scrollers*/
 .scroller-1J_F7B::-webkit-scrollbar, /*Audit logs*/
-.body-3ND3kc::-webkit-scrollbar, /*User modal scrollers*/
+.body-r6_QPy::-webkit-scrollbar, /*User modal scrollers*/
 .peopleList-3c4jOR::-webkit-scrollbar,
 .header-2BwW8b::-webkit-scrollbar, /*user popout*/
-.sidebarRegionScroller-3MXcoP.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2::-webkit-scrollbar,/*Settings scroll on left*/\
+.sidebarRegionScroller-3MXcoP.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2::-webkit-scrollbar,/*Settings scroll on left*/
 .content-3YMskv::-webkit-scrollbar,
 pre::-webkit-scrollbar /*Code scrollbars*/{ 
   width: 10px !important;
@@ -102,7 +106,6 @@ pre::-webkit-scrollbar /*Code scrollbars*/{
 .theme-dark .lookGhost-2Fn_0-.colorGrey-2DXtkV{ /*Fix widgets button text not being right*/
   color: #fff;
 }
-
 /*Square off the new code previews*/
 .footer-2yA7Ep,
 .textContainer-C0szpm{
@@ -135,151 +138,113 @@ pre::-webkit-scrollbar /*Code scrollbars*/{
   border-radius: 4px;
 }
 /*---------- Massive Users rewrite ----------*/
-/*Updated 2021-04-19, thanks leafy*/
 /*Popout*/
-.userPopout-3XzG_A{
+.userPopout-xaxa6l{
   border-radius: 0px !important;
 }
-/*
-.userPopout-3XzG_A{
-  width: 500px;
-  -webkit-box-orient: horizontal;
-  flex-direction: row;
-  height: 400px;
-}
-.footer-1fjuF6{
-  display: none;
-}
-.header-2BwW8b{
-  width: 250px;
-  overflow: hidden auto;
-}
-.userPopout-3XzG_A .body-3iLsc4{ 
-  width: 100%;
-}*//*Right side actually covers*/
 /*Modal*/
-.root-SR8cQa > .topSectionNormal-2-vo2m{
+.root-3QyAh1 > .topSectionNormal-y3p-_D,
+.body-r6_QPy{
   background: rgba(0, 0, 0, calc(var(--background-shading) * .3)) !important;
 }
-.root-SR8cQa{
-  display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: 50% 50%;
+.root-3QyAh1 {
+  display: flex;
+  flex-direction: row;
   width: 900px;
   height: 600px;
-  background: rgba(0, 0, 0, calc(var(--background-shading) * .6)) !important; /*BG over full thing*/
 }
-/*Loads of grid stuff*/
-.topSectionNormal-2-vo2m,
+.topSection-y3p-_D,
 .topSectionPlaying-1J5E4n,
 .topSectionSpotify-1lI0-P,
 .topSectionStreaming-1Tpf5X,
-.topSectionXbox-3fWLjS{
-  display: grid;
-  grid-template-rows: 40% auto;
+.topSectionXbox-3fWLjS {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
-.header-QKLPzZ{
+.header-4zuFdR {
   grid-row-start: 1;
   display: grid;
   grid-template-columns: auto auto 20px;
-  grid-template-rows: 110px 100px;
+  grid-template-rows: 110px 60px;
   padding-bottom: 0;
 }
-.avatar-3EQepX{
+.avatar-AvHqJA {
   grid-column-start: 1;
   grid-row-start: 1;
   align-self: start;
   height: 100px !important;
   width: 100px !important;
 }
-.headerInfo-30uryT{
+.headerInfo-1Y1Vge {
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 2;
   align-self: start;
 }
-.headerInfo-30uryT + div,
-.headerInfo-30uryT + button{
+.headerInfo-1Y1Vge + div,
+.headerInfo-1Y1Vge + button {
   grid-column-start: 2;
   grid-row-start: 1;
   align-self: start;
   justify-self: end;
 }
-.headerInfo-30uryT + div + div,
-.headerInfo-30uryT + button + div{
+.headerInfo-1Y1Vge + div + div,
+.headerInfo-1Y1Vge + button + div {
   align-self: start;
 }
-.headerInfo-30uryT + div[role=button],
-.actionButton-3W1xZa + div[role=button]{
+.headerInfo-1Y1Vge + div[role=button],
+.actionButton-3W1xZa + div[role=button] {
   grid-column-start: 3;
   grid-row-start: 1;
   align-self: start;
   justify-self: start;
 }
-.customStatus-154i-H{
+.customStatus-154i-H {
   word-break: break-word;
 }
-.header-QKLPzZ + div,
-.headerFill-adLl4x{
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: 80px auto 0;
-  grid-row-start: 2;
+.additionalActionsIcon-1FoUlE {
+  height: 32px;
 }
-.activity-1ythUs{
+.header-4zuFdR + div,
+.headerFill-39azRn {
+  display: flex;
+  flex-direction: column;
+}
+.activity-2M3PRB{
   grid-row-start: 1;
   grid-column-start: 1;
-  padding: 5px 20px;
-  max-height: 78px;
+
 }
-.activity-1ythUs ~ .activityProfile-2bJRaP{
-  grid-row-start: 2;
-  grid-column-start: 1;
+.tabBarContainer-37hZsr {
+  position: absolute;
+  top: 550px;
+  width: 45.5%;
+  z-index: 100;
 }
-/*Tabs on top in comments*/
-.tabBarContainer-1s1u-z{
-  grid-row-start: 3;
-  grid-column-start: 1;
-  align-self: end;
-  position: relative;
-  /*
-  bottom: 450px;
-  left: 450px;*/
-}
-.body-3ND3kc{
-  /*margin-top: 50px;*/
-  margin-top: -25px;
+.body-r6_QPy {
   height: auto !important;
-  overflow-y: scroll;
-  background: transparent !important;
+  width: 50%;
 }
-.infoScroller-3EYYns::webkit-scrollbar, .listScroller-2_vlfo::webkit-scrollbar,
-.body-3ND3kc::webkit-scrollbar{
-  width: 10px !important;
+.profileBadges-9OJ14v{
+  position: absolute;
+  top: 70px;
+  left: 130px;
 }
-.infoScroller-3EYYns,
-.listScroller-2_vlfo{
-  margin-top: 24px;
-  padding-top: 8px;
-  overflow: hidden scroll !important;
-}
-.topSectionPlaying-1J5E4n .bodyNormal-2D39hT{
+.topSectionPlaying-1J5E4n .bodyNormal-2D39hT {
   display: grid;
   grid-template-columns: 80px auto;
   grid-template-rows: auto 64px;
 }
-.topSectionPlaying-1J5E4n .assets-VMAukC{
+.topSectionPlaying-1J5E4n .assets-VMAukC {
   grid-row-start: 1;
   grid-column-start: 1;
 }
-.topSectionPlaying-1J5E4n .assetsLargeImageProfile-3YXDex{
+.topSectionPlaying-1J5E4n .assetsLargeImageProfile-3YXDex {
   height: 80px;
   width: 80px;
 }
-.topSectionPlaying-1J5E4n .content-3JfFJh{
-  max-width: 180px;
-}
-.topSectionPlaying-1J5E4n .actionsProfile-jEtjVX{
+.topSectionPlaying-1J5E4n .actionsProfile-jEtjVX {
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 2;
@@ -287,84 +252,87 @@ pre::-webkit-scrollbar /*Code scrollbars*/{
   flex-direction: row;
   justify-content: flex-start;
 }
-.topSectionPlaying-1J5E4n .actionsProfile-jEtjVX .button-2IFFQ4{
+.topSectionPlaying-1J5E4n .actionsProfile-jEtjVX .button-2IFFQ4 {
   margin-right: 2px;
   padding: 2px 8px;
 }
+
 .topSectionSpotify-1lI0-P .bodyAlignCenter-1KzvJk,
-.topSectionSpotify-1lI0-P .bodyNormal-2D39hT{
+.topSectionSpotify-1lI0-P .bodyNormal-2D39hT {
   display: grid;
   grid-template-columns: 80px auto;
   grid-template-rows: auto 64px;
 }
-.topSectionSpotify-1lI0-P .assets-VMAukC{
+.topSectionSpotify-1lI0-P .assets-VMAukC {
   grid-column-start: 1;
   grid-row-start: 1;
 }
-.topSectionSpotify-1lI0-P .assetsLargeImageProfile-3YXDex{ /*Spotify thumbnail icon*/
+.topSectionSpotify-1lI0-P .assetsLargeImageProfile-3YXDex {
   height: 80px;
   width: 80px;
 }
-.topSectionSpotify-1lI0-P .content-3JfFJh{
+.topSectionSpotify-1lI0-P .content-3JfFJh {
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 2;
   margin-left: 0;
   padding-top: 25px;
 }
-.topSectionSpotify-1lI0-P .actionsProfile-jEtjVX{
+.topSectionSpotify-1lI0-P .actionsProfile-jEtjVX {
   grid-column-start: 2;
   grid-row-start: 1;
 }
-.topSectionStreaming-1Tpf5X .buttonInvertedPurple-WtBglX{
+
+.topSectionStreaming-1Tpf5X .buttonInvertedPurple-WtBglX {
   padding: 2px 15px;
   align-self: start;
   height: 32px;
   min-height: 32px;
 }
-.topSectionStreaming-1Tpf5X .buttonInvertedPurple-WtBglX + div[role=button]{
+.topSectionStreaming-1Tpf5X .buttonInvertedPurple-WtBglX + div[role=button] {
   align-self: start;
 }
 .topSectionStreaming-1Tpf5X .bodyAlignCenter-1KzvJk,
-.topSectionStreaming-1Tpf5X .bodyNormal-2D39hT{
+.topSectionStreaming-1Tpf5X .bodyNormal-2D39hT {
   display: grid;
   grid-template-columns: auto 100px;
   grid-template-rows: auto 64px;
 }
-.topSectionStreaming-1Tpf5X .assets-VMAukC{
+.topSectionStreaming-1Tpf5X .assets-VMAukC {
   grid-column-start: 1;
   grid-row-start: 1;
 }
-.topSectionStreaming-1Tpf5X .content-3JfFJh{
+.topSectionStreaming-1Tpf5X .content-3JfFJh {
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 2;
   margin-left: 0;
 }
-.topSectionStreaming-1Tpf5X .actionsProfile-jEtjVX{
+.topSectionStreaming-1Tpf5X .actionsProfile-jEtjVX {
   grid-column-start: 2;
   grid-row-start: 1;
 }
-.topSectionXbox-3fWLjS .body-ZAhrcj{
+
+.topSectionXbox-3fWLjS .body-ZAhrcj {
   display: grid;
   grid-template-columns: 80px auto;
   grid-template-rows: auto 64px;
 }
-.topSectionXbox-3fWLjS .assets-VMAukC{
+.topSectionXbox-3fWLjS .assets-VMAukC {
   grid-row-start: 1;
   grid-column-start: 1;
 }
-.topSectionXbox-3fWLjS .content-3JfFJh{
+.topSectionXbox-3fWLjS .content-3JfFJh {
   max-width: 180px;
 }
-.topSectionXbox-3fWLjS .button-2IFFQ4{
+.topSectionXbox-3fWLjS .button-2IFFQ4 {
   grid-row-start: 2;
   grid-column-start: 1;
   grid-column-end: 3;
   margin-right: 2px;
   padding: 2px 8px;
 }
-.tabBar-2MuP6- > .item-PXvHYJ,
+.tabBar-3nvOPa > .item-PXvHYJ,
 .top-28JiJ- .selected-3s45Ha.themed-OHr7kt.item-PXvHYJ{
   border-radius: 3px;
   max-height: 30px !important;
@@ -375,7 +343,6 @@ span.username-2b1r56.username-3gJmXY {
   word-break: normal;
 }
 /*---------- Edited Tag ----------*/
-/*Updated 2021-04-19 thanks BD Server*/
 .cozyMessage-3V1Y8y:not(.systemMessage-1I9LCe) .markup-2BOw-j .timestampInline-yHQ6fX>[aria-label]::after{
   content:"(edited " attr(aria-label) ")";
   text-transform: lowercase;
@@ -387,7 +354,6 @@ span.username-2b1r56.username-3gJmXY {
   display: none;
 }
 /*---------- Hide Things ----------*/
-/*Updated 2021-11-19 thanks BD Server*/
 /* Hide Home Nitro button */
 .privateChannels-1nO12o .channel-2QD9_O[href="/store"]{
   display: none;
@@ -397,7 +363,6 @@ span.username-2b1r56.username-3gJmXY {
   user-select: none;
 }
 /*---------- Top Bar ----------*/
-/*Updated 2021-01-05,a lot of code taken and then modified from gibbu & Tropical's Slate theme with permission*/
 /*Delete a lot of stuff in dms*/
 .container-1r6BKw .children-19S4PO .nicknames-1XK4Zt{
   display: none !important;
@@ -487,7 +452,6 @@ span.username-2b1r56.username-3gJmXY {
   margin-top: 3px;
 }
 /*---------- Usernames and Spacing ----------*/
-/*Updated 2021-02-03*/
 /*Smaller usernames*/
 .username-1A8OIy{
   font-size: 15px !important;
@@ -513,7 +477,6 @@ span.username-2b1r56.username-3gJmXY {
   transform: translateY(-1px);
 }
 /*---------- NSFW Tag ----------*/
-/*Updated 2021-03-27*/
 [aria-label*="(NSFW)"] ~ .name-23GUGE .channelName-2YrOjO:after,
 [aria-label*="(NSFW - per adulti)"] ~ .name-23GUGE .channelName-2YrOjO:after,
 [aria-label*="(NSD)"] ~ .name-23GUGE .channelName-2YrOjO:after,
@@ -538,7 +501,6 @@ span.username-2b1r56.username-3gJmXY {
   margin-left: 5px;
 }
 /*---------- Square Stuff ----------*/
-/*Updated 2020-11-19*/
 /*Square Chat Avatars*/
 .avatar-1BDn8e{
   border: 2.5px solid var(--main-color) !important;/*
@@ -567,30 +529,34 @@ span.username-2b1r56.username-3gJmXY {
 .replyAvatar-1K9Wmr,.replyBadge-r1su3o{
   border-radius: var(--square-border-radius) !important;
 }
+/*Square off the new code previews*/
+.footer-2yA7Ep,
+.textContainer-C0szpm{ 
+  border-radius: 0px;
+}
 /*---------- Borders ----------*/
-/*Updated 2021-04-09*/
 /*A border for user profiles,popouts*/
-.inner-1ilYF7,
-.userPopout-3XzG_A{
+.root-3QyAh1,
+.userPopout-xaxa6l{
   border: 2px solid var(--main-color);
 }
 .uploadModal-2ifh8j,
-.root-SR8cQa,
+.root-3QyAh1,
 .quickswitcher-3JagVE{
   border-radius: 0px !important;
 }
 /*---------- Pings and Voice ----------*/
-/*Updated 2021-05-28*/
 /*Fancier Pings*/
 .numberBadge-2s8kKX,
-.iconBadge-3qSJIw.participating-1NvRVd{ /*Voice connected*/
+.iconBadge-3qSJIw /*Voice/stage/sharing icons*/
+{ 
   background-color: black !important;
   height: 18px;
   width: 18px !important;
   margin-bottom: -3px;
   margin-right: -5px;
   border: 1px solid var(--main-color);
-  filter: drop-shadow(0 0 2px var(--main-color));
+  filter: drop-shadow(0 0 4px var(--main-color));
 }
 .theme-dark .mentioned-xhSam7,
 .message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z,
@@ -603,7 +569,6 @@ span.username-2b1r56.username-3gJmXY {
   border: 2px solid var(--hover-ping-border-color);
 }
 /*---------- Color! ----------*/
-/*Updated 2021-02-14*/
 .textArea-12jD-V.slateContainer-3Qkn2x > .markup-2BOw-j,/*Typing area*/
 .guildNameText-3Zwx4p,/*Server names on hover*/
 .markupRtl-3M0hmN,
@@ -619,7 +584,6 @@ span.username-2b1r56.username-3gJmXY {
   color: var(--text-color);
 }*/
 /*---------- Glow ----------*/
-/*Updated 2021-01-06*/
 .childWrapper-anI2G9:hover,
 .childWrapper-anI2G9{
   background: transparent !important;
@@ -642,11 +606,11 @@ span.username-2b1r56.username-3gJmXY {
   mask:none;
   overflow:visible;
 }
-.acronym-2mOFsV,.icon-27yU2q:not(:hover),.homeIcon-FuNwkv,.circleIconButton-1QV--U{/*Force Circular Servers on Hover*/
+.acronym-2mOFsV,.icon-27yU2q:not(:hover),.homeIcon-FuNwkv,.circleIconButton-1QV--U,
+.listAvatar-1BbvHX{/*Force Circular Servers on Hover*/
   border-radius: var(--circle-border-radius) !important;
 }
 /*---------- Gradients ----------*/
-/*Updated 2021-03-26,Huge thanks to leafy and leo*/
 .theme-dark .footer-2gL1pp .button-38aScr,
 .lookFilled-1Gx00P.colorGrey-2DXtkV,
 .categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG,/* discover tab */
@@ -725,7 +689,6 @@ span.username-2b1r56.username-3gJmXY {
   background: linear-gradient(to right,var(--from-gradient-color) 50%,transparent) !important;
 }
 /*---------- FANCY CODE ----------*/
-/*Updated 2021-03-28*/
 /*Thank you gibbu*/
 #app-mount pre{
   background: rgba(0,0,0,.4) !important;
@@ -1103,7 +1066,6 @@ span.username-2b1r56.username-3gJmXY {
   color: #959da5;
 }
 /*---------- Permissions Viewer Fix ----------*/
-/*Updated 2021-01-05*/
 #permissions-modal-wrapper .callout-backdrop,
 #permissions-modal-wrapper .role-side,
 #permissions-modal-wrapper .perm-side,
@@ -1132,7 +1094,6 @@ span.username-2b1r56.username-3gJmXY {
   background-color: var(--main-color) !important;
 }
 /*---------- Better Formatting Fix ----------*/
-/*Updated 2020-10-28*/
 /*Lazy blanket that makes entire thing transparent*/
 .bf-toolbar.bf-hover:hover:before,
 .bf-toolbar.bf-visible:before,
@@ -1140,7 +1101,6 @@ span.username-2b1r56.username-3gJmXY {
   background: rgba(0,0,0,.2) !important;
 }
 /*---------- Channel Tabs Fix ----------*/
-/*Updated 2020-11-05*/
 /*Fixing unthemed tabs*/
 .channelTabs-tab{
   background: rgba(0,0,0,.2) !important;
@@ -1215,7 +1175,6 @@ span.username-2b1r56.username-3gJmXY {
   font: var(--main-font) !important;
 }
 /*---------- DateViewer ----------*/
-/*Updated 2020-08-31*/
 /*Make the DateViewer plugin background transparent*/
 #dv-mount{
   background: rgba(0,0,0,.2);
