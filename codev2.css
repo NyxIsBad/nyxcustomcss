@@ -144,7 +144,7 @@ pre::-webkit-scrollbar /*Code scrollbars*/{
   border-radius: 0px !important;
 }
 /*Modal*/
-.root-3QyAh1 > .topSectionNormal-y3p-_D,
+/*.root-3QyAh1 > .topSectionNormal-y3p-_D,
 .body-r6_QPy{
   background: rgba(0, 0, 0, calc(var(--background-shading) * .3)) !important;
 }
@@ -342,7 +342,7 @@ pre::-webkit-scrollbar /*Code scrollbars*/{
 span.username-2b1r56.username-3gJmXY {
   text-overflow: ellipsis !important;
   word-break: normal;
-}
+}*/
 /*---------- Edited Tag ----------*/
 .cozyMessage-3V1Y8y:not(.systemMessage-1I9LCe) .markup-2BOw-j .timestampInline-yHQ6fX>[aria-label]::after{
   content:"(edited " attr(aria-label) ")";
