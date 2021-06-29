@@ -97,8 +97,13 @@ made with the help of others.
 .header-2BwW8b::-webkit-scrollbar, /*user popout*/
 .sidebarRegionScroller-3MXcoP.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2::-webkit-scrollbar,/*Settings scroll on left*/
 .content-3YMskv::-webkit-scrollbar,
-pre::-webkit-scrollbar /*Code scrollbars*/{ 
+pre::-webkit-scrollbar, /*Code scrollbars*/
+.scrollableContainer-2NUZem::-webkit-scrollbar /*Long message scrollbars*/{ 
   width: 10px !important;
+}
+/*Login screen*/
+.authBox-hW6HRx{
+  background: rgba(0,0,0,.8);
 }
 /*Get rid of tip at bottom of user popout*/
 .protip-YaFfgO{
@@ -139,6 +144,9 @@ pre::-webkit-scrollbar /*Code scrollbars*/{
   border-radius: 4px;
 }
 /*---------- Powercord Fixes ----------*/
+.user-details{
+  margin-top: 20px;
+}
 .invite-inspector .modal-yWgWj-{
   background: transparent;
   border-radius: 0px;
