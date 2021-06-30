@@ -81,21 +81,9 @@ made with the help of others.
 /*Yellow Permission Ticks*/
 .passthrough-1c2ewQ.selected-2YhbGh{background-color: #ffba00;}
 .passthrough-1c2ewQ:not(.selected-2YhbGh) polygon{fill: #ffba00;}
+
 /*Return scrollbars to 10px*/
-.contentRegion-3nDuYy .contentRegionScroller-26nc1e::-webkit-scrollbar, /*Settings scroll right*/
-.CodeMirror-vscrollbar::-webkit-scrollbar,
-.perm-scroller::-webkit-scrollbar,/*Permissions viewer plugin*/
-.role-scroller::-webkit-scrollbar,
-.scroller-2LSbBU::-webkit-scrollbar, /*Main chatbox scroll bar*/
-.scroller-3ZpLaI::-webkit-scrollbar, /*Role scrollers*/
-.scroller-1J_F7B::-webkit-scrollbar, /*Audit logs*/
-.body-r6_QPy::-webkit-scrollbar, /*User modal scrollers*/
-.peopleList-3c4jOR::-webkit-scrollbar,
-.header-2BwW8b::-webkit-scrollbar, /*user popout*/
-.sidebarRegionScroller-3MXcoP.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2::-webkit-scrollbar,/*Settings scroll on left*/
-.content-3YMskv::-webkit-scrollbar,
-pre::-webkit-scrollbar, /*Code scrollbars*/
-.scrollableContainer-2NUZem::-webkit-scrollbar /*Long message scrollbars*/{ 
+*::-webkit-scrollbar /*Blanket*/{ 
   width: 10px !important;
 }
 /*Login screen*/
