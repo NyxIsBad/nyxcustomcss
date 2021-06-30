@@ -24,9 +24,6 @@ made with the help of others.
 .fullScreen-1tMzXY .flexCenter-2Y_vCg{ /*Fullscreen share*/
   background: rgba(0, 0, 0, calc(var(--background-shading) * .6));
 }
-.categoryList-xW5xXr { /*Stickers side bar*/
-  background: rgba(0,0,0,.1);
-}
 .note-1MiCN7{margin-left:0} /*Discord fix ur dumb notes margin*/
 .animatorLeft-1EQxU0 > .userPopout-xaxa6l{
   margin-right: 0px;
