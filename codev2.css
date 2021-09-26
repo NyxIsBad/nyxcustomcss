@@ -24,7 +24,11 @@ made with the help of others.
 .fullScreen-1tMzXY .flexCenter-2Y_vCg{ /*Fullscreen share*/
   background: rgba(0, 0, 0, calc(var(--background-shading) * .6));
 }
-.note-1MiCN7{margin-left:0} /*Discord fix ur dumb notes margin*/
+.note-1oo11U{
+  margin-left:0;
+  margin-bottom:10px;
+} /*Discord fix ur dumb notes margin*/
+
 .animatorLeft-1EQxU0 > .userPopout-xaxa6l{
   margin-right: 0px;
 }
@@ -99,9 +103,14 @@ made with the help of others.
 *::webkit-scrollbar{ 
   width: 10px !important;
 }
+
+.channelIcon-1MN1lz{ /*Fix channel icon being dumb*/
+  height: 1rem;
+}
+
 /*Login screen*/
 .authBox-hW6HRx{
-  background: rgba(0,0,0,.8);
+  background: rgba(0,0,0,.8) !important;
 }
 /*Get rid of tip at bottom of user popout*/
 .protip-YaFfgO{
