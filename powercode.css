@@ -163,7 +163,7 @@ made with the help of others.
   margin: 0;
 }
 /*Role color everywhere mentions*/
-.topic-TCb_qw .wrapper-3WhCwL, .topic-TCb_qw .mention, .markup-2BOw-j .wrapper-3WhCwL, .markup-2BOw-j .mention, .rolecolor-mention, .rolecolor-mention:hover {
+.topic-KQbDiq .wrapper-3WhCwL, .topic-KQbDiq .mention, .markup-2BOw-j .wrapper-3WhCwL, .markup-2BOw-j .mention, .rolecolor-mention, .rolecolor-mention:hover {
   border-radius: 5px !important;
   transition: ease-in-out .2s !important;
 }
@@ -511,7 +511,7 @@ span.username-2b1r56.username-3gJmXY {
   content: "Click for more details (if possible)";
 }
 /*Makes descriptions clickable and not visible*/
-#app-mount .container-1r6BKw.themed-ANHk51 .children-19S4PO .topic-TCb_qw{
+#app-mount .container-1r6BKw.themed-ANHk51 .children-19S4PO .topic-KQbDiq{
   position: absolute;
   top: 0;
   left: 0;
