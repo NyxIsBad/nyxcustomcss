@@ -9,8 +9,8 @@ made with the help of others.
 /*---------- CV Fixes ----------*/
 /*Conf applies to base theme as well*/
 /*Spinning profile popout logo thing*/
-.loadingPopout-qYljDW,
-.spinner-2enMB9 {
+.loadingPopout-1feYe_,
+.spinner-2RT7ZC {
   background: transparent;
 }
 /*Fix to the profile popout having a margin on right*/
@@ -18,49 +18,49 @@ made with the help of others.
   margin: 0px;
 }
 /*Button (like when joining or leaving servers etc) fix*/
-.footer-2gL1pp .button-38aScr:nth-child(2){
+.footer-31IekZ .button-38aScr:nth-child(2){
   margin-right: 5px;
 }
-.fullScreen-1tMzXY .flexCenter-2Y_vCg{ /*Fullscreen share*/
+.fullScreen-KhZZcz .flexCenter-1Vz5gs{ /*Fullscreen share*/
   background: rgba(0, 0, 0, calc(var(--background-shading) * .6));
 }
-.note-1oo11U{
+.note-Go5ZP2{
   margin-left:0;
   margin-bottom:10px;
 } /*Discord fix ur dumb notes margin*/
 
-.animatorLeft-1EQxU0 > .userPopout-xaxa6l{
+.animatorLeft-3yvG13 > .userPopout-2j1gM4{
   margin-right: 0px;
 }
 /*Create New Server Menu,. makes hover grey*/
-.container-UC8Ug1{
+.container-x8Y1ix{
   background: rgba(0,0,0,.2) !important;
 }
-.container-UC8Ug1:hover{
+.container-x8Y1ix:hover{
   background: var(--hover-color) !important;
 }
 /*Make Input Box Lighter*/
-.channelTextArea-rNsIhG,
-.channelTextArea-2VhZ6z{
+.channelTextArea-1FufC0,
+.channelTextArea-1VQBuV{
   background: rgba(0,0,0,.2) !important;
 }
-.clipContainer-eeROt0{
+.clipContainer-31nYlH{
   border-radius: 8px;
 }
 /*Dashed border when replying*/
-.container-2fRDfG{
+.container-A2jo65{
   background: transparent !important;
   border-bottom: 1px dashed var(--main-color);
 }
 /*Share Screen Modal Width by Addy*/
-.modalSize-cqUaws,.modalHeader-19eoYJ + div{
+.modalSize-22vimZ,.modalHeader-1iFX6c + div{
   width: 600px !important;
 }
 /*Message Date Appearance Style by Addy*/
-.divider-JfaTT5{
+.divider-2rZFJK{
   border-top: thin solid rgba(0,0,0,0);
 }
-.divider-JfaTT5:before{
+.divider-2rZFJK:before{
   content: "";
   height: 2px;
   opacity: 0.4;
@@ -69,7 +69,7 @@ made with the help of others.
   margin-right: 0;
   z-index: -1;
 }
-.divider-JfaTT5:after{
+.divider-2rZFJK:after{
   content: "";
   height: 2px;
   opacity: 0.4;
@@ -83,33 +83,33 @@ made with the help of others.
   background: transparent;
 }
 /*Yellow Permission Ticks*/
-.passthrough-1c2ewQ.selected-2YhbGh{background-color: #ffba00;}
-.passthrough-1c2ewQ:not(.selected-2YhbGh) polygon{fill: #ffba00;}
+.passthrough--fbdFR.selected-3jieYB{background-color: #ffba00;}
+.passthrough--fbdFR:not(.selected-3jieYB) polygon{fill: #ffba00;}
 
 /*Return scrollbars to 10px*/
 /*
-.contentRegion-3nDuYy .contentRegionScroller-26nc1e::-webkit-scrollbar,*/ /*Settings scroll right*/
+.contentRegion-3HkfJJ .contentRegionScroller-2_GT_N::-webkit-scrollbar,*/ /*Settings scroll right*/
 /*.CodeMirror-vscrollbar::-webkit-scrollbar,*/
 /*.perm-scroller::-webkit-scrollbar,*//*Permissions viewer plugin*/
 /*.role-scroller::-webkit-scrollbar,*/
-/*.scroller-2LSbBU::-webkit-scrollbar,*/ /*Main chatbox scroll bar*/
-/*.scroller-3ZpLaI::-webkit-scrollbar,*/ /*Role scrollers*/
+/*.scroller-kQBbkU::-webkit-scrollbar,*/ /*Main chatbox scroll bar*/
+/*.scroller-39BnzZ::-webkit-scrollbar,*/ /*Role scrollers*/
 /*.scroller-1J_F7B::-webkit-scrollbar,*/ /*Audit logs*/
-/*.body-r6_QPy::-webkit-scrollbar,*/ /*User modal scrollers*/
-/*.peopleList-3c4jOR::-webkit-scrollbar,*/
+/*.body-1Ukv50::-webkit-scrollbar,*/ /*User modal scrollers*/
+/*.peopleList-2VBrVI::-webkit-scrollbar,*/
 /*.header-2BwW8b::-webkit-scrollbar,*/ /*user popout*/
-/*.sidebarRegionScroller-3MXcoP.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2::-webkit-scrollbar,*//*Settings scroll on left*/
-/*.content-3YMskv::-webkit-scrollbar,*/
+/*.sidebarRegionScroller-FXiQOh.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN::-webkit-scrollbar,*//*Settings scroll on left*/
+/*.content-2a4AW9::-webkit-scrollbar,*/
 /*pre::-webkit-scrollbar,*/ /*Code scrollbars*/
-/*.scrollableContainer-2NUZem::-webkit-scrollbar*/ /*Long message scrollbars*/
+/*.scrollableContainer-15eg7h::-webkit-scrollbar*/ /*Long message scrollbars*/
 *::-webkit-scrollbar /*Blanket*/{ 
   width: 10px !important;
 }
-.channelIcon-1MN1lz{ /*Fix channel icon being dumb*/
+.channelIcon-3I2O7O{ /*Fix channel icon being dumb*/
   height: 1rem;
 }
 /*Login screen*/
-.authBox-hW6HRx{
+.authBox-1HR6Ha{
   background: rgba(0,0,0,.8) !important;
 }
 /*Get rid of tip at bottom of user popout*/
@@ -120,24 +120,24 @@ made with the help of others.
   color: #fff;
 }
 /*Square off the new code previews*/
-.footer-2yA7Ep,
-.textContainer-C0szpm{
+.footer-GXWBBp,
+.textContainer-36wgKK{
   border-radius: 0px;
 }
 /*2021-03-24 reroll*/
-.iconContainer-2SYmeK.checked-1Gs3_E{
+.iconContainer-1KbTnT.checked-2IddOy{
   background-color: var(--main-color);
   border-color: var(--main-color);
 }
 /*Emote Autocomplete reversion to old style*/
-.contentTitle-2tG_sM{
+.contentTitle-3CylD3{
   color: var(--text-muted);
 }
-.autocompleteRowContentPrimary-238PvP .colorInteractiveActive-3Ip9Eu{
+.autocompleteRowContentPrimary-1kUW9H .colorInteractiveActive-30E9n8{
   font-weight: inherit;
   font-size: 100%;
 }
-.autocompleteRowContentSecondary-1tgI-F{
+.autocompleteRowContentSecondary-Oobh2b{
   font-size: 14px;
   line-height: 18px;
   color: var(--text-muted);
@@ -146,7 +146,7 @@ made with the help of others.
 .user-details{
   margin-top: 20px;
 }
-.invite-inspector .modal-yWgWj-{
+.invite-inspector .modal-2RrUKJ{
   background: transparent;
   border-radius: 0px;
 }
@@ -155,23 +155,23 @@ made with the help of others.
   top: 25px;
 }
 /*In App Notifications*/
-.ian-toast .markup-2BOw-j{
+.ian-toast .markup-eYLPri{
   text-align: center;
 }
 /*VC Timer */
-.subtext-3CDbHg p{
+.subtext-2HDqJ7 p{
   margin: 0;
 }
 /*Role color everywhere mentions*/
-.topic-KQbDiq .wrapper-3WhCwL, .topic-KQbDiq .mention, .markup-2BOw-j .wrapper-3WhCwL, .markup-2BOw-j .mention, .rolecolor-mention, .rolecolor-mention:hover {
+.topic-KQbDiq .wrapper-1ZcZW-, .topic-KQbDiq .mention, .markup-eYLPri .wrapper-1ZcZW-, .markup-eYLPri .mention, .rolecolor-mention, .rolecolor-mention:hover {
   border-radius: 5px !important;
   transition: ease-in-out .2s !important;
 }
 /*Theme toggler to top*/
-#app-mount .item-PXvHYJ[data-item-id="theme-toggler"]{
+#app-mount .item-3XjbnG[data-item-id="theme-toggler"]{
   order: 1;
 }
-.item-PXvHYJ[data-item-id="pc-moduleManager-themes"] ~ div{
+.item-3XjbnG[data-item-id="pc-moduleManager-themes"] ~ div{
   order: 2;
 }
 /*Settings*/
@@ -186,16 +186,16 @@ made with the help of others.
 .quoteMessages{
   background: rgba(0,0,0,.2) !important;
 }
-.blockquoteContainer-U5TVEi blockquote{
+.blockquoteContainer-3VtvI1 blockquote{
   color: var(--text-color);
 }
 /*
 .modifiedQuote,
-.blockquoteContainer-U5TVEi{
+.blockquoteContainer-3VtvI1{
   background: rgba(0,0,0,.1) !important; 
 }
 .modifiedQuote:hover,
-.blockquoteContainer-U5TVEi:hover{
+.blockquoteContainer-3VtvI1:hover{
   background: rgba(0,0,0,.2) !important; 
 }
 */
@@ -238,21 +238,21 @@ made with the help of others.
 }
 /*---------- Massive Users rewrite ----------*/
 /*Popout*/
-.userPopout-xaxa6l{
+.userPopout-2j1gM4{
   border-radius: 0px !important;
 }
 /*Modal*/
-/*.root-3QyAh1 > .topSectionNormal-y3p-_D,
-.body-r6_QPy{
+/*.root-8LYsGj > .topSectionNormal-y3p-_D,
+.body-1Ukv50{
   background: rgba(0, 0, 0, calc(var(--background-shading) * .3)) !important;
 }
-.root-3QyAh1 {
+.root-8LYsGj {
   display: flex;
   flex-direction: row;
   width: 900px;
   height: 600px;
 }
-.topSection-y3p-_D,
+.topSection-13QKHs,
 .topSectionPlaying-1J5E4n,
 .topSectionSpotify-1lI0-P,
 .topSectionStreaming-1Tpf5X,
@@ -261,14 +261,14 @@ made with the help of others.
   flex-direction: column;
   width: 50%;
 }
-.header-4zuFdR {
+.header-S26rhB {
   grid-row-start: 1;
   display: grid;
   grid-template-columns: auto auto 20px;
   grid-template-rows: 110px 60px;
   padding-bottom: 0;
 }
-.avatar-AvHqJA {
+.avatar-3QF_VA {
   grid-column-start: 1;
   grid-row-start: 1;
   align-self: start;
@@ -305,7 +305,7 @@ made with the help of others.
 .additionalActionsIcon-1FoUlE {
   height: 32px;
 }
-.header-4zuFdR + div,
+.header-S26rhB + div,
 .headerFill-39azRn {
   display: flex;
   flex-direction: column;
@@ -315,13 +315,13 @@ made with the help of others.
   grid-column-start: 1;
 
 }
-.tabBarContainer-37hZsr {
+.tabBarContainer-sCZC4w {
   position: absolute;
   top: 550px;
   width: 45.5%;
   z-index: 100;
 }
-.body-r6_QPy {
+.body-1Ukv50 {
   height: auto !important;
   width: 50%;
 }
@@ -330,20 +330,20 @@ made with the help of others.
   top: 70px;
   left: 130px;
 }
-.topSectionPlaying-1J5E4n .bodyNormal-2D39hT {
+.topSectionPlaying-1J5E4n .bodyNormal-250CQK {
   display: grid;
   grid-template-columns: 80px auto;
   grid-template-rows: auto 64px;
 }
-.topSectionPlaying-1J5E4n .assets-VMAukC {
+.topSectionPlaying-1J5E4n .assets-3PQvAh {
   grid-row-start: 1;
   grid-column-start: 1;
 }
-.topSectionPlaying-1J5E4n .assetsLargeImageProfile-3YXDex {
+.topSectionPlaying-1J5E4n .assetsLargeImageProfile-1TX9jP {
   height: 80px;
   width: 80px;
 }
-.topSectionPlaying-1J5E4n .actionsProfile-jEtjVX {
+.topSectionPlaying-1J5E4n .actionsProfile-31n1ca {
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 2;
@@ -351,33 +351,33 @@ made with the help of others.
   flex-direction: row;
   justify-content: flex-start;
 }
-.topSectionPlaying-1J5E4n .actionsProfile-jEtjVX .button-2IFFQ4 {
+.topSectionPlaying-1J5E4n .actionsProfile-31n1ca .button-TGAkj4 {
   margin-right: 2px;
   padding: 2px 8px;
 }
 
-.topSectionSpotify-1lI0-P .bodyAlignCenter-1KzvJk,
-.topSectionSpotify-1lI0-P .bodyNormal-2D39hT {
+.topSectionSpotify-1lI0-P .bodyAlignCenter-3E27PU,
+.topSectionSpotify-1lI0-P .bodyNormal-250CQK {
   display: grid;
   grid-template-columns: 80px auto;
   grid-template-rows: auto 64px;
 }
-.topSectionSpotify-1lI0-P .assets-VMAukC {
+.topSectionSpotify-1lI0-P .assets-3PQvAh {
   grid-column-start: 1;
   grid-row-start: 1;
 }
-.topSectionSpotify-1lI0-P .assetsLargeImageProfile-3YXDex {
+.topSectionSpotify-1lI0-P .assetsLargeImageProfile-1TX9jP {
   height: 80px;
   width: 80px;
 }
-.topSectionSpotify-1lI0-P .content-3JfFJh {
+.topSectionSpotify-1lI0-P .content-tXPNDw {
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 2;
   margin-left: 0;
   padding-top: 25px;
 }
-.topSectionSpotify-1lI0-P .actionsProfile-jEtjVX {
+.topSectionSpotify-1lI0-P .actionsProfile-31n1ca {
   grid-column-start: 2;
   grid-row-start: 1;
 }
@@ -391,104 +391,104 @@ made with the help of others.
 .topSectionStreaming-1Tpf5X .buttonInvertedPurple-WtBglX + div[role=button] {
   align-self: start;
 }
-.topSectionStreaming-1Tpf5X .bodyAlignCenter-1KzvJk,
-.topSectionStreaming-1Tpf5X .bodyNormal-2D39hT {
+.topSectionStreaming-1Tpf5X .bodyAlignCenter-3E27PU,
+.topSectionStreaming-1Tpf5X .bodyNormal-250CQK {
   display: grid;
   grid-template-columns: auto 100px;
   grid-template-rows: auto 64px;
 }
-.topSectionStreaming-1Tpf5X .assets-VMAukC {
+.topSectionStreaming-1Tpf5X .assets-3PQvAh {
   grid-column-start: 1;
   grid-row-start: 1;
 }
-.topSectionStreaming-1Tpf5X .content-3JfFJh {
+.topSectionStreaming-1Tpf5X .content-tXPNDw {
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 2;
   margin-left: 0;
 }
-.topSectionStreaming-1Tpf5X .actionsProfile-jEtjVX {
+.topSectionStreaming-1Tpf5X .actionsProfile-31n1ca {
   grid-column-start: 2;
   grid-row-start: 1;
 }
 
-.topSectionXbox-3fWLjS .body-ZAhrcj {
+.topSectionXbox-3fWLjS .body-u1Y8uL {
   display: grid;
   grid-template-columns: 80px auto;
   grid-template-rows: auto 64px;
 }
-.topSectionXbox-3fWLjS .assets-VMAukC {
+.topSectionXbox-3fWLjS .assets-3PQvAh {
   grid-row-start: 1;
   grid-column-start: 1;
 }
-.topSectionXbox-3fWLjS .content-3JfFJh {
+.topSectionXbox-3fWLjS .content-tXPNDw {
   max-width: 180px;
 }
-.topSectionXbox-3fWLjS .button-2IFFQ4 {
+.topSectionXbox-3fWLjS .button-TGAkj4 {
   grid-row-start: 2;
   grid-column-start: 1;
   grid-column-end: 3;
   margin-right: 2px;
   padding: 2px 8px;
 }
-.tabBar-3nvOPa > .item-PXvHYJ,
-.top-28JiJ- .selected-3s45Ha.themed-OHr7kt.item-PXvHYJ{
+.tabBar-2hXqzU > .item-3XjbnG,
+.top-K_jibn .selected-g-kMVV.themed-2-lozF.item-3XjbnG{
   border-radius: 3px;
   max-height: 30px !important;
   animation: cv-slide-top .2s ease-in-out;
 }
-span.username-2b1r56.username-3gJmXY {
+span.username-3JLfHz.username-3gJmXY {
   text-overflow: ellipsis !important;
   word-break: normal;
 }*/
 /*---------- Edited Tag ----------*/
-.cozyMessage-3V1Y8y:not(.systemMessage-1I9LCe) .markup-2BOw-j .timestampInline-yHQ6fX>[aria-label]::after{
+.cozyMessage-1DWF9U:not(.systemMessage-1H1Z20) .markup-eYLPri .timestampInline-_lS3aK>[aria-label]::after{
   content:"(edited " attr(aria-label) ")";
   text-transform: lowercase;
   font-size: 0.625rem;
   font-weight: 400;
   line-height: 1;
 }
-.cozyMessage-3V1Y8y:not(.systemMessage-1I9LCe) .markup-2BOw-j .timestampInline-yHQ6fX .edited-3sfAzf{
+.cozyMessage-1DWF9U:not(.systemMessage-1H1Z20) .markup-eYLPri .timestampInline-_lS3aK .edited-1v5nT8{
   display: none;
 }
 /*---------- Hide Things ----------*/
 /* Hide Home Nitro button */
-.privateChannels-1nO12o .channel-2QD9_O[href="/store"]{
+.privateChannels-oVe7HL .channel-1Shao0[href="/store"]{
   display: none;
 }
 /* Makes usernames/timestamps not selectable */
-.header-23xsNx{
+.header-2jRmjb{
   user-select: none;
 }
 /*---------- Top Bar ----------*/
 /*Delete a lot of stuff in dms*/
-.container-1r6BKw .children-19S4PO .nicknames-1XK4Zt{
+.container-ZMc96U .children-3xh0VB .nicknames-10Sg6e{
   display: none !important;
 }
-.container-1r6BKw .children-19S4PO .status-1XNdyw{
+.container-ZMc96U .children-3xh0VB .status-12NUUC{
   display: none !important;
 }
-.akaBadge-1M-1Gw{
+.akaBadge-3i7V3p{
   display: none !important;
 }
 /*Spacing*/
-.container-1r6BKw .children-19S4PO{
+.container-ZMc96U .children-3xh0VB{
   flex: none;
   min-width: 230px;
 }
-.container-1r6BKw .children-19S4PO .iconWrapper-2OrFZ1{
+.container-ZMc96U .children-3xh0VB .iconWrapper-2awDjA{
   margin: 0 10px 0 0;
 }
-.container-1r6BKw .children-19S4PO .iconWrapper-2OrFZ1 .icon-22AiRD{
+.container-ZMc96U .children-3xh0VB .iconWrapper-2awDjA .icon-2xnN2Y{
   width: 20px;
 }
 /*Channel Name*/
-.container-1r6BKw .children-19S4PO .iconWrapper-2OrFZ1 .channelName-qsg_a_{
+.container-ZMc96U .children-3xh0VB .iconWrapper-2awDjA .channelName-3aS_Eg{
   margin: 0;
 }
 /*Defines two layers*/
-.container-1r6BKw .children-19S4PO h3{
+.container-ZMc96U .children-3xh0VB h3{
   font-size: 12px;
   display: flex;
   flex-direction: column;
@@ -498,20 +498,20 @@ span.username-2b1r56.username-3gJmXY {
   flex: 1;
 }
 /*Deletes the divider*/
-.divider-3FBTu8{
+.divider-q3P9HC{
   display: none;
 }
 /*Some stolen code*/
-.container-1r6BKw .children-19S4PO h3:before{
+.container-ZMc96U .children-3xh0VB h3:before{
   display: block;
   content: "Channel Name";
   font-size: 11px;
 }
-.container-1r6BKw:hover > .children-19S4PO h3:before{
+.container-ZMc96U:hover > .children-3xh0VB h3:before{
   content: "Click for more details (if possible)";
 }
 /*Makes descriptions clickable and not visible*/
-#app-mount .container-1r6BKw.themed-ANHk51 .children-19S4PO .topic-KQbDiq{
+#app-mount .container-ZMc96U.themed-Hp1KC_ .children-3xh0VB .topic-KQbDiq{
   position: absolute;
   top: 0;
   left: 0;
@@ -520,11 +520,11 @@ span.username-2b1r56.username-3gJmXY {
   opacity: 0;
 }
 /*Search margins*/
-.container-1r6BKw .search-36MZv-{
+.container-ZMc96U .search-39IXmY{
   margin-top: 4px;
   margin-left: -18px;
 }
-.container-1r6BKw .toolbar-1t6TWx{
+.container-ZMc96U .toolbar-3_r2xA{
   /*margin-left:10%;*/
   position: absolute;
   top: 50%;
@@ -536,58 +536,58 @@ span.username-2b1r56.username-3gJmXY {
 }
 /*moved search bar to center btw after input from user 379052485819498507,comments above are redundant*/
 /*Adds spacing between items on the toolbar*/
-.container-1r6BKw .toolbar-1t6TWx .iconWrapper-2OrFZ1{
+.container-ZMc96U .toolbar-3_r2xA .iconWrapper-2awDjA{
   margin: 0px 10px;
 }
 /*Make this normal looking*/
-.container-1r6BKw .searchBar-3dMhjb{
+.container-ZMc96U .searchBar-zdmu7v{
   padding: 0 !important;
   overflow: visible;
   background: transparent;
 }
 /*Offset*/
-.container-1r6BKw .DraftEditor-root{
+.container-ZMc96U .DraftEditor-root{
   padding: 0 10px 0 28px;
   margin-top: 3px;
 }
 /*---------- Usernames and Spacing ----------*/
 /*Smaller usernames*/
-.username-1A8OIy{
+.username-h_Y3Us{
   font-size: 15px !important;
 }
 /*Standardizes some stuff*/
-.username-1A8OIy:hover{
+.username-h_Y3Us:hover{
   color: var(--hover-color) !important;
 }
-.contents-2mQqc9 > img ~ .header-23xsNx > span.username-1A8OIy:hover::after
+.contents-2MsGLg > img ~ .header-2jRmjb > span.username-h_Y3Us:hover::after
 {
   color: var(--hover-color);
   text-shadow: 0px 0px 10px var(--hover-color);
 }
 /*Makes messages clsoer together*/
-.cozyMessage-3V1Y8y{
+.cozyMessage-1DWF9U{
   margin-bottom: -4px;
 }
 /*Hover for cool little bump*/
-.profileBadge-2niAfJ{
+.profileBadge-12r2Nm{
   transition: 0.4s;
 }
-.profileBadge-2niAfJ:hover{
+.profileBadge-12r2Nm:hover{
   transform: translateY(-1px);
 }
 /*---------- NSFW Tag ----------*/
-[aria-label*="(NSFW)"] ~ .name-23GUGE .channelName-2YrOjO:after,
-[aria-label*="(NSFW - per adulti)"] ~ .name-23GUGE .channelName-2YrOjO:after,
-[aria-label*="(NSD)"] ~ .name-23GUGE .channelName-2YrOjO:after,
-[aria-label*="(Conteúdo adulto)"] ~ .name-23GUGE .channelName-2YrOjO:after,
-[aria-label*="(NSFW (aikuissisältö; ei katseltavaksi työtilanteissa))"] ~ .name-23GUGE .channelName-2YrOjO:after,
-[aria-label*="(Ακατάλληλο NSFW περιεχόμενο)"] ~ .name-23GUGE .channelName-2YrOjO:after,
-[aria-label*="(откровенный контент)"] ~ .name-23GUGE .channelName-2YrOjO:after,
-[aria-label*="(не для перегляду на роботі)"] ~ .name-23GUGE .channelName-2YrOjO:after,
-[aria-label*="（少儿不宜）"] ~ .name-23GUGE .channelName-2YrOjO:after,
-[aria-label*="(NSFW<閲覧注意>)"] ~ .name-23GUGE .channelName-2YrOjO:after,
-[aria-label*="(限制級)"] ~ .name-23GUGE .channelName-2YrOjO:after,
-[aria-label*="(연령 제한)"] ~ .name-23GUGE .channelName-2YrOjO:after{
+[aria-label*="(NSFW)"] ~ .name-28HaxV .channelName-3KPsGw:after,
+[aria-label*="(NSFW - per adulti)"] ~ .name-28HaxV .channelName-3KPsGw:after,
+[aria-label*="(NSD)"] ~ .name-28HaxV .channelName-3KPsGw:after,
+[aria-label*="(Conteúdo adulto)"] ~ .name-28HaxV .channelName-3KPsGw:after,
+[aria-label*="(NSFW (aikuissisältö; ei katseltavaksi työtilanteissa))"] ~ .name-28HaxV .channelName-3KPsGw:after,
+[aria-label*="(Ακατάλληλο NSFW περιεχόμενο)"] ~ .name-28HaxV .channelName-3KPsGw:after,
+[aria-label*="(откровенный контент)"] ~ .name-28HaxV .channelName-3KPsGw:after,
+[aria-label*="(не для перегляду на роботі)"] ~ .name-28HaxV .channelName-3KPsGw:after,
+[aria-label*="（少儿不宜）"] ~ .name-28HaxV .channelName-3KPsGw:after,
+[aria-label*="(NSFW<閲覧注意>)"] ~ .name-28HaxV .channelName-3KPsGw:after,
+[aria-label*="(限制級)"] ~ .name-28HaxV .channelName-3KPsGw:after,
+[aria-label*="(연령 제한)"] ~ .name-28HaxV .channelName-3KPsGw:after{
   content: 'nsfw';
   color: white;
   font: var(--main-font);
@@ -601,7 +601,7 @@ span.username-2b1r56.username-3gJmXY {
 }
 /*---------- Square Stuff ----------*/
 /*Square Chat Avatars*/
-.avatar-1BDn8e{
+.avatar-2e8lTP{
   border: 2.5px solid var(--main-color) !important;/*
   width: 35px !important;
   height: 35px !important;*/
@@ -614,39 +614,39 @@ span.username-2b1r56.username-3gJmXY {
   border-radius: var(--square-border-radius) !important;
 }
 /* Thanks Jay Wilson */
-.wrapper-2QE8vf foreignObject{
+.wrapper-3mYmFS foreignObject{
   mask: none;
 }
 /*Calling*/
-.voiceAvatar-14IynY,
-.border-Jn5IOt,
-.wrapper-2QE8vf.ringingIncoming-38YcLn:after,
-.wrapper-2QE8vf.ringingOutgoing-mbXhhQ:after{
+.voiceAvatar-lRbblo,
+.border-2BJQjd,
+.wrapper-3mYmFS.ringingIncoming-fibTw-:after,
+.wrapper-3mYmFS.ringingOutgoing-1NjfRn:after{
   border-radius: var(--square-border-radius);
 }
 /*New Reply System*/
-.replyAvatar-1K9Wmr,.replyBadge-r1su3o{
+.replyAvatar-sHd2sU,.replyBadge-LMm_Ic{
   border-radius: var(--square-border-radius) !important;
 }
 /*Square off the new code previews*/
-.footer-2yA7Ep,
-.textContainer-C0szpm{ 
+.footer-GXWBBp,
+.textContainer-36wgKK{ 
   border-radius: 0px;
 }
 /*---------- Borders ----------*/
 /*A border for user profiles,popouts*/
-.root-3QyAh1,
-.userPopout-xaxa6l{
+.root-8LYsGj,
+.userPopout-2j1gM4{
   border: 2px solid var(--main-color);
 }
-.uploadModal-2ifh8j,
-.root-3QyAh1,
-.quickswitcher-3JagVE{
+.uploadModal-2ie9O_,
+.root-8LYsGj,
+.quickswitcher-pKcM9U{
   border-radius: 0px !important;
 }
 /*---------- Pings and Voice ----------*/
 /*Fancier Pings*/
-.numberBadge-2s8kKX,
+.numberBadge-37OJ3S,
 .iconBadge-3qSJIw /*Voice/stage/sharing icons*/
 { 
   background-color: black !important;
@@ -657,27 +657,27 @@ span.username-2b1r56.username-3gJmXY {
   border: 1px solid var(--main-color);
   filter: drop-shadow(0 0 4px var(--main-color));
 }
-.theme-dark .mentioned-xhSam7,
-.message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z,
-.mouse-mode.full-motion .mentioned-xhSam7:hover{
+.theme-dark .mentioned-Tre-dv,
+.message-2CShn3.mentioned-Tre-dv.selected-2LX7Jy,
+.mouse-mode.full-motion .mentioned-Tre-dv:hover{
   border: 2px solid var(--ping-border-color);
   background-image: linear-gradient(var(--gradient-rotation),var(--ping-gradient-color),var(--ping-fill-color)) !important;
 }
-.mouse-mode.full-motion .mentioned-xhSam7:hover{
+.mouse-mode.full-motion .mentioned-Tre-dv:hover{
   background-image: linear-gradient(var(--gradient-rotation),var(--hover-gradient-color),var(--hover-ping-fill-color)) !important;
   border: 2px solid var(--hover-ping-border-color);
 }
 /*---------- Color! ----------*/
-.textArea-12jD-V.slateContainer-3Qkn2x > .markup-2BOw-j,/*Typing area*/
-.guildNameText-3Zwx4p,/*Server names on hover*/
+.textArea-2CLwUE.slateContainer-3x9zil > .markup-eYLPri,/*Typing area*/
+.guildNameText-jBFbNC,/*Server names on hover*/
 .markupRtl-3M0hmN,
-.messageContent-2qWWxC,
-.tooltipContent-bqVLWK{
+.messageContent-2t3eCI,
+.tooltipContent-Nejnvh{
   color: var(--text-color) !important;
 }
 /*---------- Glow ----------*/
-.childWrapper-anI2G9:hover,
-.childWrapper-anI2G9{
+.childWrapper-1j_1ub:hover,
+.childWrapper-1j_1ub{
   background: transparent !important;
 }
 /*Glow on hovering a server*/
@@ -688,89 +688,89 @@ span.username-2b1r56.username-3gJmXY {
   /*transition: box-shadow 200ms;*/ /*this results in some visual glitch when you hover the selected channel*/
 }
 /*Glow on selected server*/
-.selected-bZ3Lue:not(:hover){
+.selected-1Drb7Z:not(:hover){
   box-shadow: 0 0 30px 0 var(--main-color);
   overflow: visible !important;
   border-radius: var(--circle-border-radius);
 }
 /*Thanks tropical - gets rid of overflow. Screws up a lot of stuff,had to compensate in gradients and otherwise*/
-.wrapper-25eVIn foreignObject{
+.wrapper-28eC3z foreignObject{
   mask:none;
   overflow:visible;
 }
-.acronym-2mOFsV,.icon-27yU2q:not(:hover),.homeIcon-FuNwkv,.circleIconButton-1QV--U,
-.listAvatar-1BbvHX{/*Force Circular Servers on Hover*/
+.acronym-2zrAHN,.icon-3AqZ2e:not(:hover),.homeIcon-FuNwkv,.circleIconButton-1QV--U,
+.listAvatar-2bU5Uh{/*Force Circular Servers on Hover*/
   border-radius: var(--circle-border-radius) !important;
 }
 /*---------- Gradients ----------*/
-.theme-dark .footer-2gL1pp .button-38aScr,
+.theme-dark .footer-31IekZ .button-38aScr,
 .lookFilled-1Gx00P.colorGrey-2DXtkV,
 .categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG,/* discover tab */
-.unread-1xRYoj:after,.mention-1f5kbO:after,/* unread channels bar */
-.menu-3sdvDG:not(#status-picker) .colorDefault-2K3EoJ.focused-3afm-j,.menu-3sdvDG:not(#status-picker) .colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O),/* dropdown menu */
-.appMount-3lHmkl .lookFilled-1Gx00P.colorGreen-29iAKY:disabled,.appMount-3lHmkl .lookFilled-1Gx00P.colorPrimary-3b3xI6:disabled,/* disabled buttons */
+.unread-2wipsx:after,.mention-3XBnnZ:after,/* unread channels bar */
+.menu-1QACrS:not(#status-picker) .colorDefault-CDqZdO.focused-3qFvc8,.menu-1QACrS:not(#status-picker) .colorDefault-CDqZdO:hover:not(.hideInteraction-2jPGL_),/* dropdown menu */
+.appMount-2yBXZl .lookFilled-1Gx00P.colorGreen-29iAKY:disabled,.appMount-2yBXZl .lookFilled-1Gx00P.colorPrimary-3b3xI6:disabled,/* disabled buttons */
 .lookInverted-2D7oAl,.lookInverted-2D7oAl.colorBrand-3pXr91,.lookInverted-2D7oAl.colorGreen-29iAKY,/* more buttons */
-.newMessagesBar-265mhP:before,/* new message bar */
-.jumpToPresentBar-G1R9s6:hover,/* jump to present bar */
-.privateChannels-1nO12o .channel-2QD9_O.selected-aXhQR6 .layout-2DM8Md:after,
-.popout-103y-5 .tag-2gHSR7,
+.newMessagesBar-1hF-9G:before,/* new message bar */
+.jumpToPresentBar-1cEnH0:hover,/* jump to present bar */
+.privateChannels-oVe7HL .channel-1Shao0.selected-1-Z6gm .layout-1qmrhw:after,
+.popout-3gby1q .tag-15zcD_,
 .tab-2j5AEF.selected-2LAck8:after,
-.layer-v9HyYc .themedPopout-1TrfdI .header-ykumBX,
-.appMount-3lHmkl .lookFilled-1Gx00P.colorGreen-29iAKY,
-.appMount-3lHmkl .lookFilled-1Gx00P.colorBrand-3pXr91,
-.appMount-3lHmkl .lookFilled-1Gx00P.colorPrimary-3b3xI6,
-.acronym-2mOFsV,.acronym-2mOFsV:hover,
+.layer-2aCOJ3 .themedPopout-1TrfdI .header-1w9Q93,
+.appMount-2yBXZl .lookFilled-1Gx00P.colorGreen-29iAKY,
+.appMount-2yBXZl .lookFilled-1Gx00P.colorBrand-3pXr91,
+.appMount-2yBXZl .lookFilled-1Gx00P.colorPrimary-3b3xI6,
+.acronym-2zrAHN,.acronym-2zrAHN:hover,
 .circleIconButton-1QV--U:hover,.circleIconButton-1QV--U.selected-1JjBPm,
-.modeSelected-346R90 .content-1x5b-n,
-.wrapper-2jXpOf.modeSelected-346R90 .content-1x5b-n:after,
-.container-1r6BKw .topPill-30KHOu .item-PXvHYJ.selected-3s45Ha.themed-OHr7kt,
-.standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha,
-.layer-3QrUeG .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha:after,
-.appMount-3lHmkl .lookFilled-1Gx00P.colorGreen-29iAKY,.appMount-3lHmkl .lookFilled-1Gx00P.colorBrand-3pXr91,.appMount-3lHmkl .lookFilled-1Gx00P.colorPrimary-3b3xI6,/* buttons for days */
-.item-26Dhrx[style*="background-color"],
-.selected-mKYnfr.option-n0icdO,
-.chat-3bRxxu .divider-3gKybi.dividerRed-MKoLlr:before,
+.modeSelected-3DmyhH .content-1gYQeQ,
+.wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ:after,
+.container-ZMc96U .topPill-3DJJNV .item-3XjbnG.selected-g-kMVV.themed-2-lozF,
+.standardSidebarView-E9Pc3j .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG.selected-g-kMVV,
+.layer-86YKbF .standardSidebarView-E9Pc3j .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG.selected-g-kMVV:after,
+.appMount-2yBXZl .lookFilled-1Gx00P.colorGreen-29iAKY,.appMount-2yBXZl .lookFilled-1Gx00P.colorBrand-3pXr91,.appMount-2yBXZl .lookFilled-1Gx00P.colorPrimary-3b3xI6,/* buttons for days */
+.item-2idW98[style*="background-color"],
+.selected-18Wszc.option-1QI4c9,
+.chat-2ZfjoI .divider-3gKybi.dividerRed-MKoLlr:before,
 .tab-2j5AEF.selected-2LAck8, /*Search buttons*/
-.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc,
+.uploadModalIn-2w48Zf .uploadDropModal-13Kd20 .bgScale-1iWuPF,
 .theme-dark .memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover,
-.unread-1xRYoj:active,.unread-1xRYoj:hover,/*New Unreads bar*/
-.standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha:after,.standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ[style*="color: rgb(255,255,255)"]:after,/* selected things */
-.item-26Dhrx[aria-checked=true] .radioBar-bMNUI-,/*Voice Settings: Input Mode*/
-.navButtonActive-1MkytQ,/*New emote popup button*/
-.item-PXvHYJ.selected-3s45Ha, /*Role settings*/
-.container-_phMUq, /*Default @everyone permissions in server settings*/
+.unread-2wipsx:active,.unread-2wipsx:hover,/*New Unreads bar*/
+.standardSidebarView-E9Pc3j .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG.selected-g-kMVV:after,.standardSidebarView-E9Pc3j .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[style*="color: rgb(255,255,255)"]:after,/* selected things */
+.item-2idW98[aria-checked=true] .radioBar-3w9XY-,/*Voice Settings: Input Mode*/
+.navButtonActive-1EqC5l,/*New emote popup button*/
+.item-3XjbnG.selected-g-kMVV, /*Role settings*/
+.container-3EtAkD, /*Default @everyone permissions in server settings*/
 .avatarUploaderIndicator-2G-aIZ, /*Image upload button in settings*/
-.standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ[style*="color: rgb(255, 255, 255)"],/*Subscriptions settings tab*/
-.unicodeShortcut-15J8Ck,/*Shortcut in emote list*/
-.tabBar-3nvOPa > .item-PXvHYJ:after,/*User Modal Tabs when doing an activity*/
-.colorable-1bkp8v.white-3GPOIp, /*Vc mute button*/
+.standardSidebarView-E9Pc3j .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[style*="color: rgb(255, 255, 255)"],/*Subscriptions settings tab*/
+.unicodeShortcut-3N8oDe,/*Shortcut in emote list*/
+.tabBar-2hXqzU > .item-3XjbnG:after,/*User Modal Tabs when doing an activity*/
+.colorable-3rVGna.white-11auuQ, /*Vc mute button*/
 .lookGhost-2Fn_0-.colorGrey-2DXtkV /*Voice Settings: Shortcut bind*/
 {
   background-image: linear-gradient(var(--gradient-rotation),var(--from-gradient-color),var(--to-gradient-color)) !important;
   background-color: var(--main-color);
 }
-.members-1998pB .membersGroup-v9BXpm,
-.sidebar-2K8pFh .containerDefault-3tr_sE .wrapper-PY0fhH .name-3l27Hl .overflow-WK9Ogt,/*Thx Addy*/
-.headerText-2F0828,.discoverHeader-1TWTqG,
-.header-2RyJ0Y
+.members-3WRCEx .membersGroup-2eiWxl,
+.sidebar-1tnWFu .containerDefault-3TQ5YN .wrapper-1S43wv .name-3BUDLf .overflow-1wOqNV,/*Thx Addy*/
+.headerText-1qIDDT,.discoverHeader-1TWTqG,
+.header-2Kx1US
 {
   background-image: linear-gradient(var(--gradient-rotation),var(--from-gradient-color),var(--to-gradient-color)) !important;
   -webkit-background-clip: text;
   color: transparent !important;
 }
-.members-1998pB .membersGroup-v9BXpm:before,
-.name-3l27Hl:before,
-.privateChannelsHeaderContainer-3NB1K1:before,
+.members-3WRCEx .membersGroup-2eiWxl:before,
+.name-3BUDLf:before,
+.privateChannelsHeaderContainer-1UWASm:before,
 .discoverHeader-1TWTqG:before,
-.sidebar-CFHs9e .header-2RyJ0Y:before /*Settings bars*/
+.sidebar-nqHbhN .header-2Kx1US:before /*Settings bars*/
 {
   background: linear-gradient(to left,var(--from-gradient-color) 50%,transparent) !important;
 }
-.members-1998pB .membersGroup-v9BXpm:after,
-.name-3l27Hl:after,
-.privateChannelsHeaderContainer-3NB1K1:after,
+.members-3WRCEx .membersGroup-2eiWxl:after,
+.name-3BUDLf:after,
+.privateChannelsHeaderContainer-1UWASm:after,
 .discoverHeader-1TWTqG:after,
-.sidebar-CFHs9e .header-2RyJ0Y:after /*Settings bars*/
+.sidebar-nqHbhN .header-2Kx1US:after /*Settings bars*/
 {
   background: linear-gradient(to right,var(--from-gradient-color) 50%,transparent) !important;
 }
@@ -944,6 +944,6 @@ span.username-2b1r56.username-3gJmXY {
   font: var(--main-font);
 }
 /*
-.dv-time,.dv-weekday,#dv-main .dv-date,.layer-v9HyYc{
+.dv-time,.dv-weekday,#dv-main .dv-date,.layer-2aCOJ3{
   color: var(--text-color) !important;
 }*/ /*Changes DV Text Colors; if you think this is aids,comment it*/
