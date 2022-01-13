@@ -511,7 +511,7 @@ span.username-3JLfHz.username-3gJmXY {
   content: "Click for more details (if possible)";
 }
 /*Makes descriptions clickable and not visible*/
-#app-mount .container-ZMc96U.themed-Hp1KC_ .children-3xh0VB .topic-KQbDiq{
+#app-mount .container-ZMc96U.themed-Hp1KC_ .children-3xh0VB .topic-11NuQZ{
   position: absolute;
   top: 0;
   left: 0;
@@ -726,7 +726,7 @@ span.username-3JLfHz.username-3gJmXY {
 .container-ZMc96U .topPill-3DJJNV .item-3XjbnG.selected-g-kMVV.themed-2-lozF,
 .standardSidebarView-E9Pc3j .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG.selected-g-kMVV,
 .layer-86YKbF .standardSidebarView-E9Pc3j .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG.selected-g-kMVV:after,
-.appMount-2yBXZl .lookFilled-1Gx00P.colorGreen-29iAKY,.appMount-2yBXZl .lookFilled-1Gx00P.colorBrand-3pXr91,.appMount-2yBXZl .lookFilled-1Gx00P.colorPrimary-3b3xI6,/* buttons for days */
+.appMount-2yBXZl .lookFilled-yCfaCM.colorGreen-3y-Z79, .appMount-2yBXZl .lookFilled-yCfaCM.colorGrey-2iAG-B, .appMount-2yBXZl .lookFilled-yCfaCM.colorBrand-I6CyqQ, .appMount-2yBXZl .lookFilled-yCfaCM.colorBrandNew-g5lmBU, .appMount-2yBXZl .lookFilled-yCfaCM.colorBrandNew-2-gGsS, .appMount-2yBXZl .lookFilled-yCfaCM.colorPrimary-2AuQVo,/* buttons for days */
 .item-2idW98[style*="background-color"],
 .selected-18Wszc.option-1QI4c9,
 .chat-2ZfjoI .divider-3gKybi.dividerRed-MKoLlr:before,
