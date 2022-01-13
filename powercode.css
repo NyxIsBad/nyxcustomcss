@@ -699,7 +699,8 @@ span.username-3JLfHz.username-3gJmXY {
   overflow:visible;
 }
 .acronym-2zrAHN,.icon-3AqZ2e:not(:hover),.homeIcon-r0w4ny,.circleIconButton-1VxDrg,
-.listAvatar-2bU5Uh{/*Force Circular Servers on Hover*/
+.listAvatar-2bU5Uh,
+.wrapper-3kah-n:hover .childWrapper-1j_1ub, .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub {/*Force Circular Servers on Hover*/
   border-radius: var(--circle-border-radius) !important;
 }
 /*---------- Gradients ----------*/
