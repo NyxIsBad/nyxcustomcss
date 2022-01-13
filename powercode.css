@@ -703,30 +703,31 @@ span.username-3JLfHz.username-3gJmXY {
   border-radius: var(--circle-border-radius) !important;
 }
 /*---------- Gradients ----------*/
+.wrapper-3kah-n:hover .childWrapper-1j_1ub, .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, /* server icons, default home icon*/
 .theme-dark .footer-31IekZ .button-38aScr,
-.lookFilled-1Gx00P.colorGrey-2DXtkV,
 .categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG,/* discover tab */
 .unread-2wipsx:after,.mention-3XBnnZ:after,/* unread channels bar */
 .menu-1QACrS:not(#status-picker) .colorDefault-CDqZdO.focused-3qFvc8,.menu-1QACrS:not(#status-picker) .colorDefault-CDqZdO:hover:not(.hideInteraction-2jPGL_),/* dropdown menu */
+
 .appMount-2yBXZl .lookFilled-1Gx00P.colorGreen-29iAKY:disabled,.appMount-2yBXZl .lookFilled-1Gx00P.colorPrimary-3b3xI6:disabled,/* disabled buttons */
 .lookInverted-2D7oAl,.lookInverted-2D7oAl.colorBrand-3pXr91,.lookInverted-2D7oAl.colorGreen-29iAKY,/* more buttons */
+.appMount-2yBXZl .lookFilled-yCfaCM.colorGreen-3y-Z79, .appMount-2yBXZl .lookFilled-yCfaCM.colorGrey-2iAG-B, .appMount-2yBXZl .lookFilled-yCfaCM.colorBrand-I6CyqQ, .appMount-2yBXZl .lookFilled-yCfaCM.colorBrandNew-g5lmBU, .appMount-2yBXZl .lookFilled-yCfaCM.colorBrandNew-2-gGsS, .appMount-2yBXZl .lookFilled-yCfaCM.colorPrimary-2AuQVo,/* buttons for days */
+
 .newMessagesBar-1hF-9G:before,/* new message bar */
 .jumpToPresentBar-1cEnH0:hover,/* jump to present bar */
 .privateChannels-oVe7HL .channel-1Shao0.selected-1-Z6gm .layout-1qmrhw:after,
 .popout-3gby1q .tag-15zcD_,
 .tab-2j5AEF.selected-2LAck8:after,
 .layer-2aCOJ3 .themedPopout-1TrfdI .header-1w9Q93,
-.appMount-2yBXZl .lookFilled-1Gx00P.colorGreen-29iAKY,
-.appMount-2yBXZl .lookFilled-1Gx00P.colorBrand-3pXr91,
-.appMount-2yBXZl .lookFilled-1Gx00P.colorPrimary-3b3xI6,
+I6,
 .acronym-2zrAHN,.acronym-2zrAHN:hover,
-.circleIconButton-1QV--U:hover,.circleIconButton-1QV--U.selected-1JjBPm,
+.circleIconButton-3lUBQk:hover,.circleIconButton-3lUBQk.selected-2tb4pB,
+.circleIconButton-1VxDrg:hover,.circleIconButton-1VxDrg.selected-2r1Hvo,
 .modeSelected-3DmyhH .content-1gYQeQ,
 .wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ:after,
 .container-ZMc96U .topPill-3DJJNV .item-3XjbnG.selected-g-kMVV.themed-2-lozF,
 .standardSidebarView-E9Pc3j .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG.selected-g-kMVV,
 .layer-86YKbF .standardSidebarView-E9Pc3j .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG.selected-g-kMVV:after,
-.appMount-2yBXZl .lookFilled-yCfaCM.colorGreen-3y-Z79, .appMount-2yBXZl .lookFilled-yCfaCM.colorGrey-2iAG-B, .appMount-2yBXZl .lookFilled-yCfaCM.colorBrand-I6CyqQ, .appMount-2yBXZl .lookFilled-yCfaCM.colorBrandNew-g5lmBU, .appMount-2yBXZl .lookFilled-yCfaCM.colorBrandNew-2-gGsS, .appMount-2yBXZl .lookFilled-yCfaCM.colorPrimary-2AuQVo,/* buttons for days */
 .item-2idW98[style*="background-color"],
 .selected-18Wszc.option-1QI4c9,
 .chat-2ZfjoI .divider-3gKybi.dividerRed-MKoLlr:before,
@@ -744,6 +745,7 @@ span.username-3JLfHz.username-3gJmXY {
 .unicodeShortcut-3N8oDe,/*Shortcut in emote list*/
 .tabBar-2hXqzU > .item-3XjbnG:after,/*User Modal Tabs when doing an activity*/
 .colorable-3rVGna.white-11auuQ, /*Vc mute button*/
+.lookFilled-1Gx00P.colorGrey-2DXtkV,
 .lookGhost-2Fn_0-.colorGrey-2DXtkV /*Voice Settings: Shortcut bind*/
 {
   background-image: linear-gradient(var(--gradient-rotation),var(--from-gradient-color),var(--to-gradient-color)) !important;
@@ -751,7 +753,8 @@ span.username-3JLfHz.username-3gJmXY {
 }
 .members-3WRCEx .membersGroup-2eiWxl,
 .sidebar-1tnWFu .containerDefault-3TQ5YN .wrapper-1S43wv .name-3BUDLf .overflow-1wOqNV,/*Thx Addy*/
-.headerText-1qIDDT,.discoverHeader-1TWTqG,
+.headerText-1qIDDT, /* dm categories */
+.discoverHeader-1TWTqG, 
 .header-2Kx1US
 {
   background-image: linear-gradient(var(--gradient-rotation),var(--from-gradient-color),var(--to-gradient-color)) !important;
@@ -773,6 +776,27 @@ span.username-3JLfHz.username-3gJmXY {
 .sidebar-nqHbhN .header-2Kx1US:after /*Settings bars*/
 {
   background: linear-gradient(to right,var(--from-gradient-color) 50%,transparent) !important;
+}
+
+/* mentioned bg */
+.mentioned-Tre-dv, .mouse-mode.full-motion .mentioned-Tre-dv:hover {
+	background: none;
+}
+.mentioned-Tre-dv:after {
+	content: "";
+	background: linear-gradient(var(--gradient-rotation), var(--from-gradient-color) 0%, var(--to-gradient-color) 100%);
+	opacity: 0.07;
+	position: absolute;
+	top: 0;
+	right: 100%;
+	left: 0;
+	z-index: -1;
+	height: 100%;
+	width: 100%;
+}
+.mentioned-Tre-dv:hover:after {
+	background: linear-gradient(var(--gradient-rotation), var(--from-gradient-color) 0%, var(--to-gradient-color) 100%);
+	opacity: 0.1;
 }
 /*---------- FANCY CODE ----------*/
 /*Thank you gibbu*/
